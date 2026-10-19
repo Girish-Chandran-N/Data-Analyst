@@ -1,0 +1,1402 @@
+Operation Data Analyst · Eastbourne Roadmap
+Skip to roadmap
+SE LONDON · BRIGHTON · EASTBOURNE
+/ REVIEWED 18 OCT 2026
+DA
+OPERATION
+DATA ANALYST
+Menu
+☰
+Market
+Audit
+Courses
+Roadmap
+Projects
+Job hunt
+Interviews
+YOUR PERSONAL LEARNING PLAN / 2026
+Your next chapter.
+Data Analyst.
+A practical route from retail to data analytics. Built around Lidl shifts, with a reviewed syllabus for
+South-East London, Brighton and the wider South East.
+Excel, SQL and Power BI first. Clear evidence—not endless courses.
+Pure data analytics
+Shift-friendly plan
+Market & syllabus reviewed ↗
+Open your roadmap →
+Print / Save as PDF
+Download Excel tracker
+YOUR LEARNING PROGRESS
+Saved locally
+0%
+checkpoints
+One skill at a time.
+0 / 142 checkpoints · E-Rank
+0%
+A learning tracker, not a hiring-readiness score.
+NEXT UNFINISHED TOPIC
+Setup & workflow
+↗
+Download this page for reliable local saving. Export progress before switching browser or device.
+TIMELINE
+28
+weeks
+Flexible—not a hiring deadline
+WEEKLY BUDGET
+12
+hours
+Fits around a changing rota
+TOTAL PRACTICE
+336
+hours
+Learning + building + review
+PORTFOLIO
+05
+projects
+Lead with your best three
+YOUR HORIZON · Local opportunities, thoughtful practice and a portfolio you can explain.
+9 training arcs · 142 checkpoints · free core learning links · original artwork from your PDF.
+TRAINING ARC
+Real anime energy.
+The same original images as your PDF. The training advice is now written for your analytics journey.
+DRAGON BALL Z
+DRAGON BALL Z ARC
+Work hard in silence.
+Goku didn’t unlock Super Saiyan by watching tutorials. One focused practice block today. Another tomorrow. Consistency is your power-up.
+NARUTO
+NARUTO ARC
+Zero talent? Perfect.
+Rock Lee trained the fundamentals. You already have retail experience and Excel practice. Build on them—one checked query at a time.
+SOLO LEVELING
+SOLO LEVELING ARC
+E-rank → S-rank.
+Day 1: a basic SELECT. Later: a dashboard you can defend. Level up through completed work, not finished playlists.
+MARKET INTEL / SOUTH EAST
+The right stack. A sharper focus.
+Eight advert profiles reviewed: five junior or entry-route examples and three experienced-role comparators. This is a qualitative sample—not a hiring census or a vacancy count.
+01
+Keep as core
+Excel + Power Query
+EDF’s Hove reporting profile and Kreston Reeves’ junior specification emphasise spreadsheet, quality and communication skills.
+View evidence ↗
+02
+Keep, then translate
+SQL + a T-SQL bridge
+Barts’ junior profile names MS SQL Server; the local Oxleas experienced-role profile also uses the Microsoft reporting stack. Learn portable SQL, then bridge the dialect.
+View evidence ↗
+03
+Keep and extend
+Power BI + operations
+Dashboard work is relevant. Microsoft’s current skills guide also includes refresh, workspaces, roles and row-level security—now explicit checkpoints.
+View evidence ↗
+04
+Role-dependent
+Python + pandas
+The indexed 7IM junior specification calls Python highly beneficial. EDF and Kreston examples do not establish it as a universal entry prerequisite.
+View evidence ↗
+05
+Core, not optional
+Quality + communication
+Kreston’s junior role explicitly includes data audits, GDPR, documentation and clear reporting. Evidence of trustworthy work matters alongside tools.
+View evidence ↗
+06
+Targeted, not automatic
+PL-300 + extra tools
+7IM’s historical junior profile expected PL-300 during probation. That is an employer-specific signal—not proof that every applicant must buy a certificate.
+View evidence ↗
+Salary context, not a promise:
+Prospects gives typical UK starting salaries of £28,000–£32,000. Local jobs vary; London-weighted NHS bands and experienced-role pay are not interchangeable with junior starting salaries.
+Prospects ↗
+Open your reviewed tool-priority table
+11 skill groups
+Skill
+Priority
+When
+Depth for you
+Excel / Power Query
+CORE
+Weeks 2–4
+Refreshable tables, formulas, pivots, combine files, exception checks.
+SQL
+CORE
+Weeks 5–8
+Joins, CTEs, NULLs, windows, dates, grain and validation.
+SQL Server / T-SQL
+BRIDGE
+Inside weeks 5–8
+Translate a few queries; Microsoft Learn supplement. Not another full course.
+Power BI / DAX
+CORE
+Weeks 9–13
+Model, measures, reporting, RLS, refresh, access and accessibility.
+Data quality / privacy / communication
+CORE
+Throughout
+Metric definitions, checks, UK GDPR awareness and usable explanations.
+GitHub / documentation
+SUPPORT
+Week 1 onward
+README, versions and safe publication; no advanced Git requirement.
+Python / pandas
+SHOULD
+Weeks 16–19
+Useful for automation and some London roles; not every entry post.
+NHS definitions / reporting
+TARGETED
+Within project time
+Only when applying to healthcare roles with those essential criteria.
+PL-300
+OPTIONAL
+After projects / if target asks
+Current official exam guide, not just a course certificate.
+Power Automate / VBA / SSRS
+OPTIONAL
+After core; advert-led
+Awareness of legacy/automation stack; do not add three full courses.
+Tableau / GA4 / cloud / dbt / ML
+DEFER
+Role-specific later
+Consider only for a different specialism or repeated essential criteria.
+IN-DEPTH AUDIT / 18 OCT 2026
+Evidence before advice.
+What was checked, what was missing and why the changes are proportionate.
+REVIEW OUTCOME
+Keep the core. Close the practical gaps.
+No wholesale restart, no new paid bootcamp. The biggest fixes are SQL course alignment, Power BI operations, governance and evidence-led applications.
+08
+advert profiles
+reviewed, not vacancies
+01
+Hiring lens
+Separate entry requirements from senior comparators; check actual location and closing status.
+02
+Curriculum lens
+Compare course outlines with checkpoint tasks and the current Microsoft skills guide.
+03
+Usability lens
+Professional numerical hierarchy, mobile navigation, keyboard checks and desktop layout tests.
+These are three review passes by the same assistant, not a discussion with independent agent partners. Course review is based on published outlines/files and creator information, not watching every minute of each video.
+Evidence area:
+All profiles
+Brighton / Hove
+SE London & border
+East / wider London
+Kent comparator
+01
+EDF
+Reporting Analyst
+Brighton / Hove
+Entry-route example
+Level:
+Entry-friendly reporting example; not explicitly titled junior
+Status:
+Historical: advertised closing date 2 March 2026; direct fetch reached verification screen
+Evidence access:
+Employer search-index excerpt; direct page access limited
+What the profile says:
+Excel formulas and data manipulation; Power BI learning; accuracy, dashboards and stakeholder communication
+What changes for you:
+Supports an Excel/reporting-first application route. No evidence that every entry role requires Python or SQL.
+Employer / NHS source ↗
+02
+Legal & General
+Data Analyst Apprenticeship 2026
+Hove
+Entry-route example
+Level:
+Apprenticeship entry route
+Status:
+Expired in indexed employer page; September 2026 intake. Direct fetch reached verification screen
+Evidence access:
+Detailed employer search-index text; direct page access limited
+What the profile says:
+Analysis, coding, visualisation, automation and non-technical communication; qualification, residency and right-to-work conditions
+What changes for you:
+Add apprenticeships as an optional entry route. Check each future advert and current funding rules; do not generalise this advert's residency condition to every apprenticeship.
+Employer / NHS source ↗
+03
+Kreston Reeves
+Junior Data Quality & Reporting Analyst
+Canterbury, Kent — adjacent-market comparator, not Brighton or SE London
+Entry-route example
+Level:
+Junior, 12-month fixed term
+Status:
+Employer page accessible with Apply Now on review date; recheck before applying
+Evidence access:
+Full employer advert read
+What the profile says:
+Advanced Excel, PivotTables, Power Query, formulas, cleansing, audit trails, GDPR, documentation and stakeholders; no explicit SQL/Python requirement in the read specification
+What changes for you:
+Strengthen data-quality evidence, documented checks and privacy. Canterbury is a separate commute decision; no salary inferred from aggregator estimates.
+Employer / NHS source ↗
+04
+Barts Health NHS Trust
+Junior Information Analyst Returns
+Canary Wharf E14 — East London, not South-East London
+Entry-route example
+Level:
+Band 5 junior
+Status:
+NHS Jobs explicitly says closed; posted 29 September 2026
+Evidence access:
+Full NHS Jobs advert and displayed person specification read
+What the profile says:
+MS SQL Server and BI tools, reporting, quality and communication; NHS standard definitions and reporting knowledge essential; automation tools desirable; advert also lists Visual Basic/HTML among technology experience
+What changes for you:
+Add a short SQL Server/T-SQL bridge and an optional NHS domain pack. A general portfolio does not automatically satisfy NHS essential criteria; do not turn one advert's legacy technologies into a universal syllabus.
+Employer / NHS source ↗
+05
+Seven Investment Management
+Junior Data Analyst
+London / City — wider-London comparator, not verified SE London base
+Entry-route example
+Level:
+Junior
+Status:
+Employer URL now redirects to Vacancy not found; historical indexed specification only
+Evidence access:
+Detailed employer search-index text; direct fetch confirmed vacancy-not-found redirect
+What the profile says:
+Power BI, Excel, numerical and concise communication skills; Python highly beneficial; expected PL-300 within six-month probation; basic financial-services context
+What changes for you:
+Keep Python as a useful differentiator. PL-300 can be employer-specific after hiring, not a universal prerequisite or a promised sponsored exam.
+Employer / NHS source ↗
+06
+Oxleas NHS Foundation Trust
+Performance and Information Analyst
+Dartford DA2; trust serves Bexley, Bromley and Greenwich
+Senior comparator
+Level:
+Experienced Band 7 — not junior
+Status:
+NHS Jobs explicitly closed; posted 4 March 2026
+Evidence access:
+Full advert duties and experience requirement read
+What the profile says:
+Minimum three years SQL/database/warehouse experience; SQL, SSRS, Excel, Power BI; data quality and staff supervision
+What changes for you:
+Local ecosystem signal only. Do not require three years' experience, stored procedures/triggers or people management before beginning junior applications.
+Employer / NHS source ↗
+07
+Lewisham and Greenwich NHS Trust
+Advanced Information Analyst
+Catford SE6 — South-East London
+Senior comparator
+Level:
+Advanced Band 7 — not junior
+Status:
+Advert closing date 17 May 2026; historical
+Evidence access:
+Detailed NHS Jobs search result / person-specification text read
+What the profile says:
+Advanced SQL and Excel, Python/R forecasting, Power BI/SSRS, NHS datasets and information governance; significant experience
+What changes for you:
+Confirms relevant local stack but advanced forecasting, optimisation and expert SQL are later specialisms, not a junior baseline.
+Employer / NHS source ↗
+08
+MetLife
+Senior Data and Insights Analyst (body: Senior Data and Reporting Analyst)
+Brighton
+Senior comparator
+Level:
+Senior — preferred 3–5+ years
+Status:
+Employer page accessible; posted 2 October 2026; not counted as a junior opportunity
+Evidence access:
+Full employer responsibilities and requirements read
+What the profile says:
+Excel, Power Query, Power BI/DAX, SQL, governance, lineage, controlled change and automation; Python/Power Automate preferred; legacy VBA advantageous
+What changes for you:
+Add lightweight report handover/change-log concepts now. Keep Power Automate, VBA and advanced platform engineering optional, not compulsory junior tools.
+Employer / NHS source ↗
+Limits of the evidence:
+no claim of representative skill percentages, salary premiums or interview conversion rates. Most examples are historical or closed. SE London’s two detailed local profiles here are experienced roles; they are stack signals, not proof of a large junior market. Canary Wharf is East London and Canterbury is Kent.
+COURSE-BY-COURSE REVIEW
+Fewer playlists. Better coverage.
+What to keep, what to supplement and what can wait.
+Study rule:
+one primary course per tool, then targeted gap lessons. The video budget is inside the 336 hours—not added on top. Paid problem packs, course certificates and subscriptions are not required to follow this roadmap.
+01
+KEEP · SELECT CHAPTERS
+Excel for Data Analytics
+Training arc →
+Primary learning link ↗
+Outline / files ↗
+Coverage, gaps and exactly what to study
+Verified or inspected scope
+Formulas/functions, charts, tables, PivotTables, Power Query, Power Pivot and two projects are present in the published outline.
+Your essential study route
+Prioritise chapters 2–5 and 7. Add UK date parsing, reconciliation, exception logs and a repeatable month-file refresh. Revisit basics only if your diagnostic fails.
+Defer / avoid duplication
+Solver, Scenario Manager, Goal Seek and deeper Power Pivot are useful later, not blockers before junior reporting applications.
+Access and accuracy notes
+The creator lists free videos/files but paid supporter problems and certificates. If individual Excel files fail, download the repository ZIP or use the creator’s alternate file link.
+02
+REPLACE SOLE RESOURCE
+SQL foundations + selected intermediate
+Training arc →
+Primary learning link ↗
+Outline / files ↗
+Coverage, gaps and exactly what to study
+Verified or inspected scope
+The original 2018 freeCodeCamp course lists MySQL basics, joins, nested queries and database design. Its published chapters do not include CTEs or window functions.
+Your essential study route
+Use Luke’s foundations course for analyst queries, CASE and CTEs. Supplement window/date/cleaning topics with
+selected Intermediate SQL lessons ↗
+and the official T-SQL window lesson.
+Defer / avoid duplication
+Do not spend time on triggers, database administration or a second full beginner course. Keep one primary database and a short dialect bridge.
+Access and accuracy notes
+PostgreSQL is the main course dialect. The free starter job dataset is historical 2023 data, not evidence of today’s London or Brighton market. Supporter exercises/certificates are paid.
+03
+KEEP + OPERATIONS PACK
+Power BI for Data Analytics
+Training arc →
+Primary learning link ↗
+Outline / files ↗
+Coverage, gaps and exactly what to study
+Verified or inspected scope
+Published modules include Grand Tour, visualisations, Power Query and DAX, plus star-schema/dashboard projects.
+Your essential study route
+Explicitly add workspace roles/access, gateway and scheduled refresh concepts, a Desktop RLS test, Performance Analyzer, mobile layout and accessibility. Use current Microsoft Learn guidance.
+Defer / avoid duplication
+Do not assume the creator’s “PL-300 aligned” description guarantees full current exam coverage. Newer exam topics need a separate exam checklist if you choose certification.
+Access and accuracy notes
+Use the creator’s
+complete course-file link ↗
+; the repository warns that some large files are missing. Some Service exercises require a suitable account/licence; no paid sharing is required for the portfolio.
+04
+KEEP · LATER IN SEQUENCE
+Python for Data Analytics
+Training arc →
+Primary learning link ↗
+Outline / files ↗
+Coverage, gaps and exactly what to study
+Verified or inspected scope
+The outline covers basics, pandas, NumPy, Matplotlib, advanced cleaning/manipulation and a project.
+Your essential study route
+Prioritise functions, dates, CSVs, missing values, groupby, merge validation, readable plots and reproducible export. Add one small test fixture and rerun from a clean environment.
+Defer / avoid duplication
+Defer deep OOP, machine learning, scraping and advanced plotting unless target roles justify them. Do not postpone Excel/BI applications until every Python chapter is complete.
+Access and accuracy notes
+Use current notebooks when package APIs differ from the video. Free videos/code do not imply every practice problem or certificate is free.
+05
+KEEP + APPLIED TASKS
+Statistics + official guidance
+Training arc →
+Primary learning link ↗
+Outline / files ↗
+Coverage, gaps and exactly what to study
+Verified or inspected scope
+Khan Academy is a broad reference, not a role-specific analyst syllabus; use only the topics your checkpoint requires.
+Your essential study route
+Practise denominators, weighted averages, percent vs percentage points, bias, uncertainty, correlation and plain-English communication on your own data.
+Defer / avoid duplication
+Do not add a full probability or data-science qualification. Introductory test reasoning is enough unless a role asks for deeper inference.
+Access and accuracy notes
+Complement learning with
+ICO principles ↗
+and the published methodology for the public dataset you use.
+If you choose PL-300: the separate exam boundary
+Optional
+Microsoft’s skills guide effective 20 April 2026 covers Prepare data (25–30%), Model data (25–30%), Visualize/analyze (25–30%), and Manage/secure (15–20%). The general roadmap is
+not a complete current exam-prep course
+.
+Before booking, check every current objective, including the newer Import/DirectQuery/DirectLake distinctions, calculation groups, visual calculations, Copilot features, workspace governance and sensitivity/access controls. Some features require suitable accounts or capacity. Do not buy platform capacity just to keep up with an optional study plan.
+Current official PL-300 skills guide ↗
+SYLLABUS COVERAGE MAP
+Nothing important hidden in a footnote.
+A transparent core syllabus, with role-specific additions separated from optional tools.
+Module / skill
+Review decision
+Where
+Evidence to produce
+Excel formulas, lookups, pivots
+Keep
+Excel
+Refreshable workbook, checked against raw totals.
+Excel exceptions / combine files
+Make explicit
+Excel
+Exceptions tab + source-file field + tested refresh.
+SQL joins, NULLs, dates, CASE
+Keep
+SQL
+Explain grain and reconcile joins.
+CTEs and window functions
+Fix resource mismatch
+SQL
+Selected intermediate lessons + 30-query project.
+SQL Server / T-SQL
+Add short bridge
+SQL
+Translate five queries; not another full database course.
+Star schema / DAX / date table
+Keep
+Power BI
+Validated model and five reconciled measures.
+Refresh / gateway / workspace access
+Add explicit tasks
+Power BI
+Explain setup and failure modes; use mock runbook if no Service account.
+Row-level security / safe sharing
+Add explicit tasks
+Power BI
+Desktop View as test and access explanation.
+Performance / accessibility / mobile
+Add explicit tasks
+Power BI
+One measured visual and a tested mobile layout.
+Stats / denominators / uncertainty
+Keep and apply
+Statistics
+One-page briefing with a limitation.
+UK GDPR / responsible AI
+Add explicit tasks
+Statistics
+Document permitted data use and independent validation.
+Stakeholder question / acceptance checks
+Add explicit tasks
+Statistics / capstone
+Two acceptance criteria and an external check; analytics practice, not BA training.
+pandas / automation / tests
+Keep and strengthen
+Python
+Known-output fixture + reproducible script.
+Lineage / handover / change log
+Add explicit tasks
+Capstone
+Owner, source, metric definitions, refresh, checks and version history.
+Person-spec evidence / supporting statement
+Add explicit tasks
+Interview / job hunt
+Map claims to criteria and record genuine gaps.
+NHS domain definitions
+Targeted optional pack
+Job hunt / project
+Read the NHS Data Dictionary and dataset methodology for the role.
+Finance / retail context
+Targeted practice
+Portfolio
+Metric glossary; label assumptions and synthetic data.
+Power Automate / VBA / SSRS
+Optional awareness
+After core
+Investigate only when repeated target adverts justify it.
+ML / full-stack / cloud engineering
+Deliberately excluded
+Later specialisms
+Not required by this reporting-first plan. No BA core.
+Is every module there?
+The revised plan explicitly covers the junior reporting/analytics skill groups identified in this sample. It does not cover every employer’s domain system, every senior requirement, or every current certification objective. Check each advert’s essential criteria before applying.
+THE NINDŌ RULE
+“I never go back on my word. That’s my ninja way.”
+Use a rule, not a mood: avoid two unplanned skips in a row. After an exhausting shift, make the next session a ten-minute review. Planned rest and illness are not failures.
+THE TRAINING ARC
+Your 28-week roadmap.
+Complete practical checkpoints, then pass the boss task. The reviewed additions are built into the same 336-hour budget; select course chapters instead of watching duplicate content.
+Overall:
+0%
+Expand all
+Collapse all
+Export progress
+Import progress
+Reset
+YOUR TRAINING MAP
+01
+Setup, workflow
+Weeks 1 · 12h
+02
+Excel Pro
+Weeks 2–4 · 36h
+03
+SQL for reliable answers
+Weeks 5–8 · 48h
+04
+Power BI, modelling
+Weeks 9–13 · 60h
+05
+Statistics, quality
+Weeks 14–15 · 24h
+06
+Python, pandas
+Weeks 16–19 · 48h
+07
+An end-to-end analytics capstone
+Weeks 20–23 · 48h
+08
+SQL tests
+Weeks 24–25 · 24h
+09
+Applications, referrals
+Weeks 26–28 · 36h
+Tick when you can do it without copying. Existing saved ticks retain their keys.
+01
+Academy Arc · WEEK 1
+Setup, workflow & proof of work
+12h total learning + building
+0%
+⌄
+Start where you are: Excel experience and early SQL practice. This is a diagnostic and setup week, not a restart from zero.
+Boss to defeat:
+A working toolkit, a public learning-log repository and one short analysis of a clean sample CSV.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+GitHub Hello World ↗
+Official guide · free
+Get Power BI Desktop ↗
+Official Windows requirements & installation
+Check your device: Power BI Desktop requires Windows; arrange Windows access if using a Mac.
+Set up Excel or Microsoft 365 access; identify which Power Query features your version supports.
+Choose one SQL learning environment: browser for basics, PostgreSQL + DBeaver/VS Code for the main course. Use SQL Server only for the short Microsoft bridge.
+Create folders: raw-data, cleaned-data, sql, notebooks, reports and screenshots.
+Create GitHub profile + learning-log repository; upload a README and a sample SQL file.
+Learn Git status, add, commit, pull and push, or use GitHub’s web upload first.
+Set a repeatable 12-hour weekly schedule around your actual rota.
+Record your baseline: one PivotTable, one SELECT query and a 60-second explanation.
+Use only public or synthetic data; never upload Lidl/customer/colleague data.
+Write one analysis question with a metric, time period and intended reader.
+Identify personal/sensitive data, check the permitted purpose, and use only approved public or synthetic practice files.
+Record ten genuine employer adverts: verify location, level, essential criteria, closing date and whether it is a paid job rather than a fee-charging course.
+Training rule:
+If setup takes more than a session, use browser tools and keep practising. Tool installation is not the boss.
+03
+h learn
+07
+h build / practise
+02
+h check / review
+02
+Foundation Arc · WEEK 2–4
+Excel Pro & Power Query
+36h total learning + building
+0%
+⌄
+Build on what you already know. Spend less time watching familiar material and more time explaining how you checked the result.
+Boss to defeat:
+Project 1: a refreshable retail workbook with raw/clean tabs, PivotTables and a one-page recommendation.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+Excel for Data Analytics — Full Course ↗
+Luke Barousse · ~11h · English · watch selected chapters
+Excel help & learning ↗
+Microsoft · reference
+Clean like a pro: Duplicates, TRIM, flash fill
+Formulas: IF, SUMIFS, TEXT/DATE
+Lookups: VLOOKUP → XLOOKUP → INDEX/MATCH
+PivotTables: Group by month, slicers, PivotChart
+Power Query: Unpivot, merge, refresh
+Dashboard: 1 interactive dashboard answering a business Q
+Use Excel Tables, structured references and consistent data types.
+Handle blanks, errors and dates with UK locale; distinguish missing values from zero.
+Check XLOOKUP exact matches and unmatched keys; explain one-to-many lookup limits.
+Calculate revenue, units, average basket and percentage change with explicit definitions.
+Reconcile row counts and sales totals before and after cleaning.
+Write three findings and one limitation; label synthetic data clearly.
+Close the tutorial and rebuild your main PivotTable without help.
+Export a readable dashboard PDF and document refresh steps.
+Build an exceptions tab showing failed checks; add conditional formatting and data validation where useful.
+Combine two monthly CSV files with Power Query, keep a source-file column, and test a later refresh.
+Training rule:
+Your boss test: someone else can replace the CSV and refresh the report without calling you.
+08
+h learn
+24
+h build / practise
+04
+h check / review
+03
+Chakra Control Arc · WEEK 5–8
+SQL for reliable answers
+48h total learning + building
+0%
+⌄
+Use SQL to retrieve, combine and validate data. Practise the reasoning behind the query, not just the syntax.
+Boss to defeat:
+Project 2: a small retail database, 30 documented queries and a 30-minute closed-book SQL test.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+SQL for Data Analytics — foundations + project ↗
+Luke Barousse · ~4h · PostgreSQL; free video and starter files
+Intermediate SQL — selected window/date/cleaning lessons ↗
+Luke Barousse · ~6h full video; select gaps only, not a second compulsory binge
+Window functions in T-SQL ↗
+Microsoft Learn · free official gap lesson
+Short SQL Server / T-SQL bridge ↗
+Microsoft Learn · select relevant querying modules; optional local setup
+Foundations: SELECT, WHERE, ORDER BY, NULLs
+Aggregations: COUNT/SUM/AVG, GROUP BY, HAVING, CASE
+JOINs: INNER/LEFT/FULL/UNION — understand preserved rows
+Window: ROW_NUMBER, RANK, LAG/LEAD, PARTITION BY
+Project: 10 queries to GitHub (retail or Northwind sample)
+Understand primary/foreign keys, row grain and duplicate keys.
+Filter dates safely with half-open intervals and explicit date formats.
+Use IS NULL, COALESCE and NULLIF; explain COUNT(*) vs COUNT(column).
+Demonstrate how a one-to-many join can inflate totals.
+Write and explain a subquery and a CTE solving the same problem.
+Find top products per category with a ranking window.
+Calculate month-on-month change with LAG and handle missing months.
+Find unmatched rows with LEFT JOIN + IS NULL or NOT EXISTS.
+Explain WHERE vs HAVING; UNION vs UNION ALL.
+Save 30 queries with questions, expected outputs and reconciliation checks.
+Complete a timed test without copying; review mistakes the following day.
+Translate five existing queries to T-SQL and explain TOP vs LIMIT, date functions and FULL OUTER JOIN support.
+Calculate a running total with an explicit ROWS frame and explain how ties affect ranking.
+Read a simple query plan and distinguish a view from a temporary table; leave production tuning and database administration for later.
+Training rule:
+Use PostgreSQL for the main course. Spend a short bridge session translating TOP/LIMIT, GETDATE/CURRENT_DATE and DATEADD/DATEDIFF; do not install or master multiple database servers at once.
+10
+h learn
+32
+h build / practise
+06
+h check / review
+GO BEYOND · PLUS ULTRA
+“Go beyond. PLUS ULTRA!”
+You can now retrieve and check data. Next: turn it into a dashboard that answers a real question. One validated measure is a bigger power-up than ten decorative visuals.
+04
+Power-up Arc · WEEK 9–13
+Power BI, modelling & DAX
+60h total learning + building
+0%
+⌄
+The hero skill is not adding charts. It is producing trustworthy measures and a page that helps a manager make one decision.
+Boss to defeat:
+Project 3: a retail performance dashboard with a star schema, validated measures and a 3-minute demo.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+Power BI for Data Analytics — Full Course ↗
+Luke Barousse · ~8h25 · English
+Star schema guidance ↗
+Microsoft · official
+DAX reference ↗
+Microsoft · official
+Service, security & refresh gap pack ↗
+Microsoft Learn · current skills guide, not a claim of full exam readiness
+Get Data: Power Query clean/unpivot
+Model: Star schema, date table
+DAX: SUM, DIVIDE, CALCULATE and filter context
+Visuals: KPI cards, slicers, drill-through and accessible labels
+Publish: Understand Service, sharing and refresh limitations
+Portfolio: Retail dashboard + README + screenshots
+Build fact sales and product/date/store dimensions with unique keys.
+Use one-to-many relationships and explain filter direction.
+Distinguish measures, calculated columns and Power Query steps.
+Create a complete date table and consistent time intelligence measures.
+Validate at least five KPI totals against Excel or SQL.
+Show prior-period comparison only when date coverage is comparable.
+Add clear units, source date, metric definitions and caveats.
+Test slicers, drill-through, blank values and zero denominators.
+Understand that Publish to web is public: only use non-sensitive public/synthetic data.
+Provide PDF/screenshots + demo if you cannot share a live report.
+Start a small number of targeted applications once Projects 1–3 are explainable.
+Explain Import vs DirectQuery, when an on-premises gateway is needed, and what can cause scheduled refresh to fail.
+Create a simple row-level security role in Desktop and use View as to test it with synthetic data.
+Explain workspace roles, Viewer vs editing permissions, and why Publish to web is not secure sharing.
+Use Performance Analyzer once; remove unnecessary columns and investigate a slow visual.
+Configure a tooltip/bookmark or navigation button, then test keyboard access, contrast and a mobile report layout.
+Training rule:
+Power BI Desktop authoring is free; some sharing and refresh options need licences. A paid subscription is not a prerequisite for portfolio evidence.
+12
+h learn
+40
+h build / practise
+08
+h check / review
+05
+Analyst Thinking Arc · WEEK 14–15
+Statistics, quality & storytelling
+24h total learning + building
+0%
+⌄
+Use these ideas throughout every project; these two weeks consolidate them. This is analytics, not a machine-learning detour.
+Boss to defeat:
+A one-page decision brief: one question, three checked findings, a recommendation and limitations.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+Statistics & probability ↗
+Khan Academy · free · selected topics
+UK official statistics ↗
+ONS · metadata and methodology practice
+Statistics: Mean, median, standard deviation and outliers
+Correlation: Correlation ≠ causation; confounding
+Story: Question → evidence → recommendation → limitation
+Choose an appropriate denominator and avoid averaging averages.
+Distinguish percentage change from percentage-point change.
+Recognise sampling bias, selection bias and small sample problems.
+Explain confidence intervals and uncertainty in plain English.
+Describe a basic A/B test, control group and random assignment.
+Check whether seasonality, missing periods or population changes affect comparisons.
+Use bar/line charts appropriately and avoid misleading axis scales.
+Define a KPI with unit, grain, owner, period and source.
+Practise a 90-second explanation for a non-technical manager.
+Apply a practical UK GDPR checklist: purpose, minimisation, accuracy, retention, access and accountability; escalate uncertainty to the data owner.
+Define a reporting request with audience, KPI formula, source, deadline and two acceptance checks; this is analyst practice, not a Business Analyst syllabus.
+If using AI to explain a query, use synthetic examples, verify the output independently and never paste confidential work data into an unapproved tool.
+Training rule:
+Never tick a finding until you can say what would make it wrong.
+05
+h learn
+15
+h build / practise
+04
+h check / review
+06
+Automation Arc · WEEK 16–19
+Python, pandas & reproducibility
+48h total learning + building
+0%
+⌄
+Add Python after Excel, SQL and Power BI. Do not delay suitable applications because you have not finished a Python playlist.
+Boss to defeat:
+Project 4: a reproducible public-data analysis and a script that turns a raw CSV into a checked summary report.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+Python for Data Analytics — Full Course ↗
+Luke Barousse · ~11h · English · select relevant chapters
+pandas introductory tutorials ↗
+Official · free
+Python tutorial ↗
+Official · reference
+Python: Variables, lists, dictionaries, loops and functions
+pandas: Read CSV, inspect, filter and select
+Clean: Missing values, duplicates and data types
+Analyse: groupby, merge, pivot_table
+Visualise: Matplotlib or Seaborn with readable labels
+Project: Notebook + README + reproducible outputs
+Create a virtual environment and record package requirements.
+Parse dates explicitly; inspect UK/US date ambiguity.
+Validate merge keys and check row counts before/after joins.
+Write reusable functions for load, clean, validate and export.
+Use assertions for totals, unique keys and non-negative values where appropriate.
+Export clean CSV + an Excel summary without overwriting raw files.
+Re-run from a clean environment or a fresh Colab session.
+Keep secrets and personal data out of notebooks and version control.
+Create a tiny test fixture with known outputs to check one cleaning function and one aggregation.
+Document relative paths, package versions and input/output filenames so another person can rerun the script.
+Training rule:
+One working automation is worth more than ten copied notebooks. Measure runtime or manual steps honestly; do not invent hours saved.
+10
+h learn
+32
+h build / practise
+06
+h check / review
+07
+Final Boss Arc · WEEK 20–23
+An end-to-end analytics capstone
+48h total learning + building
+0%
+⌄
+Combine skills you already learned. Choose a question you can defend, rather than adding more tools.
+Boss to defeat:
+Project 5: an East Sussex public-data brief connecting SQL, a checked dataset and a Power BI dashboard, with a 5-minute walkthrough.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+ONS datasets ↗
+Official public data · select a manageable CSV
+East Sussex in Figures ↗
+Local statistics & metadata
+Find open data ↗
+UK data catalogue
+Choose one question: how has a selected local indicator changed over time?
+Record source URL, download date, licence, geography and definitions.
+Write a data dictionary and identify the grain of every table.
+Keep immutable raw files and scripted cleaning steps.
+Use SQL to answer at least eight meaningful questions.
+Cross-check dashboard totals against SQL and an independent Excel calculation.
+Explain missing data, boundary changes and incomparable time periods.
+Create a concise dashboard with context, clear units and accessible colours.
+Write a one-page insight brief, separating evidence from assumptions.
+Document setup, refresh steps and known limitations in the README.
+Record a 3–5 minute walkthrough: question, data, checks, insight, action.
+Ask someone to reproduce one number and incorporate their feedback.
+Polish your best three projects; keep two smaller ones as supporting evidence.
+Create a one-page report runbook: owner, metric definitions, lineage, refresh timing, checks and what to do when the source changes.
+Keep a short change log and have another person test the two acceptance checks before you call the report complete.
+Training rule:
+A reproducible analysis with caveats beats an attractive dashboard with unexplained numbers.
+04
+h learn
+38
+h build / practise
+06
+h check / review
+08
+Boss Dialogue Arc · WEEK 24–25
+SQL tests & interview confidence
+24h total learning + building
+0%
+⌄
+Build this habit earlier with short weekly practice. These weeks focus on presenting evidence clearly under time pressure.
+Boss to defeat:
+Two timed SQL mocks, one Excel task, one dashboard critique and four truthful STAR stories.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+SQL interview questions ↗
+Practice · some questions may require an account
+HackerRank SQL ↗
+Practice · free account
+Explain a LEFT JOIN and demonstrate duplicate-row inflation aloud.
+Complete two 30-minute SQL mocks and revisit every error.
+Complete an Excel clean → lookup → pivot task from a fresh file.
+Explain row context, filter context and CALCULATE using your report.
+Present your flagship project in five minutes without reading notes.
+Prepare a truthful 60-second Lidl → analytics career-change story.
+Write four STAR stories: quality, teamwork, prioritisation and difficult customer.
+State limitations and what you would investigate next.
+Practise asking clarifying questions before starting a take-home task.
+Prepare questions on data quality, onboarding, tools and success measures.
+Rehearse a salary conversation using the advert’s range and role scope.
+Use one person specification to build an evidence-to-criteria matrix, including genuine gaps, before writing a supporting statement.
+Training rule:
+A gap is not a failure: explain what you know, what you would check and how you would test it.
+03
+h learn
+17
+h build / practise
+04
+h check / review
+09
+Endgame Arc · WEEK 26–28
+Applications, referrals & feedback
+36h total learning + building
+0%
+⌄
+Applications can begin in week 13. Weeks 26–28 are a focused search sprint, not a promise that an offer arrives on a deadline.
+Boss to defeat:
+A sustainable weekly pipeline, tailored CV and project links; iterate on real feedback rather than waiting for perfection.
+WATCH / READ · ONE MAIN RESOURCE, THEN PRACTISE
+NHS Jobs ↗
+Search analyst, information analyst, reporting
+Civil Service Jobs ↗
+Check essential criteria and application format
+Reed: Eastbourne search ↗
+Use wider geography and related role titles too
+Set alerts for Junior Data Analyst, MI Analyst, Reporting Analyst and BI Assistant.
+Search Eastbourne, Lewes, Brighton/Hove and hybrid roles with a realistic commute.
+Make a shortlist of ten employers; confirm vacancies on their own careers pages.
+Write an ATS-readable CV with Excel, SQL, Power BI and project links near the top.
+Only describe yourself as ex-Lidl if you have actually left; otherwise list your current role.
+Apply to around five well-matched roles per week when available; adjust to supply and rota.
+Send two personalised networking/referral messages per week without spamming.
+Track date, criteria, CV version, follow-up, outcome and feedback.
+Follow up once when appropriate and respect no-contact instructions.
+After 15–20 matched applications without screens, review CV, eligibility and targeting.
+Practise weekly while applying; do not restart a new bootcamp after each rejection.
+Check salary, hours, location, employment status and any right-to-work/sponsorship conditions.
+Keep learning and searching beyond week 28 if needed; extend the timeline, not the guilt.
+Create separate saved searches for Brighton/Hove, SE London boroughs, and wider-London roles; assess each commute from your actual home.
+Check Level 3 Data Technician / Level 4 Data Analyst apprenticeships where eligible; verify each advert’s qualifications, residency/funding and existing-qualification rules.
+Training rule:
+No guaranteed conversion rate. Your targets are controllable actions; interview and offer outcomes are not.
+02
+h learn
+28
+h applications / preparation
+06
+h check / review
+REAL-LIFE TRAINING
+A schedule that survives Lidl shifts.
+Keep the commitment flexible enough to repeat. The 12-hour budget includes projects, revision and job-search work—not extra homework on top.
+Standard week · 12 hours
+Four 90-minute blocks:
+6 hours of focused practice across shift days.
+One 4-hour build block:
+on your most suitable day off; include breaks.
+Two 1-hour review blocks:
+redo mistakes, explain a result, update your log.
+One genuinely free day:
+move blocks to protect rest.
+Choose times after seeing your rota. A fixed 05:30 wake-up is not required.
+Inside a 90-minute block
+10 min: retrieve yesterday’s idea without notes.
+20 min: one targeted lesson or documentation page.
+50 min: build or solve independently.
+10 min: check your output and record a mistake or insight.
+Across the week, aim for roughly 70% doing/checking and 30% learning. This is a study rule, not a scientific guarantee.
+Heavy rota / low-energy week:
+use three 20-minute review sessions and one 60-minute build block (2 hours total). Do not pretend that equals 12 hours. Roll unfinished work forward and revise your finish date. On breaks, rest first; study only if it helps you.
+The five laws of your training arc
+Build from memory after the lesson.
+One boss per season; fix the deliverable before adding tools.
+Log evidence, not just hours.
+Review mistakes in short repeatable sessions.
+Protect sleep, planned rest and confidential data.
+MILESTONE SAVE-POINTS
+Look back. You are levelling up.
+Advance when the evidence is ready; the week number is a planning guide.
+Week 1
+Toolkit works, baseline tested, learning log started.
+Week 4
+Excel retail workbook refreshes and totals reconcile.
+Week 8
+30 SQL queries explained and one timed test completed.
+Week 13
+Power BI retail report + demo; first matched applications if ready.
+Week 15
+One-page decision brief with uncertainty and limitations.
+Week 19
+Reproducible pandas analysis + a report-generation script.
+Week 23
+Flagship local-data capstone; best three projects polished.
+Week 25
+Two SQL mocks, an Excel task and four STAR stories.
+Week 28
+A functioning application pipeline and next-step review—not a guaranteed offer.
+BOSS RUSH · SOLO LEVELING
+ARISE. Five projects. Five levels.
+Clear one, unlock the next. Three polished case studies will lead your portfolio; two smaller projects show your fundamentals. Every one needs a question, checks and a useful conclusion.
+THE PROJECT LADDER
+Five levels. Real evidence.
+These replace the PDF’s web-development apps with pure analytics deliverables. No API, React or full-stack requirement.
+LV.1 · Week 4
+Retail sales workbook
+Excel · Power Query · PivotTables
+Question:
+Which products and trading periods drive revenue in this synthetic retail dataset?
+Public Online Retail II dataset (check licence); or clearly labelled synthetic data ↗
+Document raw/clean sheets, row counts and a data dictionary.
+Create revenue and units summaries with slicers.
+Check returns, missing customer IDs and duplicate rows explicitly.
+Ship .xlsx, a one-page PDF and three findings.
+Interview proof:
+Can you clean and reconcile a spreadsheet without hiding the messy parts?
+LV.2 · Week 8
+Retail SQL investigation
+PostgreSQL · SQL · GitHub
+Question:
+Which categories perform best, and how does performance change over time?
+Northwind sample (SQL Server scripts; adapt schema for PostgreSQL, or use the Contoso retail course files), or your own synthetic retail tables ↗
+Use customers, orders, order lines and products with known keys.
+Write 30 queries, including joins, CTEs and ranking windows.
+Include failed assumptions and checks that caught duplicate joins.
+Ship schema, loading instructions, queries and selected results.
+Interview proof:
+Can you turn a question into a trustworthy query?
+LV.3 · Week 13
+Retail performance dashboard
+Power BI · Star schema · DAX
+Question:
+What changed this month, and which category deserves attention?
+Reuse public/synthetic retail data; do not present it as Lidl data ↗
+Build a sales fact table with product and date dimensions.
+Validate revenue and comparison measures against SQL.
+Create two focused pages rather than ten cluttered ones.
+Ship PBIX + screenshots/PDF + 3-minute demo; public sharing is optional.
+Interview proof:
+Can you model data and explain a measure, not merely draw a chart?
+LV.4 · Week 19
+NHS waiting-time trend brief
+Python · pandas · Matplotlib
+Question:
+How do selected published waiting-time measures vary over comparable periods?
+NHS England RTT published statistics; inspect definitions and available periods ↗
+Select a small set of comparable published files and record metadata.
+Handle missing/suppressed values without treating them as zero.
+Generate clean data, summary tables and a readable trend chart.
+Explain that aggregate waiting-time data cannot establish causes or individual outcomes.
+Interview proof:
+Can you make a public-data analysis reproducible and cautious?
+LV.5 · Weeks 20–23
+East Sussex insight capstone
+SQL · Power BI · Excel checks · optional pandas
+Question:
+How has one local indicator changed, and how does East Sussex compare with an appropriate benchmark?
+East Sussex in Figures; use ONS as an alternative source ↗
+Choose a manageable indicator with stable geography and definitions.
+Document extraction, cleaning, joins, grain and reconciliation.
+Create a dashboard and one-page evidence-led briefing.
+Ship code, README, sources, limitations and a five-minute walkthrough.
+Interview proof:
+Can you own a complete analysis and defend its limitations?
+Portfolio honesty:
+project outcomes are not workplace achievements. Say “built a synthetic retail report with X validated measures”, not “saved Lidl £X”. Only claim time savings you actually measured in a real process.
+ATTACK ON TITAN ARC
+You don’t know the outcome. Apply anyway.
+Use rejection as feedback, not a verdict. Keep your search matched to your skills, geography and eligibility—and keep improving the evidence you send.
+ENDGAME
+Your South-East job-search playbook.
+Three search areas, clear boundaries and an application that matches the actual person specification.
+01
+South-East London & border
+Set separate alerts for Bexley, Greenwich/Woolwich, Lewisham/Catford, Bromley and nearby Dartford. Check the actual office base. Oxleas and Lewisham & Greenwich are employer leads; reviewed local examples were experienced posts, not junior openings.
+02
+Brighton, Hove & Sussex
+Look at reporting, MI, data-quality and people-data roles as well as Junior Data Analyst. EDF and L&G are historical entry-route examples; MetLife is a senior comparator. Monitor future roles, not expired adverts.
+03
+Wider London / nearby Kent
+Canary Wharf, the City and Canterbury are separate search areas—not SE London vacancies. Treat each as a commute/attendance decision from your actual home, not a default promise of remote work.
+Bookmark your search routes
+NHS Jobs ↗
+Civil Service Jobs ↗
+Reed ↗
+Indeed ↗
+LinkedIn ↗
+East Sussex County Council ↗
+Alerts:
+Junior Data Analyst · Reporting Analyst · MI Analyst · Information Analyst · BI Assistant · Data Quality Analyst.
+Exclude Business Analyst roles unless the actual work is data analysis and interests you.
+Starter target list · research leads, not confirmed openings
+Organisation
+Area
+Why investigate
+East Sussex Healthcare NHS Trust ↗
+Eastbourne / Hastings
+Information, performance and reporting teams
+East Sussex County Council ↗
+Lewes / county-wide
+Performance, public-service data and reporting
+University Hospitals Sussex NHS FT ↗
+Sussex sites
+Information and operational reporting; check exact base
+Brighton & Hove City Council ↗
+Brighton / Hove
+Data, insight and performance roles
+American Express ↗
+Brighton / UK
+Operations and analytics; some roles need prior experience
+Legal & General ↗
+Hove / UK
+Reporting and financial-services analytics; check entry criteria
+Bupa ↗
+Brighton / UK
+Healthcare/insurance reporting and insight
+University of Sussex ↗
+Falmer
+Planning, student data and reporting
+Check current vacancies, office base and essential criteria on each official site. This list does not assert that any employer is currently hiring juniors.
+Application maths you control
+Starting target:
+5 well-matched applications + 2 genuine networking messages per week
+, when suitable vacancies exist. Four weeks at that rate is 20 applications—not a predicted number of interviews.
+After 15–20 matched submissions with no screening calls, review your CV, evidence, targeting and eligibility. If screens happen but tests fail, practise the failed skill. If interviews fail, review examples and communication.
+Your tracker fields
+Date · employer · role · URL · salary · location/office days · essential criteria · eligibility · CV version · project used · stage · follow-up date · result · feedback.
+Read right-to-work and sponsorship conditions carefully. Your immigration status is not assumed in this plan. Never pay a recruiter a fee to secure an ordinary job.
+A referral message you can make your own
+Hi [Name], I work in retail at Lidl in Eastbourne and I’m building towards a junior data-analytics role.
+
+I’ve built [project + link] using [Excel / SQL / Power BI]. It answers [specific question], with [one verified finding or quality check].
+
+I saw [role + reference] at [company]. If you feel my work is a fit, would you be open to a short conversation or pointing me towards the right application route?
+
+Thanks for your time,
+[Your name]
+CV upgrades before your next application
+Projects first:
+question → tools → checks → actual result. Use numbers only when true.
+Keep the stack visible:
+Excel, SQL, Power BI; add Python when you can demonstrate it.
+Transfer retail skills honestly:
+prioritisation, accuracy, teamwork and customer communication. Do not invent volumes, savings or analytical duties.
+Use a clean one- or two-page UK CV:
+no photo, skill bars or decorative columns. Tailor length to useful evidence.
+Clickable links:
+GitHub, flagship case study and demo. Check them while logged out.
+Current employment wording:
+do not say “ex-Lidl” unless you have left.
+Optional NHS application pack
+Only if targeting healthcare: read the
+NHS Data Dictionary ↗
+and the methodology for your chosen published dataset. Learn what a numerator, denominator, reporting period, submission deadline and data-quality exception mean in that context. Do not claim access to clinical systems or that a public project replaces required NHS experience.
+Optional finance / retail pack
+Build a short glossary: revenue, gross margin, returns, stock turnover, customer/transaction grain and reporting period. For wealth/insurance roles, add the basic product context requested in that advert. Validate any formula before presenting it as a decision metric.
+Apply earlier when appropriate:
+once you can independently clean, reconcile and explain an Excel workbook, consider genuine Excel-led entry roles whose essential criteria you meet. Broaden to SQL/BI roles as those projects become defensible. Week 13 is a planning milestone, not a ban on earlier applications.
+South-East London employer watchlist
+Research leads only
+Use the official site’s jobs/careers section. These organisations are leads to monitor, not verified current junior vacancies.
+Bexley Council · Bexley ↗
+Royal Borough of Greenwich · Greenwich / Woolwich ↗
+Lewisham Council · Lewisham ↗
+Bromley Council · Bromley ↗
+Oxleas NHS Foundation Trust · SE London / Dartford; check actual job base ↗
+Lewisham and Greenwich NHS Trust · SE London; check actual job base ↗
+BOSS DIALOGUE
+Interview question bank.
+40 questions with answer directions. Speak first, then reveal the prompt. Use your own examples rather than memorising a script.
+SQL · 10 questions
+1. What is the difference between WHERE and HAVING?
+Answer direction:
+WHERE filters rows before aggregation; HAVING filters grouped results. Show a total-sales example.
+2. What is the difference between INNER and LEFT JOIN?
+Answer direction:
+Explain which rows are preserved, unmatched NULLs and the importance of the join key.
+3. Why did revenue double after a join?
+Answer direction:
+Check the grain and key uniqueness. A one-to-many join can duplicate fact rows; aggregate or fix the key, do not hide it with DISTINCT.
+4. What is the difference between COUNT(*), COUNT(column) and COUNT(DISTINCT column)?
+Answer direction:
+All rows, non-NULL values and distinct non-NULL values respectively.
+5. How would you get the top three products per category?
+Answer direction:
+Aggregate to product/category grain, then use ROW_NUMBER or DENSE_RANK depending on the tie policy.
+6. How do you find customers with no orders?
+Answer direction:
+LEFT JOIN + unmatched-key IS NULL, or NOT EXISTS; explain NULL risks with NOT IN.
+7. When would you use a CTE?
+Answer direction:
+To express logical steps clearly. It is not automatically a performance improvement.
+8. How would you calculate month-on-month change?
+Answer direction:
+Aggregate by month, use LAG and divide the difference by the prior value with zero handling. Consider absent months.
+9. How do you handle missing values?
+Answer direction:
+Decide what NULL means, use IS NULL and only COALESCE when the replacement is semantically justified.
+10. How would you validate your result?
+Answer direction:
+Check row counts, grain, key uniqueness, totals, sampled cases and an independent calculation.
+Excel & data quality · 10 questions
+1. When would you use XLOOKUP rather than a PivotTable?
+Answer direction:
+A lookup returns related values by key; a pivot summarises data. Check key uniqueness and the desired grain.
+2. How would you clean a messy CSV?
+Answer direction:
+Preserve raw data, inspect types, dates, blanks and duplicates, then document and reconcile each transformation.
+3. What is a repeatable Power Query workflow?
+Answer direction:
+Typed import → cleaning steps → merge/unpivot → validation → refreshable output. Test on a replacement file.
+4. What is the difference between a blank and zero?
+Answer direction:
+A blank may be unknown or not applicable; zero is an observed value. They can change counts and averages differently.
+5. How do SUMIFS and COUNTIFS help?
+Answer direction:
+They aggregate by multiple criteria. Explain a date-bounded category-sales example.
+6. How do you check a lookup is correct?
+Answer direction:
+Use exact matching, inspect unmatched values, test duplicates and sample returned records.
+7. How would you build a manager’s weekly report?
+Answer direction:
+Clarify decision, definitions and audience; automate import, reconcile totals, then present a small number of useful KPIs.
+8. What is percentage-point change?
+Answer direction:
+A rate moving from 10% to 12% rises by 2 percentage points or 20% relative—not 2% relative.
+9. Why might Excel show dates incorrectly?
+Answer direction:
+Locale, mixed text/date types or serial formatting; parse deliberately and inspect ambiguous dates.
+10. What would you do if two reports disagree?
+Answer direction:
+Compare sources, refresh times, grain, filters, date boundaries and definitions before deciding which is wrong.
+Power BI, statistics & Python · 10 questions
+1. Why use a star schema?
+Answer direction:
+Clear fact/dimension grain, predictable relationships and reusable measures; explain your own model.
+2. What is the difference between a measure and a calculated column?
+Answer direction:
+A measure evaluates at query time in filter context; a column is computed per row and stored during refresh.
+3. What does CALCULATE do?
+Answer direction:
+Evaluates an expression in modified filter context. Demonstrate using a measure from your project.
+4. How would you test a dashboard?
+Answer direction:
+Reconcile KPIs, test slicers and relationships, inspect blanks, zero denominators, dates and accessibility.
+5. When is median more useful than mean?
+Answer direction:
+Often when a distribution is skewed or affected by outliers; explain both with a simple example.
+6. Does correlation prove causation?
+Answer direction:
+No. Confounding, selection bias and reverse causality may explain an association.
+7. How do you explain uncertainty to a manager?
+Answer direction:
+Describe the range, assumptions, sample/data limits and what additional evidence would change the decision.
+8. How would you validate a pandas merge?
+Answer direction:
+Inspect key uniqueness, use validate= where appropriate, track unmatched rows and reconcile totals and counts.
+9. How do you make a notebook reproducible?
+Answer direction:
+Record source versions and dependencies, use clear relative paths and re-run from a fresh environment in order.
+10. Should you use Publish to web for a company report?
+Answer direction:
+No for confidential data: it makes content publicly accessible. Use approved sharing, access controls and licensing.
+Career change & behavioural · 10 questions
+1. Why move from Lidl into analytics?
+Answer direction:
+Use a truthful past → interest → concrete learning evidence → role-fit story. Avoid criticising retail work.
+2. Tell me about an error you caught.
+Answer direction:
+Use a real STAR example: what you checked, what you did and what actually happened. No invented savings.
+3. How do you prioritise competing tasks?
+Answer direction:
+Clarify urgency, impact, dependencies and stakeholder expectations. Use a genuine shift or project example.
+4. Tell me about working with a difficult customer.
+Answer direction:
+Show listening, clarity, boundaries, appropriate escalation and a factual outcome.
+5. Describe a time you worked in a team.
+Answer direction:
+Be specific about your contribution and recognise others; do not claim the whole team’s result as yours.
+6. How do you explain technical work to non-technical people?
+Answer direction:
+Start with the decision and meaning, use one clear visual, define units and check understanding.
+7. What if a manager requests a misleading chart?
+Answer direction:
+Explain the risk respectfully, show an honest alternative and document or escalate if needed.
+8. What would you do with sensitive customer data?
+Answer direction:
+Use only authorised access and purpose, minimise exposure, follow policy and ask the appropriate data owner if uncertain.
+9. What is a weakness you are improving?
+Answer direction:
+Choose a genuine manageable gap and give a concrete practice plan with evidence of progress.
+10. What would you ask us?
+Answer direction:
+Ask about the team’s data quality problems, first-90-day expectations, code/report review and support for junior analysts.
+POWER-UPS
+Shortcuts, commands & cheat sheets.
+Choose one reference per tool. External videos, documentation and downloadable cheat sheets require internet access.
+Resource
+Type
+Why use it
+Excel keyboard shortcuts ↗
+Web · Microsoft
+Daily spreadsheet work; check platform-specific keys.
+Power BI shortcuts ↗
+Web · Microsoft
+Navigation and authoring; Desktop and Service can differ.
+DAX reference ↗
+Web · Microsoft
+Check function behaviour and examples.
+SQL tutorial/reference ↗
+Web · PostgreSQL
+Useful reference; syntax can differ from the MySQL course.
+pandas cheat sheet ↗
+PDF · pandas
+DataFrame operations and quick reminders.
+Git cheat sheet ↗
+PDF · GitHub
+Version-control commands without a full Git course.
+Markdown cheat sheet ↗
+Web
+Write clear project READMEs.
+PL-300 certification ↗
+Web · Microsoft
+Optional after hands-on practice; check current fees and requirements.
+Excel · daily shortcuts (Windows)
+Ctrl + T       Format as Table
+Ctrl + Shift + L  Toggle filters
+Alt + =        AutoSum
+Ctrl + 1       Format Cells
+Ctrl + Arrow   Jump to data edge
+Ctrl + Shift + Arrow  Select to edge
+F4             Cycle absolute references (in formula)
+Ctrl + `       Show formulas
+Ctrl + ;       Insert today’s date
+Ctrl + Alt + F5 Refresh all connections
+Alt, N, V      Insert PivotTable (ribbon sequence)
+Ctrl + Z       Undo
+Some laptop keys require Fn; Mac and web shortcuts differ.
+SQL · patterns worth remembering
+SELECT category, SUM(revenue) AS sales
+FROM sales
+WHERE sale_date >= '2026-01-01'
+  AND sale_date < '2026-02-01'
+GROUP BY category
+HAVING SUM(revenue) > 1000
+ORDER BY sales DESC;
+
+-- Never hide a broken join with DISTINCT.
+-- Check keys, grain and totals first.
+-- SQL dialects differ: verify date functions.
+pandas · reliable habits
+df = pd.read_csv("data.csv")
+df.info()
+df.isna().sum()
+df.duplicated().sum()
+
+# Validate the expected key relationship:
+out = sales.merge(products, on="product_id",
+                  how="left", validate="many_to_one")
+assert len(out) == len(sales)
+summary = out.groupby("category")["revenue"].sum()
+Git · the safe daily loop
+git status
+git diff
+git add analysis.sql README.md
+git commit -m "Add checked monthly sales analysis"
+git pull --rebase
+git push
+git log --oneline
+
+# Do not commit credentials or private data.
+# Inspect before staging; avoid blind reset --hard.
+Metric reminder:
+percentage change = (new − old) / old. If old = 0, define an explicit policy instead of forcing a percentage. In DAX, DIVIDE handles zero/blank denominators more safely than raw division.
+PLAN STRESS-TEST
+Seven ways this plan could fail—and the guardrails.
+An explicit self-review of the plan. This is not a claim that an independent second agent reviewed it.
+01 · Too many tools at once.
+Sequence the stack. Excel/SQL/Power BI lead; Python follows. No JavaScript, web frameworks, Business Analyst core or machine-learning syllabus.
+02 · A 28-week deadline ignores shift work.
+The budget is 336 hours. Use the minimum-week plan and extend the calendar after heavy rotas or illness.
+03 · Tutorial completion can hide weak understanding.
+Every arc has a closed-book or reproducibility boss. Roughly 70% of practice time is spent doing and checking.
+04 · A beautiful report can be numerically wrong.
+Reconcile row counts, grain, joins and KPI totals with an independent method in every project.
+05 · Certification and public sharing can create cost barriers.
+PL-300 is optional. Screenshots, PDF exports, PBIX files and a demo can be enough to show evidence without a paid sharing plan.
+06 · Local-only search may be too narrow.
+Widen geography and role titles where the commute and criteria work. Employer names are leads, not claims of live vacancies.
+07 · Retail experience can be oversold.
+Use truthful transfer skills and clearly label public/synthetic projects. No invented internal Lidl data, salaries, savings or interview rates.
+Audit verdict:
+the earlier core stack was sound, but “checklist topic exists” did not mean “the linked course teaches it”. Course-to-skill mapping, explicit operational tasks and regional evidence now address that mismatch. This remains a learning plan, not verified hiring readiness or an independent panel review.
+WHY YOU’LL FINISH
+Training-arc energy.
+The exact six anime images found in your reference PDF, reused with analytics-specific motivation. Captions are training prompts, not verified character quotations.
+E-RANK → S-RANK
+A result you can explain is a level you keep.
+WORK HARD IN SILENCE
+A calm 40-minute build beats another saved playlist.
+ROCK LEE · FUNDAMENTALS
+You do not need to feel gifted to practise carefully.
+PLUS ULTRA
+Go beyond the chart: validate the numbers underneath.
+APPLY ANYWAY
+Send the matched application. Review the feedback.
+YOUR NINDŌ
+Keep the promise small enough to repeat.
+Your first role is not your final form.
+The goal is not to know every tool. It is to become someone who can ask a useful question, check the data and explain the answer.
+DUE DILIGENCE
+Sources & further reading.
+Evidence where it matters; clear boundaries where it is a recommendation.
+[1] Prospects · Data analyst role, skills and salary ↗
+— salary and UK skill-profile source consulted 18 October 2026. National guidance, not local vacancy counts.
+Excel for Data Analytics — Full Course ↗
+— Luke Barousse · ~11h · English · watch selected chapters. The four YouTube course identities/URLs were corroborated in web search; their availability may change.
+SQL Tutorial — Full Database Course for Beginners ↗
+— freeCodeCamp / Mike Dane · ~4h20 · English · MySQL syntax. The four YouTube course identities/URLs were corroborated in web search; their availability may change.
+Power BI for Data Analytics — Full Course ↗
+— Luke Barousse · ~8h25 · English. The four YouTube course identities/URLs were corroborated in web search; their availability may change.
+Python for Data Analytics — Full Course ↗
+— Luke Barousse · ~11h · English · select relevant chapters. The four YouTube course identities/URLs were corroborated in web search; their availability may change.
+A note on honesty
+This is a personalised learning plan, not a guarantee of employment. Salary guidance varies by role, location and source. Local employers are research leads, not verified active vacancies. Not every external documentation or job-board URL was individually tested.
+The source PDF is
+Operation Full Stack · Kerala Roadmap 2026
+, supplied by you. Its images were extracted directly rather than recreated, generated or replaced by similar posters. The original artwork remains the property of its rights holders; this roadmap does not grant redistribution rights.
+All artwork, styles and interactive logic are embedded in this HTML. The learning roadmap works offline after download; external learning links require internet. Local browser storage can be cleared or blocked, so export your progress. The PDF is static and cannot save ticks.
+Audit source trail and verification limits
+18 Oct 2026
+Full-text, indexed and unavailable advert evidence are distinguished in the Audit section above. Employer leads are not guarantees of live vacancies. Current salary guidance was re-read from Prospects. Course module lists/files and creator pages were inspected, not every video minute.
+Excel course outline ↗
+— Module list and file-download warning read; eight chapters plus projects. Paid problem packs/certificate distinguished on creator page.
+SQL foundations ↗
+— Creator confirms free 4+ hour video and PostgreSQL project. Free dataset is historical 2023; supporter problems/certificate are paid.
+Intermediate SQL ↗
+— Creator confirms free 6+ hour video, Contoso dataset and PostgreSQL workflow; use selected window/date/cleaning lessons, not another whole compulsory course.
+Old SQL course ↗
+— Published chapter list inspected: MySQL basics, joins, nested queries and schema design; no CTE/window-function chapters listed. Not a sufficient sole resource for the roadmap.
+Power BI course outline ↗
+— Grand Tour, Visualizations, Power Query and DAX plus projects. Full files should be downloaded using creator's Google Drive link due to repository size limits. Do not infer complete Service/security or current exam coverage from the outline.
+Python course outline ↗
+— Basics, advanced pandas/Matplotlib and project. Use current notebooks; observed compatibility fixes mean copying older video syntax is not always sufficient.
+Current PL-300 study guide ↗
+— Skills as of 20 April 2026: prepare 25–30%, model 25–30%, visualize/analyze 25–30%, manage/secure 15–20%. Includes Service, gateway/refresh, roles/RLS, sensitivity, performance, mobile and accessibility; also newer exam-specific topics.
+T-SQL learning path ↗
+— Official search result identifies querying and modifying with T-SQL; used as bridge resource, not a replacement mandatory database course.
+T-SQL window lesson ↗
+— Official learning objectives: OVER, ranking, aggregate and offset functions.
+UK GDPR principles ↗
+— Official principles include minimisation, accuracy, security, purpose/storage limitation and accountability. This roadmap is not legal training or legal advice.
+Operation Data Analyst · Eastbourne Edition
+Built around your retail experience, your shifts and your next chapter.
+142 checkpoints · 9 seasons · 5 projects · 336 planned hours
+0% complete
+Adapted from your Kerala reference · October 2026 · Save the HTML for offline use
+Train
+Build
+Apply
+Practise

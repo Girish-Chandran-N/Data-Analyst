@@ -1,0 +1,31 @@
+{
+  "checked": "2026-10-19",
+  "added_after_english_links": 15,
+  "choices": {
+    "pCJ15nGFgVg": {
+      "url": "https://www.youtube.com/watch?v=OX-iyb-21tk",
+      "title": "Excel fundamentals \u2014 Hindi / Hinglish",
+      "by": "Rishabh Mishra \u00b7 ~1h16 \u00b7 formulas, VLOOKUP and PivotTables; keep the Power Query and advanced-formula checkpoints."
+    },
+    "7mz73uXD9DA": {
+      "url": "https://www.youtube.com/watch?v=7azCOKryADA",
+      "title": "SQL course \u2014 Hindi",
+      "by": "The iScale \u00b7 ~4h51 \u00b7 queries, joins, dates, CTEs and window functions; keep the short T-SQL bridge."
+    },
+    "QKIGsShyEsQ": {
+      "url": "https://www.youtube.com/watch?v=E8ZDobnpQJ4",
+      "title": "SQL window functions \u2014 Hindi",
+      "by": "Data Prodigy \u00b7 ~51 min \u00b7 ranking, window frames and LAG/LEAD; use for this topic, not as the whole intermediate SQL course."
+    },
+    "FwjaHCVNBWA": {
+      "url": "https://www.youtube.com/watch?v=bLz_aOtOpgc",
+      "title": "Power BI course \u2014 Hindi",
+      "by": "The iScale \u00b7 ~12h full video; select relevant chapters and retain the modelling, DAX, security and refresh checkpoints."
+    },
+    "wUSDVGivd-8": {
+      "url": "https://www.youtube.com/watch?v=YV0_puRO1u4&list=PLrN_S08trZepom2bLaBTt0QQt2XnmC7dc",
+      "title": "Python for data analysis \u2014 Hindi course",
+      "by": "freeCodeCamp Hindi \u00b7 Aakash N S \u00b7 six-part Zero to Pandas series (2020). Follow part numbers; use current pandas documentation for API changes."
+    }
+  }
+}

@@ -1,0 +1,404 @@
+[
+  {
+    "id": "setup",
+    "n": "01",
+    "name": "Academy Arc",
+    "title": "Setup, workflow & proof of work",
+    "weeks": "1",
+    "hours": 12,
+    "boss": "A working toolkit, a public learning-log repository and one short analysis of a clean sample CSV.",
+    "intro": "Start where you are: Excel experience and early SQL practice. This is a diagnostic and setup week, not a restart from zero.",
+    "resources": [
+      [
+        "https://docs.github.com/en/get-started/start-your-journey/hello-world",
+        "GitHub Hello World",
+        "Official guide \u00b7 free"
+      ],
+      [
+        "https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop",
+        "Get Power BI Desktop",
+        "Official Windows requirements & installation"
+      ]
+    ],
+    "items": [
+      "Check your device: Power BI Desktop requires Windows; arrange Windows access if using a Mac.",
+      "Set up Excel or Microsoft 365 access; identify which Power Query features your version supports.",
+      "Choose one SQL learning environment: browser for basics, PostgreSQL + DBeaver/VS Code for the main course. Use SQL Server only for the short Microsoft bridge.",
+      "Create folders: raw-data, cleaned-data, sql, notebooks, reports and screenshots.",
+      "Create GitHub profile + learning-log repository; upload a README and a sample SQL file.",
+      "Learn Git status, add, commit, pull and push, or use GitHub\u2019s web upload first.",
+      "Set a repeatable 12-hour weekly schedule around your work, study and other commitments.",
+      "Record your baseline: one PivotTable, one SELECT query and a 60-second explanation.",
+      "Use only public or synthetic practice data; never upload confidential employer, customer or colleague information.",
+      "Write one analysis question with a metric, time period and intended reader.",
+      "Identify personal/sensitive data, check the permitted purpose, and use only approved public or synthetic practice files.",
+      "Record ten genuine employer adverts: verify location, level, essential criteria, closing date and whether it is a paid job rather than a fee-charging course."
+    ],
+    "rule": "If setup takes more than a session, use browser tools and keep practising. Tool installation is not the boss."
+  },
+  {
+    "id": "excel",
+    "n": "02",
+    "name": "Foundation Arc",
+    "title": "Excel Pro & Power Query",
+    "weeks": "2\u20134",
+    "hours": 36,
+    "boss": "Project 1: a refreshable retail workbook with raw/clean tabs, PivotTables and a one-page recommendation.",
+    "intro": "Build on what you already know. Spend less time watching familiar material and more time explaining how you checked the result.",
+    "resources": [
+      [
+        "https://www.youtube.com/watch?v=pCJ15nGFgVg",
+        "Excel for Data Analytics \u2014 Full Course",
+        "Luke Barousse \u00b7 ~11h \u00b7 English \u00b7 watch selected chapters"
+      ],
+      [
+        "https://support.microsoft.com/en-us/excel",
+        "Excel help & learning",
+        "Microsoft \u00b7 reference"
+      ]
+    ],
+    "items": [
+      "Clean like a pro: Duplicates, TRIM, flash fill",
+      "Formulas: IF, SUMIFS, TEXT/DATE",
+      "Lookups: VLOOKUP \u2192 XLOOKUP \u2192 INDEX/MATCH",
+      "PivotTables: Group by month, slicers, PivotChart",
+      "Power Query: Unpivot, merge, refresh",
+      "Dashboard: 1 interactive dashboard answering a business Q",
+      "Use Excel Tables, structured references and consistent data types.",
+      "Handle blanks, errors and dates with UK locale; distinguish missing values from zero.",
+      "Check XLOOKUP exact matches and unmatched keys; explain one-to-many lookup limits.",
+      "Calculate revenue, units, average basket and percentage change with explicit definitions.",
+      "Reconcile row counts and sales totals before and after cleaning.",
+      "Write three findings and one limitation; label synthetic data clearly.",
+      "Close the tutorial and rebuild your main PivotTable without help.",
+      "Export a readable dashboard PDF and document refresh steps.",
+      "Build an exceptions tab showing failed checks; add conditional formatting and data validation where useful.",
+      "Combine two monthly CSV files with Power Query, keep a source-file column, and test a later refresh."
+    ],
+    "rule": "Your boss test: someone else can replace the CSV and refresh the report without calling you."
+  },
+  {
+    "id": "sql",
+    "n": "03",
+    "name": "Chakra Control Arc",
+    "title": "SQL for reliable answers",
+    "weeks": "5\u20138",
+    "hours": 48,
+    "boss": "Project 2: a small retail database, 30 documented queries and a 30-minute closed-book SQL test.",
+    "intro": "Use SQL to retrieve, combine and validate data. Practise the reasoning behind the query, not just the syntax.",
+    "resources": [
+      [
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "SQL for Data Analytics \u2014 foundations + project",
+        "Luke Barousse \u00b7 ~4h \u00b7 PostgreSQL; free video and starter files"
+      ],
+      [
+        "https://www.youtube.com/watch?v=QKIGsShyEsQ",
+        "Intermediate SQL \u2014 selected window/date/cleaning lessons",
+        "Luke Barousse \u00b7 ~6h full video; select gaps only, not a second compulsory binge"
+      ],
+      [
+        "https://learn.microsoft.com/en-us/training/modules/write-queries-that-use-window-functions/",
+        "Window functions in T-SQL",
+        "Microsoft Learn \u00b7 free official gap lesson"
+      ],
+      [
+        "https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/",
+        "Short SQL Server / T-SQL bridge",
+        "Microsoft Learn \u00b7 select relevant querying modules; optional local setup"
+      ]
+    ],
+    "items": [
+      "Foundations: SELECT, WHERE, ORDER BY, NULLs",
+      "Aggregations: COUNT/SUM/AVG, GROUP BY, HAVING, CASE",
+      "JOINs: INNER/LEFT/FULL/UNION \u2014 understand preserved rows",
+      "Window: ROW_NUMBER, RANK, LAG/LEAD, PARTITION BY",
+      "Project: 10 queries to GitHub (retail or Northwind sample)",
+      "Understand primary/foreign keys, row grain and duplicate keys.",
+      "Filter dates safely with half-open intervals and explicit date formats.",
+      "Use IS NULL, COALESCE and NULLIF; explain COUNT(*) vs COUNT(column).",
+      "Demonstrate how a one-to-many join can inflate totals.",
+      "Write and explain a subquery and a CTE solving the same problem.",
+      "Find top products per category with a ranking window.",
+      "Calculate month-on-month change with LAG and handle missing months.",
+      "Find unmatched rows with LEFT JOIN + IS NULL or NOT EXISTS.",
+      "Explain WHERE vs HAVING; UNION vs UNION ALL.",
+      "Save 30 queries with questions, expected outputs and reconciliation checks.",
+      "Complete a timed test without copying; review mistakes the following day.",
+      "Translate five existing queries to T-SQL and explain TOP vs LIMIT, date functions and FULL OUTER JOIN support.",
+      "Calculate a running total with an explicit ROWS frame and explain how ties affect ranking.",
+      "Read a simple query plan and distinguish a view from a temporary table; leave production tuning and database administration for later."
+    ],
+    "rule": "Use PostgreSQL for the main course. Spend a short bridge session translating TOP/LIMIT, GETDATE/CURRENT_DATE and DATEADD/DATEDIFF; do not install or master multiple database servers at once."
+  },
+  {
+    "id": "pbi",
+    "n": "04",
+    "name": "Power-up Arc",
+    "title": "Power BI, modelling & DAX",
+    "weeks": "9\u201313",
+    "hours": 60,
+    "boss": "Project 3: a retail performance dashboard with a star schema, validated measures and a 3-minute demo.",
+    "intro": "The hero skill is not adding charts. It is producing trustworthy measures and a page that helps a manager make one decision.",
+    "resources": [
+      [
+        "https://www.youtube.com/watch?v=FwjaHCVNBWA",
+        "Power BI for Data Analytics \u2014 Full Course",
+        "Luke Barousse \u00b7 ~8h25 \u00b7 English"
+      ],
+      [
+        "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+        "Star schema guidance",
+        "Microsoft \u00b7 official"
+      ],
+      [
+        "https://learn.microsoft.com/en-us/dax/",
+        "DAX reference",
+        "Microsoft \u00b7 official"
+      ],
+      [
+        "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-300",
+        "Service, security & refresh gap pack",
+        "Microsoft Learn \u00b7 current skills guide, not a claim of full exam readiness"
+      ]
+    ],
+    "items": [
+      "Get Data: Power Query clean/unpivot",
+      "Model: Star schema, date table",
+      "DAX: SUM, DIVIDE, CALCULATE and filter context",
+      "Visuals: KPI cards, slicers, drill-through and accessible labels",
+      "Publish: Understand Service, sharing and refresh limitations",
+      "Portfolio: Retail dashboard + README + screenshots",
+      "Build fact sales and product/date/store dimensions with unique keys.",
+      "Use one-to-many relationships and explain filter direction.",
+      "Distinguish measures, calculated columns and Power Query steps.",
+      "Create a complete date table and consistent time intelligence measures.",
+      "Validate at least five KPI totals against Excel or SQL.",
+      "Show prior-period comparison only when date coverage is comparable.",
+      "Add clear units, source date, metric definitions and caveats.",
+      "Test slicers, drill-through, blank values and zero denominators.",
+      "Understand that Publish to web is public: only use non-sensitive public/synthetic data.",
+      "Provide PDF/screenshots + demo if you cannot share a live report.",
+      "Start a small number of targeted applications once Projects 1\u20133 are explainable.",
+      "Explain Import vs DirectQuery, when an on-premises gateway is needed, and what can cause scheduled refresh to fail.",
+      "Create a simple row-level security role in Desktop and use View as to test it with synthetic data.",
+      "Explain workspace roles, Viewer vs editing permissions, and why Publish to web is not secure sharing.",
+      "Use Performance Analyzer once; remove unnecessary columns and investigate a slow visual.",
+      "Configure a tooltip/bookmark or navigation button, then test keyboard access, contrast and a mobile report layout."
+    ],
+    "rule": "Power BI Desktop authoring is free; some sharing and refresh options need licences. A paid subscription is not a prerequisite for portfolio evidence."
+  },
+  {
+    "id": "stats",
+    "n": "05",
+    "name": "Analyst Thinking Arc",
+    "title": "Statistics, quality & storytelling",
+    "weeks": "14\u201315",
+    "hours": 24,
+    "boss": "A one-page decision brief: one question, three checked findings, a recommendation and limitations.",
+    "intro": "Use these ideas throughout every project; these two weeks consolidate them. This is analytics, not a machine-learning detour.",
+    "resources": [
+      [
+        "https://www.khanacademy.org/math/statistics-probability",
+        "Statistics & probability",
+        "Khan Academy \u00b7 free \u00b7 selected topics"
+      ],
+      [
+        "https://www.ons.gov.uk/",
+        "UK official statistics",
+        "ONS \u00b7 metadata and methodology practice"
+      ]
+    ],
+    "items": [
+      "Statistics: Mean, median, standard deviation and outliers",
+      "Correlation: Correlation \u2260 causation; confounding",
+      "Story: Question \u2192 evidence \u2192 recommendation \u2192 limitation",
+      "Choose an appropriate denominator and avoid averaging averages.",
+      "Distinguish percentage change from percentage-point change.",
+      "Recognise sampling bias, selection bias and small sample problems.",
+      "Explain confidence intervals and uncertainty in plain English.",
+      "Describe a basic A/B test, control group and random assignment.",
+      "Check whether seasonality, missing periods or population changes affect comparisons.",
+      "Use bar/line charts appropriately and avoid misleading axis scales.",
+      "Define a KPI with unit, grain, owner, period and source.",
+      "Practise a 90-second explanation for a non-technical manager.",
+      "Apply a practical UK GDPR checklist: purpose, minimisation, accuracy, retention, access and accountability; escalate uncertainty to the data owner.",
+      "Define a reporting request with audience, KPI formula, source, deadline and two acceptance checks; this is analyst practice, not a Business Analyst syllabus.",
+      "If using AI to explain a query, use synthetic examples, verify the output independently and never paste confidential work data into an unapproved tool."
+    ],
+    "rule": "Never tick a finding until you can say what would make it wrong."
+  },
+  {
+    "id": "python",
+    "n": "06",
+    "name": "Automation Arc",
+    "title": "Python, pandas & reproducibility",
+    "weeks": "16\u201319",
+    "hours": 48,
+    "boss": "Project 4: a reproducible public-data analysis and a script that turns a raw CSV into a checked summary report.",
+    "intro": "Add Python after Excel, SQL and Power BI. Do not delay suitable applications because you have not finished a Python playlist.",
+    "resources": [
+      [
+        "https://www.youtube.com/watch?v=wUSDVGivd-8",
+        "Python for Data Analytics \u2014 Full Course",
+        "Luke Barousse \u00b7 ~11h \u00b7 English \u00b7 select relevant chapters"
+      ],
+      [
+        "https://pandas.pydata.org/docs/getting_started/intro_tutorials/",
+        "pandas introductory tutorials",
+        "Official \u00b7 free"
+      ],
+      [
+        "https://docs.python.org/3/tutorial/",
+        "Python tutorial",
+        "Official \u00b7 reference"
+      ]
+    ],
+    "items": [
+      "Python: Variables, lists, dictionaries, loops and functions",
+      "pandas: Read CSV, inspect, filter and select",
+      "Clean: Missing values, duplicates and data types",
+      "Analyse: groupby, merge, pivot_table",
+      "Visualise: Matplotlib or Seaborn with readable labels",
+      "Project: Notebook + README + reproducible outputs",
+      "Create a virtual environment and record package requirements.",
+      "Parse dates explicitly; inspect UK/US date ambiguity.",
+      "Validate merge keys and check row counts before/after joins.",
+      "Write reusable functions for load, clean, validate and export.",
+      "Use assertions for totals, unique keys and non-negative values where appropriate.",
+      "Export clean CSV + an Excel summary without overwriting raw files.",
+      "Re-run from a clean environment or a fresh Colab session.",
+      "Keep secrets and personal data out of notebooks and version control.",
+      "Create a tiny test fixture with known outputs to check one cleaning function and one aggregation.",
+      "Document relative paths, package versions and input/output filenames so another person can rerun the script."
+    ],
+    "rule": "One working automation is worth more than ten copied notebooks. Measure runtime or manual steps honestly; do not invent hours saved."
+  },
+  {
+    "id": "capstone",
+    "n": "07",
+    "name": "Final Boss Arc",
+    "title": "An end-to-end analytics capstone",
+    "weeks": "20\u201323",
+    "hours": 48,
+    "boss": "Project 5: an East Sussex public-data brief connecting SQL, a checked dataset and a Power BI dashboard, with a 5-minute walkthrough.",
+    "intro": "Combine skills you already learned. Choose a question you can defend, rather than adding more tools.",
+    "resources": [
+      [
+        "https://www.ons.gov.uk/",
+        "ONS datasets",
+        "Official public data \u00b7 select a manageable CSV"
+      ],
+      [
+        "https://data.eastsussex.gov.uk/",
+        "East Sussex in Figures",
+        "Local statistics & metadata"
+      ],
+      [
+        "https://www.data.gov.uk/",
+        "Find open data",
+        "UK data catalogue"
+      ]
+    ],
+    "items": [
+      "Choose one question: how has a selected local indicator changed over time?",
+      "Record source URL, download date, licence, geography and definitions.",
+      "Write a data dictionary and identify the grain of every table.",
+      "Keep immutable raw files and scripted cleaning steps.",
+      "Use SQL to answer at least eight meaningful questions.",
+      "Cross-check dashboard totals against SQL and an independent Excel calculation.",
+      "Explain missing data, boundary changes and incomparable time periods.",
+      "Create a concise dashboard with context, clear units and accessible colours.",
+      "Write a one-page insight brief, separating evidence from assumptions.",
+      "Document setup, refresh steps and known limitations in the README.",
+      "Record a 3\u20135 minute walkthrough: question, data, checks, insight, action.",
+      "Ask someone to reproduce one number and incorporate their feedback.",
+      "Polish your best three projects; keep two smaller ones as supporting evidence.",
+      "Create a one-page report runbook: owner, metric definitions, lineage, refresh timing, checks and what to do when the source changes.",
+      "Keep a short change log and have another person test the two acceptance checks before you call the report complete."
+    ],
+    "rule": "A reproducible analysis with caveats beats an attractive dashboard with unexplained numbers."
+  },
+  {
+    "id": "interview",
+    "n": "08",
+    "name": "Boss Dialogue Arc",
+    "title": "SQL tests & interview confidence",
+    "weeks": "24\u201325",
+    "hours": 24,
+    "boss": "Two timed SQL mocks, one Excel task, one dashboard critique and four truthful STAR stories.",
+    "intro": "Build this habit earlier with short weekly practice. These weeks focus on presenting evidence clearly under time pressure.",
+    "resources": [
+      [
+        "https://datalemur.com/questions",
+        "SQL interview questions",
+        "Practice \u00b7 some questions may require an account"
+      ],
+      [
+        "https://www.hackerrank.com/domains/sql",
+        "HackerRank SQL",
+        "Practice \u00b7 free account"
+      ]
+    ],
+    "items": [
+      "Explain a LEFT JOIN and demonstrate duplicate-row inflation aloud.",
+      "Complete two 30-minute SQL mocks and revisit every error.",
+      "Complete an Excel clean \u2192 lookup \u2192 pivot task from a fresh file.",
+      "Explain row context, filter context and CALCULATE using your report.",
+      "Present your flagship project in five minutes without reading notes.",
+      "Prepare a truthful 60-second introduction connecting your background, analytics practice and target role.",
+      "Write four STAR stories: quality, teamwork, prioritisation and difficult customer.",
+      "State limitations and what you would investigate next.",
+      "Practise asking clarifying questions before starting a take-home task.",
+      "Prepare questions on data quality, onboarding, tools and success measures.",
+      "Rehearse a salary conversation using the advert\u2019s range and role scope.",
+      "Use one person specification to build an evidence-to-criteria matrix, including genuine gaps, before writing a supporting statement."
+    ],
+    "rule": "A gap is not a failure: explain what you know, what you would check and how you would test it."
+  },
+  {
+    "id": "jobs",
+    "n": "09",
+    "name": "Endgame Arc",
+    "title": "Applications, referrals & feedback",
+    "weeks": "26\u201328",
+    "hours": 36,
+    "boss": "A sustainable weekly pipeline, tailored CV and project links; iterate on real feedback rather than waiting for perfection.",
+    "intro": "Applications can begin in week 13. Weeks 26\u201328 are a focused search sprint, not a promise that an offer arrives on a deadline.",
+    "resources": [
+      [
+        "https://www.jobs.nhs.uk/",
+        "NHS Jobs",
+        "Search analyst, information analyst, reporting"
+      ],
+      [
+        "https://www.civilservicejobs.service.gov.uk/",
+        "Civil Service Jobs",
+        "Check essential criteria and application format"
+      ],
+      [
+        "https://www.reed.co.uk/jobs/junior-data-analyst-jobs-in-eastbourne",
+        "Reed: Eastbourne search",
+        "Use wider geography and related role titles too"
+      ]
+    ],
+    "items": [
+      "Set alerts for Junior Data Analyst, MI Analyst, Reporting Analyst and BI Assistant.",
+      "Search Eastbourne, Lewes, Brighton/Hove and hybrid roles with a realistic commute.",
+      "Make a shortlist of ten employers; confirm vacancies on their own careers pages.",
+      "Write an ATS-readable CV with Excel, SQL, Power BI and project links near the top.",
+      "Describe your employment status accurately; list a role as current only while you still hold it.",
+      "Apply to around five well-matched roles per week when available; adjust to supply and rota.",
+      "Send two personalised networking/referral messages per week without spamming.",
+      "Track date, criteria, CV version, follow-up, outcome and feedback.",
+      "Follow up once when appropriate and respect no-contact instructions.",
+      "After 15\u201320 matched applications without screens, review CV, eligibility and targeting.",
+      "Practise weekly while applying; do not restart a new bootcamp after each rejection.",
+      "Check salary, hours, location, employment status and any right-to-work/sponsorship conditions.",
+      "Keep learning and searching beyond week 28 if needed; extend the timeline, not the guilt.",
+      "Create separate saved searches for Brighton/Hove, SE London boroughs, and wider-London roles; assess each commute from your actual home.",
+      "Check Level 3 Data Technician / Level 4 Data Analyst apprenticeships where eligible; verify each advert\u2019s qualifications, residency/funding and existing-qualification rules."
+    ],
+    "rule": "No guaranteed conversion rate. Your targets are controllable actions; interview and offer outcomes are not."
+  }
+]

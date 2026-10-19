@@ -1,0 +1,434 @@
+[
+  {
+    "id": "excel",
+    "title": "Excel & Power Query",
+    "sub": "Make everyday spreadsheet work faster.",
+    "rows": [
+      [
+        "Ctrl + T",
+        "Turn a range into an Excel Table."
+      ],
+      [
+        "Ctrl + Shift + L",
+        "Toggle filters."
+      ],
+      [
+        "Ctrl + Arrow / Ctrl + Shift + Arrow",
+        "Jump to / select to the edge of a data region."
+      ],
+      [
+        "Ctrl + 1 / Ctrl + Alt + V",
+        "Format Cells / Paste Special."
+      ],
+      [
+        "F2 / F4",
+        "Edit a cell / cycle reference anchors while editing a formula."
+      ],
+      [
+        "Alt + = / Ctrl + `",
+        "AutoSum / show formulas."
+      ],
+      [
+        "Ctrl + ; / Ctrl + Alt + F5",
+        "Insert today’s date / refresh all connections."
+      ],
+      [
+        "Alt, N, V",
+        "Open PivotTable options; press keys in sequence."
+      ]
+    ],
+    "code": "=SUMIFS(Sales[Revenue],Sales[Category],A2)\n=COUNTIFS(Sales[Status],\"Returned\")\n=XLOOKUP(A2,Products[ID],Products[Category],\"Not found\")\n=IFERROR(B2/C2,\"\")\n=TRIM(A2)\n=MEDIAN(Sales[Revenue])",
+    "notes": [
+      "Windows desktop shortcuts; laptop function keys may need Fn. Mac and web versions differ. XLOOKUP needs a supported Excel version.",
+      "Power Query routine: connect → preserve raw data → set types and UK date locale → trim/clean → investigate blanks and duplicates → merge/append → reconcile → load → refresh.",
+      "Merge adds columns by matching keys; append stacks rows. Check key uniqueness before a merge. Keep exception rows instead of silently deleting them.",
+      "Formula examples assume the named tables and columns exist. IFERROR is not a substitute for checking the denominator."
+    ],
+    "links": [
+      [
+        "Excel keyboard shortcuts",
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+      ]
+    ]
+  },
+  {
+    "id": "sql",
+    "title": "SQL & the T-SQL bridge",
+    "sub": "Remember the pattern, then check the result.",
+    "rows": [
+      [
+        "SELECT / WHERE",
+        "Choose columns / filter rows before grouping."
+      ],
+      [
+        "GROUP BY / HAVING",
+        "Aggregate by a defined grain / filter groups."
+      ],
+      [
+        "LEFT JOIN",
+        "Keep every left-hand row; watch for one-to-many multiplication."
+      ],
+      [
+        "COUNT(*) / COUNT(column)",
+        "Count rows / count non-NULL values."
+      ],
+      [
+        "IS NULL / COALESCE",
+        "Test missing values / choose a deliberate replacement."
+      ],
+      [
+        "WITH name AS (...)",
+        "Name a CTE to make query stages readable."
+      ],
+      [
+        "ROW_NUMBER / RANK / DENSE_RANK",
+        "Unique sequence / ties with gaps / ties without gaps."
+      ],
+      [
+        "LAG / LEAD",
+        "Read a previous / next row within an ordered partition."
+      ]
+    ],
+    "code": "WITH monthly AS (\n  SELECT category, SUM(revenue) AS sales\n  FROM sales\n  WHERE sale_date >= '2026-01-01'\n    AND sale_date < '2026-02-01'\n  GROUP BY category\n)\nSELECT category, sales,\n  DENSE_RANK() OVER (ORDER BY sales DESC) AS sales_rank\nFROM monthly;",
+    "notes": [
+      "Logical order, simplified: FROM/JOIN → WHERE → GROUP BY → HAVING → window calculations → SELECT → DISTINCT → ORDER BY → row limit. Write a CTE when you need to filter a window result.",
+      "T-SQL uses TOP (n) rather than PostgreSQL LIMIT n. Date functions, casts and identifier quoting vary; portable concepts do not make every query portable.",
+      "Use an explicit ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW frame for a row-by-row running total; order by a stable tie-breaker.",
+      "Before trusting a join: check key uniqueness, unmatched rows, row count and totals. Never use DISTINCT simply to conceal a broken join. Practise UPDATE/DELETE only in a safe copy."
+    ],
+    "links": [
+      [
+        "SQL reference",
+        "https://www.postgresql.org/docs/current/tutorial-sql.html"
+      ],
+      [
+        "T-SQL bridge",
+        "https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/"
+      ]
+    ]
+  },
+  {
+    "id": "powerbi",
+    "title": "Power BI, DAX & report operations",
+    "sub": "Fast authoring is useful. Reliable measures matter more.",
+    "rows": [
+      [
+        "Shift + ?",
+        "Show available Power BI Desktop keyboard shortcuts."
+      ],
+      [
+        "Ctrl + F6 / Tab / Shift + Tab",
+        "Move between sections / forward / backward."
+      ],
+      [
+        "Alt",
+        "Show ribbon keytips."
+      ],
+      [
+        "Ctrl + Enter",
+        "Submit a DAX formula."
+      ],
+      [
+        "Ctrl + G",
+        "Go to a line in the DAX formula bar."
+      ],
+      [
+        "Alt + Up / Down",
+        "Move a line in the DAX formula bar."
+      ],
+      [
+        "Ctrl + G (canvas editing)",
+        "Group selected visuals; the same keys have a different formula-bar meaning."
+      ],
+      [
+        "Esc",
+        "Exit a visual or layer."
+      ]
+    ],
+    "code": "Revenue = SUM(Sales[Revenue])\nOrders = DISTINCTCOUNT(Sales[OrderID])\nAverage Order Value = DIVIDE([Revenue], [Orders])\nRevenue All Categories =\n    CALCULATE([Revenue], REMOVEFILTERS(Products[Category]))",
+    "notes": [
+      "Create these as measures; tables and columns are illustrative. A measure responds to filter context. A calculated column is evaluated row by row at refresh and stored.",
+      "Model first: define fact-table grain, use dimension keys, prefer one-to-many relationships and deliberate filter direction. Confirm the date table before time-intelligence work.",
+      "Release check: reconcile KPI totals → test slicers and blanks → add clear units/alt text → inspect mobile view → run Performance Analyzer → test RLS roles.",
+      "Service checklist: workspace access, gateway where needed, credentials, scheduled refresh, refresh-failure ownership and sharing permissions. Desktop success is not proof of Service refresh or security."
+    ],
+    "links": [
+      [
+        "Official Power BI keyboard shortcuts",
+        "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-keyboard-shortcuts"
+      ],
+      [
+        "Official DAX reference",
+        "https://learn.microsoft.com/en-us/dax/"
+      ]
+    ]
+  },
+  {
+    "id": "stats",
+    "title": "Statistics, metrics & data quality",
+    "sub": "Keep the denominator, uncertainty and business question visible.",
+    "rows": [
+      [
+        "Mean / median",
+        "Mean is sensitive to outliers; median is useful for skewed values."
+      ],
+      [
+        "Weighted mean",
+        "SUM(value × weight) / SUM(weight); validate the weights."
+      ],
+      [
+        "Percentage change",
+        "(new − old) / old; format as a percentage and define what happens at old = 0."
+      ],
+      [
+        "Percentage points",
+        "30% − 20% = 10 percentage points; the relative increase is 50%."
+      ],
+      [
+        "Conversion rate",
+        "Conversions / eligible opportunities over a defined period."
+      ],
+      [
+        "IQR",
+        "Q3 − Q1; inspect the distribution before using outlier rules."
+      ],
+      [
+        "Sample / population spread",
+        "Use STDEV.S for sample estimation; STDEV.P for the full population described."
+      ],
+      [
+        "Correlation",
+        "Association is not evidence of causation."
+      ]
+    ],
+    "code": "BEFORE ANALYSIS\nQuestion → audience → metric → grain → period\n\nAFTER EVERY TRANSFORMATION\nRows → keys → missingness → totals → exceptions\n\nBEFORE SHARING\nSource → assumptions → limits → privacy → owner",
+    "notes": [
+      "A p-value is not the probability that the null hypothesis is true. Explain the test assumptions, effect size and uncertainty instead of treating 0.05 as an automatic business decision.",
+      "A frequentist 95% confidence procedure covers the fixed true parameter in 95% of repeated samples under its assumptions; it is not a guarantee about an individual outcome.",
+      "Missing is not automatically zero. Investigate causes and document any exclusion or imputation. Reconcile with an independent method where possible.",
+      "Use only permitted public/synthetic practice data. Minimise personal information, keep raw data unchanged and document transformations and retention."
+    ],
+    "links": [
+      [
+        "UK data-protection principles",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/"
+      ]
+    ]
+  },
+  {
+    "id": "python",
+    "title": "Python, pandas & plotting",
+    "sub": "Inspect first. Transform deliberately. Make the notebook reproducible.",
+    "rows": [
+      [
+        "df.head() / df.info()",
+        "Preview rows / inspect types and missing counts."
+      ],
+      [
+        "df.isna().sum() / df.duplicated().sum()",
+        "Count missing values / exact duplicate rows."
+      ],
+      [
+        "df.loc[mask, columns]",
+        "Select explicit rows and columns; avoid chained assignment."
+      ],
+      [
+        "pd.to_datetime(..., errors=\"coerce\")",
+        "Parse dates; inspect new NaT values instead of ignoring them."
+      ],
+      [
+        "groupby(...).agg(...)",
+        "Summarise at a defined grain."
+      ],
+      [
+        "merge(..., validate=\"many_to_one\")",
+        "Enforce the expected join relationship."
+      ],
+      [
+        "pd.concat([...], ignore_index=True)",
+        "Append matching tables."
+      ],
+      [
+        "sort_values(...) / to_csv(..., index=False)",
+        "Order the result / export without the index."
+      ]
+    ],
+    "code": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nsales = pd.read_csv(\"sales.csv\")\nproducts = pd.read_csv(\"products.csv\")\nout = sales.merge(products, on=\"product_id\",\n    how=\"left\", validate=\"many_to_one\", indicator=True)\nassert len(out) == len(sales)\nprint(out[\"_merge\"].value_counts())\nsummary = out.groupby(\"category\", dropna=False)[\"revenue\"].sum()\nsummary.sort_values().plot.barh()\nplt.xlabel(\"Revenue (£)\")\nplt.tight_layout()\nplt.savefig(\"revenue_by_category.png\", dpi=150)",
+    "notes": [
+      "Example assumes the listed CSV columns exist and revenue is numeric. Resolve unmatched keys before interpreting category totals. Decide how missing revenue should be handled before summing.",
+      "Create a virtual environment; install required libraries and record versions. Restart the kernel and run every cell in order before sharing.",
+      "Python basics to recall: = assigns; == compares; indentation defines blocks; lists are ordered; dictionaries map keys to values. Use functions for repeated transformations.",
+      "Name chart units, period and source. Use bars for category comparisons, lines for time series and scatter plots for relationships."
+    ],
+    "links": [
+      [
+        "pandas API",
+        "https://pandas.pydata.org/docs/"
+      ],
+      [
+        "Matplotlib cheat sheets",
+        "https://matplotlib.org/cheatsheets/"
+      ]
+    ]
+  },
+  {
+    "id": "git",
+    "title": "Setup, Git & README essentials",
+    "sub": "Keep the daily loop small and your public repository safe.",
+    "rows": [
+      [
+        "git status / git diff",
+        "Inspect changed files / inspect unstaged changes."
+      ],
+      [
+        "git add file / git diff --staged",
+        "Stage a specific file / inspect what will be committed."
+      ],
+      [
+        "git commit -m \"Message\"",
+        "Save a descriptive local checkpoint."
+      ],
+      [
+        "git pull --rebase",
+        "Update from the tracked remote; only use when you understand local history and conflicts."
+      ],
+      [
+        "git push / git log --oneline",
+        "Publish commits / review compact history."
+      ],
+      [
+        "git restore --staged file",
+        "Unstage a file without discarding the working copy."
+      ],
+      [
+        ".gitignore",
+        "Exclude credentials, private data, environments and generated files."
+      ],
+      [
+        "Markdown: # / ## / - / [title](URL)",
+        "Title / subheading / list / descriptive link."
+      ]
+    ],
+    "code": "git status\ngit diff\ngit add analysis.sql README.md\ngit diff --staged\ngit commit -m \"Add validated monthly sales analysis\"\ngit pull --rebase\ngit push\n\n# README headings\n# Question | Data | Method | Checks\n# Findings | Limits | Reproduce | Sources",
+    "notes": [
+      "Set up folders for raw data, cleaned data, SQL, notebooks, reports and screenshots. Power BI Desktop needs Windows access. Check Excel/Power Query version support before starting.",
+      "Do not use reset --hard, force push or history rewriting as a routine shortcut. Inspect files before staging; do not commit secrets or confidential data.",
+      "If a secret is exposed, revoke/rotate it immediately; deleting the latest file does not remove earlier Git history.",
+      "Add install/run steps, data source and licence, expected outputs and a screenshot. Check repository and demo links while logged out."
+    ],
+    "links": [
+      [
+        "GitHub Hello World",
+        "https://docs.github.com/en/get-started/start-your-journey/hello-world"
+      ],
+      [
+        "Markdown reference",
+        "https://www.markdownguide.org/cheat-sheet/"
+      ]
+    ]
+  },
+  {
+    "id": "projects",
+    "title": "Projects, capstone & handover",
+    "sub": "A repeatable workflow for every portfolio project.",
+    "rows": [
+      [
+        "1 · Define",
+        "Write one useful question, its reader, the metric and success criteria."
+      ],
+      [
+        "2 · Source",
+        "Record source, licence, date, grain and limitations."
+      ],
+      [
+        "3 · Profile",
+        "Check types, ranges, blanks, duplicate keys and suspicious values."
+      ],
+      [
+        "4 · Transform",
+        "Keep raw inputs unchanged; document and reproduce each step."
+      ],
+      [
+        "5 · Validate",
+        "Reconcile counts, joins and key totals independently."
+      ],
+      [
+        "6 · Explain",
+        "Show three findings, an actionable recommendation and limits."
+      ],
+      [
+        "7 · Deliver",
+        "Package the workbook/query/report/notebook, README and screenshots."
+      ],
+      [
+        "8 · Handover",
+        "Explain refresh, access, definitions, exceptions and who owns failures."
+      ]
+    ],
+    "code": "CASE STUDY IN SIX LINES\nQuestion: What decision does this support?\nData: Where did it come from and what does one row mean?\nMethod: What did I change or calculate?\nChecks: How do I know the result is sound?\nFinding: What changed, by how much, over which period?\nLimit: What can this analysis not establish?",
+    "notes": [
+      "Portfolio ladder: retail Excel → retail SQL → retail Power BI → public NHS pandas analysis → end-to-end regional capstone. Lead with your strongest three pieces.",
+      "Public healthcare projects need dataset definitions, reporting-period rules and published methodology. They do not prove experience with internal clinical systems.",
+      "Use screenshots, a PDF and a short demo if live sharing is unsuitable. Never use Publish to web for confidential or personal data.",
+      "Label synthetic work honestly. Describe what you built and verified; do not claim fictional savings, workplace deployment or business impact."
+    ],
+    "links": [
+      [
+        "Roadmap projects",
+        "#projects"
+      ]
+    ]
+  },
+  {
+    "id": "interviews",
+    "title": "Revision, interviews & applications",
+    "sub": "Short preparation routines—not shortcuts around understanding.",
+    "rows": [
+      [
+        "20-minute recall loop",
+        "5 minutes explain → 10 minutes solve → 5 minutes check and log one gap."
+      ],
+      [
+        "60-second introduction",
+        "Background → why analytics → evidence → role fit."
+      ],
+      [
+        "Project answer",
+        "Question → data → method → validation → finding → limitation."
+      ],
+      [
+        "Behavioural answer",
+        "Situation → task → action → result; describe your own contribution."
+      ],
+      [
+        "SQL test routine",
+        "Confirm grain and keys → write the query → test NULLs/ties → explain checks."
+      ],
+      [
+        "Role screening",
+        "Verify location, level, essential skills, deadline and genuine paid employment."
+      ],
+      [
+        "CV evidence",
+        "Tool + question answered + checks + truthful result; link the project."
+      ],
+      [
+        "Application tracking",
+        "Role, employer, URL, closing date, fit, tailored evidence, status and follow-up."
+      ]
+    ],
+    "code": "WEEKLY REVIEW\n1. What can I now do without copying?\n2. Which result have I independently checked?\n3. What is the smallest remaining blocker?\n4. Which role criteria can I demonstrate today?\n5. What is my next repeatable practice session?",
+    "notes": [
+      "Apply when you meet a role’s essential criteria; the roadmap week is not a ban on earlier applications. Excel-led reporting roles can have different requirements from SQL/BI roles.",
+      "Keep one main resource per tool. After a lesson, close it and reproduce the task on a different small dataset. Extend the calendar when needed rather than abandoning the habit.",
+      "Use truthful dates, responsibilities and results. A personal project is not employment experience and a certificate is not proof of independent delivery.",
+      "During an interview, clarify assumptions, explain uncertainty and say how you would verify an unfamiliar detail. Do not bluff or use unauthorised assistance."
+    ],
+    "links": [
+      [
+        "UK data analyst career guidance",
+        "https://www.prospects.ac.uk/job-profiles/data-analyst/"
+      ]
+    ]
+  }
+]

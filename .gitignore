@@ -1,0 +1,13 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Backup files (prevents pushing huge duplicate 14MB backups to GitHub)
+*.bak
+*.before_*
+*.orig
+
+# Node / local caches
+.vercel
+node_modules/
+.sudo_as_admin_successful

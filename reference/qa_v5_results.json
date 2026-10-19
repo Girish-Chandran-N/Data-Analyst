@@ -1,0 +1,12 @@
+{
+  "ticks": "label/native/keyboard, no jump, refresh persistence passed",
+  "existing_saved_keys": "preserved; new items start unchecked",
+  "backup": "export/download/import passed",
+  "navigation": "expand/collapse, resume and evidence filter passed",
+  "responsive": "no horizontal overflow at 320, 360, 390, 650, 768, 900, 1024, 1440, 1920px; mobile menu passed",
+  "js_errors": [],
+  "pdf_pages": 51,
+  "pdf_missing_checkpoint_text": [],
+  "pdf_sparse_pages": [],
+  "xlsx": "valid OOXML archive; updated audit and checkpoint sheets"
+}

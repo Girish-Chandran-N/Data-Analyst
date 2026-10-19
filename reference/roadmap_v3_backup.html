@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Operation Data Analyst · Eastbourne Roadmap 2026</title>
+<style>
+  /* ===== KERALA REFERENCE PALETTE ===== */
+  :root{
+    --bg:#fdfbf7;
+    --paper:#ffffff;
+    --border:#f0e6d3;
+    --border2:#e8ddd0;
+    --ink:#121126;
+    --muted:#6b7280;
+    --muted2:#8a8a9a;
+    --orange:#ff4d12;
+    --orange-soft:#fff1e6;
+    --peach:#ffe7d1;
+    --peach-text:#9a3412;
+    --mint:#d1fae5;
+    --mint-text:#065f46;
+    --lavender:#ede9fe;
+    --lavender-text:#5b21b6;
+    --gray-pill:#f3f4f6;
+    --gray-text:#374151;
+    --teal:#0e7490;
+    --teal-fill:#0e7490;
+    --dark-card:#0f0f14;
+    --dark-card2:#15151f;
+    --cream:#fdfbf7;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth; scroll-padding-top:80px}
+  body{font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; -webkit-font-smoothing:antialiased}
+  a{color:#0e7490; text-decoration:none}
+  a:hover{text-decoration:underline}
+  /* TOP EDITION BAR */
+  .edition-bar{display:flex;justify-content:center;padding:10px 16px;background:var(--bg)}
+  .edition-pill{display:inline-flex;align-items:center;gap:8px;background:white;border:1px solid var(--border);padding:6px 14px;border-radius:20px;font-size:0.72rem;font-weight:800;letter-spacing:0.7px;color:var(--ink)}
+  .edition-pill .dot{width:8px;height:8px;border-radius:50%;background:#16a34a;display:inline-block}
+  /* STICKY NAV - light like Kerala website */
+  nav{position:sticky;top:0;z-index:50;background:rgba(253,251,247,0.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:10px 18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+  nav .logo{font-weight:900;font-size:0.98rem;letter-spacing:-0.4px;color:var(--ink)}
+  nav .logo span{background:linear-gradient(90deg,#ff5a2e,#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  nav ul{list-style:none;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+  nav ul a{color:var(--muted);padding:7px 12px;border-radius:20px;font-size:0.82rem;font-weight:600;transition:0.2s;border:1px solid transparent}
+  nav ul a:hover{background:white;border-color:var(--border);color:var(--ink);text-decoration:none}
+  nav ul a.active{background:var(--ink);color:white;border-color:var(--ink)}
+  /* PROGRESS TOP */
+  .progress-top{height:4px;background:#f3f4f6;position:sticky;top:53px;z-index:49}
+  #progressBar{height:100%;width:0%;background:linear-gradient(90deg,#0e7490,#06b6d4);transition:width 0.5s}
+  /* HERO - light cream like Kerala */
+  .hero{padding:22px 18px 18px; background:var(--bg)}
+  .hero-inner{max-width:1100px;margin:0 auto}
+  .hero h1{font-size:clamp(1.9rem,5vw,3.1rem);line-height:1.02;font-weight:900;letter-spacing:-1px;color:var(--ink);margin-top:10px}
+  .hero h1 .grad{background:linear-gradient(90deg,#ff4d12 10%, #e83d7a 50%, #7c3aed 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  .hero .lead{color:#4b5563;font-size:0.98rem;max-width:720px;margin-top:10px;line-height:1.6}
+  .hero-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+  .badge-pill{background:white;border:1px solid var(--border);padding:7px 12px;border-radius:20px;font-size:0.78rem;font-weight:700;color:var(--gray-text);display:inline-flex;align-items:center;gap:6px}
+  .badge-pill b{color:var(--ink)}
+  /* HERO PROGRESS CARD - like Kerala 2% card */
+  .hero-progress{background:white;border:1px solid var(--border);border-radius:16px;padding:14px 16px;margin-top:16px;display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;box-shadow:0 4px 18px rgba(0,0,0,0.04)}
+  .hero-progress .pct{font-size:1.7rem;font-weight:900;color:#0e7490;line-height:1}
+  .hero-progress .pct small{font-size:0.9rem;color:var(--teal)}
+  .hero-progress .bar-wrap{flex:1}
+  .hero-progress .bar-head{display:flex;justify-content:space-between;font-size:0.76rem;font-weight:700;color:var(--muted);margin-bottom:6px}
+  .hero-progress .bar{height:8px;background:#f3f4f6;border-radius:20px;overflow:hidden}
+  .hero-progress .fill{height:100%;background:linear-gradient(90deg,#0e7490,#06b6d4);border-radius:20px;transition:width 0.5s}
+  .hero-progress .foot{grid-column:1/-1;font-size:0.78rem;color:var(--muted);margin-top:2px}
+  /* HERO IMAGE - like Kerala futuristic city */
+  .hero-image{margin-top:16px;background:white;border:1px solid var(--border);border-radius:18px;overflow:hidden;height:220px;position:relative;box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+  .hero-image img{width:100%;height:100%;object-fit:cover}
+  .hero-image .overlay{position:absolute;inset:0;background:linear-gradient(180deg, transparent 40%, rgba(255,255,255,0.85) 100%);display:flex;align-items:flex-end;padding:12px}
+  .hero-image .overlay p{font-size:0.78rem;color:var(--muted);background:rgba(255,255,255,0.9);padding:6px 10px;border-radius:20px;border:1px solid var(--border)}
+  /* SECTION */
+  .container{max-width:1100px;margin:0 auto;padding:0 18px}
+  section{padding:28px 0}
+  .kicker{font-size:0.70rem;letter-spacing:0.9px;font-weight:900;color:var(--orange);margin-bottom:6px}
+  .section-title h2{font-size:clamp(1.4rem,3vw,2rem);font-weight:900;letter-spacing:-0.6px;color:var(--ink);line-height:1.15}
+  .section-title h2 span{color:var(--muted2);font-weight:700}
+  .section-title p{color:var(--muted);max-width:720px;margin-top:8px;font-size:0.92rem;line-height:1.5}
+  .divider{width:48px;height:3px;background:var(--orange);border-radius:10px;margin:10px 0}
+  /* TRAINING ARC - DARK CARDS like Kerala */
+  .training-arc{padding:20px 0 10px}
+  .arc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:14px}
+  .arc-card{background:var(--dark-card);border-radius:18px;overflow:hidden;border:1px solid #1f1f2a;box-shadow:0 10px 26px rgba(0,0,0,0.18);display:flex;flex-direction:column}
+  .arc-image{height:148px;overflow:hidden;position:relative;background:#0a0a0f}
+  .arc-image img{width:100%;height:100%;object-fit:cover;object-position:top center;filter:brightness(0.95) contrast(1.05)}
+  .arc-image::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg, transparent 45%, rgba(15,15,20,0.85) 100%)}
+  .arc-label{position:absolute;top:10px;left:10px;z-index:2;background:rgba(255,255,255,0.12);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.18);color:white;font-weight:900;font-size:0.65rem;padding:4px 8px;border-radius:20px;letter-spacing:0.7px}
+  .arc-content{padding:14px 14px 16px;background:linear-gradient(180deg,#0f0f14 0%, #15151f 100%)}
+  .arc-subtitle{color:#ff8b6b;font-weight:900;font-size:0.68rem;letter-spacing:0.9px;margin-bottom:4px}
+  .arc-card h4{color:white;font-size:1rem;font-weight:900;line-height:1.2}
+  .arc-card p{color:#a1a1b2;font-size:0.82rem;line-height:1.5;margin-top:6px}
+  .arc-card p b{color:#e2e8f0}
+  /* MARKET INTEL CARDS - light like Kerala */
+  .intel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:16px}
+  .intel-card{background:white;border:1px solid var(--border);border-radius:16px;padding:16px;box-shadow:0 2px 12px rgba(0,0,0,0.03);position:relative}
+  .intel-card h3{font-size:0.98rem;font-weight:900;color:var(--ink);display:flex;align-items:center;gap:8px}
+  .intel-card h3 .icon{width:28px;height:28px;border-radius:8px;display:grid;place-items:center;color:white;font-size:0.9rem}
+  .intel-card p{font-size:0.85rem;color:var(--muted);margin-top:6px;line-height:1.5}
+  .stat-big{font-size:1.45rem;font-weight:900;color:var(--orange);margin-top:8px}
+  .stat-big span{font-size:0.78rem;color:var(--muted);font-weight:600}
+  .pill{font-size:0.70rem;padding:4px 9px;border-radius:20px;font-weight:800;display:inline-block;margin-top:6px}
+  .pill.must{background:var(--peach);color:var(--peach-text);border:1px solid #ffd1b0}
+  .pill.should{background:var(--mint);color:var(--mint-text);border:1px solid #a7f3d0}
+  .pill.bonus{background:var(--lavender);color:var(--lavender-text);border:1px solid #ddd6fe}
+  .pill.later{background:var(--gray-pill);color:var(--gray-text);border:1px solid #e5e7eb}
+  .tool-row{display:flex;justify-content:space-between;align-items:center;margin:8px 0;font-size:0.84rem}
+  .bar{flex:1;height:7px;background:#f3f4f6;border-radius:20px;margin:0 10px;overflow:hidden}
+  .fill{height:100%;border-radius:20px}
+  /* TOOL TABLE - Kerala style */
+  .tool-table{width:100%;border-collapse:separate;border-spacing:0;margin-top:14px;background:white;border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.03)}
+  .tool-table th{background:#fdf8ef;color:var(--muted);font-size:0.68rem;letter-spacing:0.7px;text-transform:uppercase;padding:10px 12px;text-align:left;border-bottom:1px solid var(--border)}
+  .tool-table td{padding:10px 12px;font-size:0.86rem;border-bottom:1px solid #f5f0e6;vertical-align:top}
+  .tool-table tr:last-child td{border-bottom:none}
+  .tool-table td:first-child{font-weight:800;color:var(--ink);white-space:nowrap}
+  .tool-table .desc{color:var(--muted);font-size:0.82rem;line-height:1.4}
+  /* TIMELINE */
+  .roadmap-wrap{background:white;border:1px solid var(--border);border-radius:18px;padding:18px;margin-top:16px;box-shadow:0 4px 16px rgba(0,0,0,0.03)}
+  .roadmap-label{text-align:center;font-size:0.70rem;letter-spacing:0.8px;font-weight:900;color:white;background:linear-gradient(90deg,#0e7490,#06b6d4);padding:6px;border-radius:20px;display:inline-block;margin:0 auto 14px;position:relative;left:50%;transform:translateX(-50%)}
+  .timeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+  .phase{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:14px;position:relative}
+  .phase-num{position:absolute;top:-8px;left:12px;background:var(--ink);color:white;font-weight:900;padding:3px 8px;border-radius:20px;font-size:0.68rem}
+  .phase h4{margin-top:6px;font-size:0.92rem;font-weight:900;color:var(--ink)}
+  .phase .time{font-size:0.72rem;color:#0e7490;font-weight:800;margin-bottom:6px}
+  .phase ul{margin:6px 0 0 16px;font-size:0.82rem;color:var(--muted)}
+  .phase .outcome{margin-top:10px;background:#ecfdf5;border:1px solid #a7f3d0;padding:7px 9px;border-radius:10px;font-size:0.76rem;color:#065f46;font-weight:600}
+  /* QUOTE POSTER - like Kerala Nindo Rule full-width motivational */
+  .quote-poster{background:var(--dark-card);border-radius:18px;overflow:hidden;border:1px solid #1f1f2a;display:grid;grid-template-columns:1.35fr 0.95fr;margin:18px 0;box-shadow:0 10px 26px rgba(0,0,0,0.15)}
+  .quote-poster .img{position:relative;height:240px;overflow:hidden}
+  .quote-poster .img img{width:100%;height:100%;object-fit:cover;object-position:center top}
+  .quote-poster .img::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%, #0f0f14 100%);opacity:0.6}
+  .quote-poster .text{padding:18px;display:flex;flex-direction:column;justify-content:center}
+  .quote-poster .eyebrow{color:#ff8b6b;font-weight:900;font-size:0.68rem;letter-spacing:0.9px}
+  .quote-poster h3{color:white;font-size:1.15rem;font-weight:900;line-height:1.25;margin-top:6px}
+  .quote-poster p{color:#a1a1b5;font-size:0.86rem;line-height:1.5;margin-top:8px}
+  .quote-poster p b{color:white}
+  @media(max-width:760px){.quote-poster{grid-template-columns:1fr} .quote-poster .img{height:200px} .quote-poster .img::before{background:linear-gradient(0deg,#0f0f14 0%, transparent 50%)}}
+  /* TOPIC CARD - Kerala checklist style */
+  .topic-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:18px}
+  .topic-card{background:white;border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:0 3px 12px rgba(0,0,0,0.03)}
+  .topic-head{padding:14px 16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;cursor:pointer;user-select:none;transition:0.2s;background:#fffdf4;border-bottom:1px solid var(--border)}
+  .topic-card.open .topic-head{background:white}
+  .topic-head:hover{background:#fff9e6}
+  .topic-head h3{font-size:1rem;font-weight:900;color:var(--ink);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .topic-head .meta{font-size:0.76rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+  .topic-head .chev{width:28px;height:28px;border-radius:50%;background:var(--ink);color:white;display:grid;place-items:center;font-size:0.8rem;transition:0.2s}
+  .topic-card:not(.open) .chev{transform:rotate(-90deg);background:#f3f4f6;color:var(--muted)}
+  .topic-body{padding:16px;display:grid;gap:12px}
+  .topic-card:not(.open) .topic-body{display:none}
+  .topic-intro{background:#f8fafc;border:1px solid #e2e8f0;padding:10px 12px;border-radius:10px;font-size:0.84rem;color:var(--muted);line-height:1.5}
+  .topic-intro b{color:var(--ink)}
+  .checklist{display:grid;gap:8px}
+  .check-item{display:flex;gap:10px;align-items:flex-start;background:#fffefb;border:1px solid var(--border);padding:10px 12px;border-radius:10px;font-size:0.86rem;transition:0.15s;cursor:pointer}
+  .check-item:hover{border-color:#e5d6b8;background:white;transform:translateY(-1px);box-shadow:0 3px 10px rgba(0,0,0,0.04)}
+  .check-item input{margin-top:2px;accent-color:#0e7490;width:18px;height:18px;flex-shrink:0;cursor:pointer}
+  .check-item.done{background:#f0fdf4;border-color:#86efac}
+  .check-item.done strong{color:#065f46}
+  .tag{font-size:0.66rem;padding:3px 7px;border-radius:20px;font-weight:800;white-space:nowrap}
+  .tag-core{background:var(--peach);color:var(--peach-text);border:1px solid #ffd1b0} 
+  .tag-pro{background:var(--lavender);color:var(--lavender-text);border:1px solid #ddd6fe} 
+  .tag-portfolio{background:var(--mint);color:var(--mint-text);border:1px solid #a7f3d0}
+  .video-card{display:grid;grid-template-columns:48px 1fr auto;gap:10px;align-items:center;background:#fffefb;border:1px solid var(--border);padding:10px;border-radius:12px}
+  .video-thumb{width:46px;height:46px;border-radius:10px;background:linear-gradient(135deg,#0f172a,#0e7490);display:grid;place-items:center;color:white;font-size:1.1rem}
+  .video-info h4{font-size:0.86rem;font-weight:800;line-height:1.3;color:var(--ink)}
+  .video-info p{font-size:0.76rem;color:var(--muted)}
+  .video-link a{background:var(--ink);color:white;padding:7px 12px;border-radius:20px;font-size:0.76rem;font-weight:700;display:inline-block}
+  .video-link a:hover{background:#1e293b;text-decoration:none}
+  .level{font-size:0.66rem;padding:3px 7px;border-radius:20px;font-weight:800}
+  .level-beginner{background:#dcfce7;color:#166534} .level-inter{background:#fef3c7;color:#92400e} .level-adv{background:#fee2e2;color:#991b1b}
+  .shortcut-box{background:var(--orange-soft);border:1px solid #ffd1b0;padding:10px 12px;border-radius:12px;font-size:0.82rem;line-height:1.5}
+  .shortcut-box a{font-weight:800;color:#9a3412}
+  .anime-banner{display:grid;grid-template-columns:92px 1fr;gap:12px;align-items:center;background:white;border:1px solid var(--border);border-radius:12px;padding:10px;margin:14px 0;box-shadow:0 3px 10px rgba(0,0,0,0.03)}
+  .anime-banner img{width:92px;height:92px;object-fit:cover;border-radius:10px;border:1px solid var(--border)}
+  .anime-banner h4{font-size:0.92rem;font-weight:900;color:var(--ink)}
+  .anime-banner p{font-size:0.82rem;color:var(--muted);margin-top:4px}
+  .anime-banner .tagline{margin-top:6px;font-size:0.70rem;font-weight:800;padding:4px 8px;border-radius:20px;display:inline-block}
+  .anime-banner.naruto .tagline{background:#ffedd5;color:#9a3412} .anime-banner.mha .tagline{background:#dcfce7;color:#166534} .anime-banner.solo .tagline{background:#e0f2fe;color:#0c4a6e}
+  @media(max-width:560px){.anime-banner{grid-template-columns:80px 1fr} .anime-banner img{width:80px;height:80px}}
+  /* CHEATS */
+  .cheat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:14px}
+  .cheat-card{background:white;border:1px solid var(--border);border-radius:14px;padding:14px;text-align:center;transition:0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.03)}
+  .cheat-card:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,0.06)}
+  .cheat-card .icon{font-size:1.6rem}
+  .cheat-card h4{font-size:0.88rem;font-weight:900;margin-top:6px;color:var(--ink)}
+  .cheat-card p{font-size:0.76rem;color:var(--muted);margin:4px 0 8px}
+  .cheat-card a{background:var(--ink);color:white;padding:7px 12px;border-radius:20px;font-size:0.76rem;font-weight:700;display:inline-block}
+  /* PROJECTS */
+  .project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:14px}
+  .project-card{background:white;border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:0 3px 12px rgba(0,0,0,0.03)}
+  .project-top{height:108px;background:linear-gradient(135deg,#0f172a,#0e7490);display:grid;place-items:center;color:white;font-size:1.9rem;position:relative}
+  .project-top span.label{position:absolute;bottom:8px;left:10px;background:rgba(0,0,0,0.35);backdrop-filter:blur(4px);padding:4px 8px;border-radius:20px;font-size:0.68rem;border:1px solid rgba(255,255,255,0.2)}
+  .project-body{padding:14px}
+  .project-body h4{font-size:0.92rem;font-weight:900;color:var(--ink)}
+  .project-body p{font-size:0.82rem;color:var(--muted);margin-top:6px;line-height:1.5}
+  .project-body ul{margin:8px 0 0 16px;font-size:0.81rem;color:var(--muted)}
+  /* MEME WALL */
+  .meme-wall{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:16px}
+  .meme-card{background:white;border:1px solid var(--border);border-radius:16px;overflow:hidden;text-align:center;transition:0.2s}
+  .meme-card:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,0.06)}
+  .meme-card img{width:100%;height:210px;object-fit:cover;display:block}
+  .meme-card .cap{padding:12px}
+  .meme-card .cap h4{font-size:0.88rem;font-weight:900;color:var(--ink)}
+  .meme-card .cap p{font-size:0.78rem;color:var(--muted);margin-top:4px}
+  /* TOAST */
+  #toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:white;padding:10px 16px;border-radius:30px;font-weight:800;font-size:0.84rem;box-shadow:0 12px 30px rgba(0,0,0,0.18);opacity:0;pointer-events:none;transition:0.3s;z-index:100;display:flex;gap:8px;align-items:center}
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .quickbar{display:none}
+  @media(max-width:720px){
+    nav ul{gap:4px}
+    .quickbar{display:flex;position:sticky;bottom:0;z-index:40;background:white;border-top:1px solid var(--border);padding:8px 10px;gap:8px;justify-content:space-around;box-shadow:0 -6px 18px rgba(0,0,0,0.04)}
+    .quickbar a{flex:1;text-align:center;background:#f8fafc;padding:8px 6px;border-radius:12px;font-size:0.74rem;font-weight:800;color:var(--ink);border:1px solid var(--border)}
+    .quickbar a.primary{background:var(--ink);color:white;border-color:var(--ink)}
+    .video-card{grid-template-columns:44px 1fr}
+    .video-link{grid-column:1/-1}
+    .video-link a{width:100%;text-align:center}
+  }
+  footer{background:var(--ink);color:#a1a1b5;text-align:center;padding:26px 18px;margin-top:30px;border-radius:18px 18px 0 0}
+  footer h3{color:white;font-weight:900}
+</style>
+</head>
+<body>
+
+<!-- EDITION BAR like Kerala -->
+<div class="edition-bar"><span class="edition-pill"><span class="dot"></span> EASTBOURNE & SOUTH COAST EDITION · OCT 2026</span></div>
+
+<nav>
+  <div class="logo">Lidl Customer Assistant → <span>Junior Data Analyst</span></div>
+  <ul>
+    <li><a href="#market">Market</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#checklist">Learn</a></li>
+    <li><a href="#projects">Portfolio</a></li>
+    <li><a href="#jobs">Hired</a></li>
+  </ul>
+</nav>
+<div class="progress-top"><div id="progressBar"></div></div>
+
+<!-- HERO - light Kerala style -->
+<header class="hero">
+  <div class="hero-inner">
+    <h1>From Lidl till to<br><span class="grad">Data Analyst desk.</span></h1>
+    <p class="lead">A 28-week shōnen-style training plan built around <b>Lidl shifts</b> + Eastbourne life. Research-backed for the 2026 UK job market — with every YouTube link verified. You know Excel, started SQL. We finish Power BI + Python + portfolio.</p>
+    <div class="hero-badges">
+      <span class="badge-pill">🗓 28 weeks</span>
+      <span class="badge-pill">⏱ ~12h / week</span>
+      <span class="badge-pill">📊 Excel + SQL + Power BI</span>
+      <span class="badge-pill">🐍 Python + Portfolio</span>
+    </div>
+    <div class="hero-progress">
+      <div class="pct"><span id="heroPct">0%</span></div>
+      <div class="bar-wrap">
+        <div class="bar-head"><span id="heroCount">0 / 34 checkpoints (🌱 E-Rank Hunter)</span><span id="heroPct2">0%</span></div>
+        <div class="bar"><div class="fill" id="heroFill" style="width:0%"></div></div>
+      </div>
+      <div class="foot">Tick boxes as you finish topics — progress saves in browser. Works around early/late shifts at Lidl.</div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1501973801540-537f08ccae7b?q=80&w=1200&auto=format&fit=crop" alt="Sunrise over Eastbourne coast with data city overlays" onerror="this.style.display='none'">
+      <div class="overlay"><p>📍 Eastbourne → Brighton (30min) → Remote London • Your Lidl retail ops = analyst edge</p></div>
+    </div>
+  </div>
+</header>
+
+<!-- TRAINING ARC -->
+<section class="training-arc">
+  <div class="container">
+    <div class="kicker">TRAINING ARC</div>
+    <div class="section-title"><h2>Real anime energy — <span>because a PDF never made anyone grind at 5:30 AM.</span></h2></div>
+    <div class="arc-grid">
+      <div class="arc-card">
+        <div class="arc-image"><img src="images/dbz_real.jpg" alt="Dragon Ball Z Goku real poster"><span class="arc-label">DBZ</span></div>
+        <div class="arc-content"><div class="arc-subtitle">DRAGON BALL Z ARC</div><h4>Work hard in silence.</h4><p>Goku didn't unlock Super Saiyan by watching 22 hours of tutorials. <b>6 hours today. 6 hours tomorrow.</b> That's the entire secret.</p></div>
+      </div>
+      <div class="arc-card">
+        <div class="arc-image"><img src="images/naruto_real.jpg" alt="Naruto real poster"><span class="arc-label">NARUTO</span></div>
+        <div class="arc-content"><div class="arc-subtitle">NARUTO ARC</div><h4>Zero talent? Perfect.</h4><p>Rock Lee had no ninjutsu and still outworked every genius. You have zero analyst background. <b>Same energy, 28 weeks.</b></p></div>
+      </div>
+      <div class="arc-card">
+        <div class="arc-image"><img src="images/mha_real.jpg" alt="MHA Plus Ultra real poster"><span class="arc-label">MHA</span></div>
+        <div class="arc-content"><div class="arc-subtitle">MY HERO ACADEMIA ARC</div><h4>Plus Ultra. Every day.</h4><p>Deku was Quirkless. You are Excel-less. <b>Your quirk is turning messy sheets into insights.</b> Train it daily.</p></div>
+      </div>
+      <div class="arc-card">
+        <div class="arc-image"><img src="images/solo_real.jpg" alt="Solo Leveling real poster"><span class="arc-label">SOLO LEVELING</span></div>
+        <div class="arc-content"><div class="arc-subtitle">SOLO LEVELING ARC</div><h4>E-rank → S-rank.</h4><p>Day 1: "What is SELECT?" Day 120: shipping a dashboard. <b>Level up once a week and watch it compound.</b></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARKET INTEL -->
+<section id="market">
+  <div class="container">
+    <div class="kicker">MARKET INTEL · 2026</div>
+    <div class="section-title"><h2>What the UK market is actually paying for</h2><p>Live job ads, Adzuna & IT Jobs Watch so your 300 study hours go where the interviews are — not where the tutorials are.</p></div>
+    <div class="intel-grid">
+      <div class="intel-card"><h3><span class="icon" style="background:#0e7490">◐</span> Demand signal</h3><div class="stat-big">65% <span>Power BI in junior ads (NHS, councils, retail)</span></div><p>Microsoft stack dominates in East Sussex. Tableau ~30%. Power BI is your differentiator.</p><a href="https://www.itjobboard.co.uk" target="_blank" style="font-size:0.76rem;font-weight:800;color:#0e7490">source ↗</a></div>
+      <div class="intel-card"><h3><span class="icon" style="background:var(--orange)">◎</span> SQL non-negotiable</h3><div class="stat-big">100% <span>Junior Data Analyst ads list SQL</span></div><p>Not Excel-only. Live test: JOIN 3 tables, window functions. This is the filter.</p><a href="https://www.prospects.ac.uk/job-profiles/data-analyst" target="_blank" style="font-size:0.76rem;font-weight:800;color:#0e7490">source ↗</a></div>
+      <div class="intel-card"><h3><span class="icon" style="background:#16a34a">£</span> Salary reality</h3><div class="stat-big">£33k <span>Average junior DA UK (Career Smarter) • Brighton £26-32k entry</span></div><p>Mid-level in 2-3 yrs → £45-60k. Python adds £5-10k.</p><span class="pill must">NHS Sussex</span><span class="pill should">Councils</span><span class="pill bonus">Retail HQ</span></div>
+    </div>
+
+    <!-- TOOL TABLE - Kerala style -->
+    <table class="tool-table">
+      <thead><tr><th>Tool / Skill</th><th>Why it matters in UK</th><th>Priority</th><th>When</th></tr></thead>
+      <tbody>
+        <tr><td>SQL</td><td class="desc">Every junior DA JD lists it. JOINs, CASE, CTEs, window functions tested live.</td><td><span class="pill must">MUST</span></td><td>Week 1-5</td></tr>
+        <tr><td>Excel (Advanced)</td><td class="desc">PivotTables, XLOOKUP, Power Query — 80% of day-1 tasks. Your Lidl sheets = training.</td><td><span class="pill must">MUST</span></td><td>Week 1-5</td></tr>
+        <tr><td>Power BI</td><td class="desc">DAX, star schema, Service publish. Most valued BI tool in UK enterprise.</td><td><span class="pill must">MUST</span></td><td>Week 6-11</td></tr>
+        <tr><td>Python (pandas)</td><td class="desc">Automate reports, larger datasets. Biggest salary accelerator, not blocker.</td><td><span class="pill should">SHOULD</span></td><td>Week 12-18</td></tr>
+        <tr><td>Statistics & Storytelling</td><td class="desc">Mean vs median, correlation ≠ causation, dashboard storytelling for managers.</td><td><span class="pill should">SHOULD</span></td><td>Throughout</td></tr>
+        <tr><td>Git / GitHub</td><td class="desc">Your portfolio proof. Push Excel/PBIX/SQL scripts with READMEs.</td><td><span class="pill should">SHOULD</span></td><td>Week 2</td></tr>
+        <tr><td>BCS / PL-300 certs</td><td class="desc">PL-300 (£135) respected for PBI roles. Do after 2 dashboards, not before.</td><td><span class="pill bonus">BONUS</span></td><td>After core</td></tr>
+        <tr><td>Business Analyst (BPMN, Jira)</td><td class="desc">Nice for hybrid roles, not needed for pure DA. Keep for Year 2 if needed.</td><td><span class="pill later">LATER</span></td><td>Year 2</td></tr>
+      </tbody>
+    </table>
+    <p style="text-align:center;color:var(--muted);font-size:0.78rem;margin-top:8px">Bottom line: <b>Excel (you're here) → SQL → Power BI → Projects → Python</b>. That order gets interviews fastest in UK 2026.</p>
+  </div>
+</section>
+
+<!-- QUOTE POSTER 1 - Full width motivational like Kerala Naruto page -->
+<div class="container">
+  <div class="quote-poster">
+    <div class="img"><img src="images/naruto_real.jpg" alt="Naruto motivational quote poster"><div style="position:absolute;top:12px;left:12px;background:rgba(0,0,0,0.5);color:white;padding:4px 8px;border-radius:20px;font-size:0.68rem;font-weight:900;border:1px solid rgba(255,255,255,0.2)">NARUTO</div></div>
+    <div class="text">
+      <div class="eyebrow">THE NINDŌ RULE</div>
+      <h3>“I’m not gonna run away, I never go back on my word! That’s my nindō!”</h3>
+      <p>You will not feel motivated every day — Naruto didn't either. What carried him was a <b>rule, not a mood.</b> Yours: <b>never skip two days in a row.</b> Miss Monday? Fine. Tuesday is non-negotiable.</p>
+      <p style="margin-top:10px;color:#ff8b6b;font-weight:800;font-size:0.76rem">→ Use this when you're tired after a late shift at Lidl.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ROADMAP -->
+<section id="roadmap" style="padding-top:10px">
+  <div class="container">
+    <div class="kicker">THE TRAINING ARC</div>
+    <div class="section-title"><h2>Your 28-week roadmap</h2><p>Four seasons. Each ends with a boss you must actually defeat — a deployed project, not a finished playlist.</p></div>
+    <div class="roadmap-wrap">
+      <div class="roadmap-label">🗺️ PURE DATA ANALYST • 12H / WEEK ALONGSIDE LIDL SHIFTS</div>
+      <div class="timeline">
+        <div class="phase"><span class="phase-num">PHASE 1</span><h4>🧱 Foundation</h4><div class="time">Weeks 1-5 • Excel + SQL Core</div><ul><li>PivotTables, XLOOKUP, Power Query</li><li>SQL SELECT → JOIN → GROUP BY</li><li>GitHub + Kaggle setup</li></ul><div class="outcome">✅ 1 Excel dashboard + 30 queries</div></div>
+        <div class="phase"><span class="phase-num">PHASE 2</span><h4>📊 Visualise</h4><div class="time">Weeks 6-11 • Power BI + Story</div><ul><li>Star schema, DAX CALCULATE</li><li>Slicers, drill-through, KPIs</li><li>Retail dashboard (Lidl-style)</li></ul><div class="outcome">✅ 1 dashboard on PBI Service</div></div>
+        <div class="phase"><span class="phase-num">PHASE 3</span><h4>🐍 Python Power</h4><div class="time">Weeks 12-18 • Pandas</div><ul><li>Clean, merge, groupby</li><li>Matplotlib/Seaborn</li><li>Automate a report</li></ul><div class="outcome">✅ 1 Notebook on GitHub</div></div>
+        <div class="phase"><span class="phase-num">PHASE 4</span><h4>🚀 Job Ready</h4><div class="time">Weeks 19-28 • Portfolio + Hired</div><ul><li>Polish 3 projects</li><li>CV + LinkedIn + STAR stories</li><li>Mock SQL tests</li></ul><div class="outcome">✅ Apply 5/week → interviews</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:14px">
+        <div style="background:#fff7ed;border:1px solid #ffedd5;padding:10px;border-radius:10px;font-size:0.82rem"><b>🌅 Early shift (6am-2pm):</b> 7-8:30pm = 1.5h + Sat 9-12 project</div>
+        <div style="background:#eff6ff;border:1px solid #dbeafe;padding:10px;border-radius:10px;font-size:0.82rem"><b>🌙 Late shift (2pm-10pm):</b> 9-11am deep work (SQL first) + Sat 9-12</div>
+        <div style="background:#f0fdf4;border:1px solid #dcfce7;padding:10px;border-radius:10px;font-size:0.82rem"><b>📅 Ritual:</b> Mon video → Wed dataset → Fri mini-project → Sun LinkedIn</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE POSTER 2 - DBZ -->
+<div class="container">
+  <div class="quote-poster" style="background:#0f0f14">
+    <div class="text">
+      <div class="eyebrow" style="color:#ff8b6b">DRAGON BALL Z · GRAVITY TRAINING</div>
+      <h3>“Power comes in response to a need, not a desire.” — Goku</h3>
+      <p>The need: rent in Eastbourne, a career you’re proud of, proving shift work isn’t your ceiling. <b>Want the analyst desk? Train under 10x gravity after your shift — 90 minutes, no excuses.</b></p>
+      <p style="margin-top:10px;color:#ff8b6b;font-weight:800;font-size:0.76rem">→ Pin this above your desk at home.</p>
+    </div>
+    <div class="img"><img src="images/dbz_real.jpg" alt="DBZ Goku motivational poster" style="object-position:center"><div style="position:absolute;top:12px;right:12px;background:rgba(255,255,255,0.12);backdrop-filter:blur(6px);color:white;padding:4px 8px;border-radius:20px;font-size:0.68rem;font-weight:900;border:1px solid rgba(255,255,255,0.18)">DBZ</div></div>
+  </div>
+</div>
+
+<!-- CHECKLIST -->
+<section id="checklist">
+  <div class="container">
+    <div class="kicker">CHECKLIST · INTERACTIVE</div>
+    <div class="section-title"><h2>Topic-wise checkpoints + <span>verified YouTube</span></h2><p>Tick when you can <b>DO</b> it. Cards open/close — progress never jumps to top. All links open in new tab.</p></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center">
+      <span style="background:var(--ink);color:white;padding:8px 14px;border-radius:20px;font-size:0.82rem;font-weight:800">Overall: <span id="overallProgress">0%</span></span>
+      <span style="background:white;border:1px solid var(--border);padding:6px 10px;border-radius:20px;font-size:0.76rem">💡 1.25× speed after first watch</span>
+      <button type="button" onclick="resetProgress()" style="padding:7px 12px;border-radius:20px;border:1px solid var(--border);background:white;font-size:0.76rem;cursor:pointer;font-weight:700">Reset</button>
+      <button type="button" onclick="expandAll()" style="padding:7px 12px;border-radius:20px;background:var(--ink);color:white;border:none;font-size:0.76rem;cursor:pointer;font-weight:700">Expand All</button>
+      <button type="button" onclick="collapseAll()" style="padding:7px 12px;border-radius:20px;background:white;border:1px solid var(--border);font-size:0.76rem;cursor:pointer;font-weight:700">Collapse</button>
+    </div>
+
+    <div class="topic-grid">
+
+      <div class="topic-card open" id="card-excel">
+        <div class="topic-head" data-target="excel">
+          <h3>📗 1. Excel Pro — START HERE <span style="font-size:0.68rem;background:#166534;color:white;padding:4px 8px;border-radius:20px">YOU ARE HERE</span></h3>
+          <div class="meta"><span id="excel-progress">0% done</span><span class="chev">⌃</span></div>
+        </div>
+        <div class="topic-body" id="excel-body">
+          <div class="topic-intro"><b>Why first?</b> 80% of junior tasks still live in Excel. UK managers test PivotTables & XLOOKUP on day 1.</div>
+          <div class="checklist" data-topic="excel">
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Clean like a pro:</strong> Duplicates, TRIM, flash fill <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Formulas:</strong> IF, SUMIFS, TEXT/DATE <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Lookups:</strong> VLOOKUP → XLOOKUP → INDEX/MATCH <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>PivotTables:</strong> Group by month, slicers, PivotChart <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Power Query:</strong> Unpivot, merge, refresh <span class="tag tag-pro">PRO</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Dashboard:</strong> 1 interactive dashboard answering a business Q <span class="tag tag-portfolio">PORTFOLIO</span></div></div>
+          </div>
+          <div class="video-card"><div class="video-thumb">▶</div><div class="video-info"><h4>Excel for Data Analytics - Full Course (11 hrs, 2 projects)</h4><p><b>Luke Barousse</b> (450K) • <span class="level level-beginner">Beginner → Job-Ready</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=pCJ15nGFgVg" target="_blank" rel="noopener">Watch →</a></div></div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#065f46,#16a34a)">▶</div><div class="video-info"><h4>Pivot Tables - Ultimate Beginner Guide (13 min)</h4><p><b>Leila Gharani</b> (2.7M) • <span class="level level-beginner">Quick Win</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=9NUjHBNWe9M" target="_blank" rel="noopener">Watch →</a></div></div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#f59e0b,#ef4444)">▶</div><div class="video-info"><h4>Excel Full Course 2025 (3 hrs compact)</h4><p><b>Kevin Stratvert</b> • <span class="level level-inter">Intermediate</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=rwbho0CgEAE" target="_blank" rel="noopener">Watch →</a></div></div>
+          <div class="shortcut-box">📎 <b>Shortcuts:</b> <a href="https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f" target="_blank">Microsoft Shortcuts</a> • <a href="https://github.com/lukebarousse/Excel_Data_Analytics_Course/blob/main/0_Resources/Excel%20Shortcuts.xlsx" target="_blank">Luke .xlsx</a> • <a href="https://www.keybr.com/excel-cheat-sheet" target="_blank">ExcelJet PDF</a></div>
+        </div>
+      </div>
+
+      <div class="anime-banner naruto">
+        <img src="images/naruto_real.jpg" alt="Naruto real"><div><h4>🍥 Believe It — Clone your reps</h4><p>Failed JOIN? Try LEFT, INNER, CTE — one will land. Your ninja way is data.</p><span class="tagline">Next: SQL — the jutsu every analyst needs</span></div>
+      </div>
+
+      <div class="topic-card open" id="card-sql">
+        <div class="topic-head" data-target="sql"><h3>🐬 2. SQL — Non-Negotiable <span style="font-size:0.68rem;background:#0c4a6e;color:white;padding:4px 8px;border-radius:20px">100% JOBS</span></h3><div class="meta"><span id="sql-progress">0% done</span><span class="chev">⌃</span></div></div>
+        <div class="topic-body" id="sql-body">
+          <div class="topic-intro"><b>UK truth:</b> Every interview has a live SQL test. Need JOIN 3-4 tables, CASE, CTEs, ROW_NUMBER/RANK.</div>
+          <div class="checklist" data-topic="sql">
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Foundations:</strong> SELECT, WHERE, ORDER BY, NULLs <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Aggregations:</strong> COUNT/SUM/AVG, GROUP BY, HAVING, CASE <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>JOINs:</strong> INNER/LEFT/FULL/UNION — Venn first <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Window:</strong> ROW_NUMBER, RANK, LAG/LEAD, PARTITION BY <span class="tag tag-pro">PRO</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Project:</strong> 10 queries to GitHub (Northwind mock) <span class="tag tag-portfolio">PORTFOLIO</span></div></div>
+          </div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#0f172a,#f59e0b)">▶</div><div class="video-info"><h4>SQL Full Course Beginners (4h20m)</h4><p><b>freeCodeCamp.org</b> (10M) • <span class="level level-beginner">Beginner</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=HXV3zeQKqGY" target="_blank">Watch →</a></div></div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#065f46,#10b981)">▶</div><div class="video-info"><h4>SQL Basics for Analysts (30min×4)</h4><p><b>Alex The Analyst</b> (1.1M) • <span class="level level-beginner">Analyst</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=5OdVJbNCSso" target="_blank">Watch →</a></div></div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#1e3a8a,#06b6d4)">▶</div><div class="video-info"><h4>Advanced SQL — CTEs & Window Functions</h4><p><b>Alex The Analyst</b> • <span class="level level-adv">Interview</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=E6vufRBoBv8" target="_blank">Watch →</a></div></div>
+          <div class="shortcut-box" style="background:#eff6ff;border-color:#bfdbfe">📎 <b>Practice:</b> <a href="https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf" target="_blank">SQL PDF</a> • <a href="https://datalemur.com/sql-tutorial" target="_blank">DataLemur UK Qs</a> • <a href="https://www.sql-practice.com/" target="_blank">SQL-Practice</a></div>
+        </div>
+      </div>
+
+      <div class="anime-banner mha"><img src="images/mha_real.jpg" alt="MHA real"><div><h4>🦸 PLUS ULTRA — Deku was Quirkless</h4><p>No quirk? Train One For All: Power Query → Model → DAX.</p><span class="tagline">Next: Power BI — your hero costume</span></div></div>
+
+      <div class="topic-card" id="card-pbi">
+        <div class="topic-head" data-target="pbi"><h3>📊 3. Power BI — UK Favourite <span style="font-size:0.68rem;background:#854d0e;color:white;padding:4px 8px;border-radius:20px">65% ADS</span></h3><div class="meta"><span id="pbi-progress">0% done</span><span class="chev">⌃</span></div></div>
+        <div class="topic-body" id="pbi-body">
+          <div class="topic-intro"><b>UK edge:</b> NHS, councils, retail = Microsoft. Power BI > Tableau here. PL-300 after 2 dashboards.</div>
+          <div class="checklist" data-topic="pbi">
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Get Data:</strong> Power Query clean/unpivot <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Model:</strong> Star schema, date table <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>DAX:</strong> CALCULATE, FILTER, YTD <span class="tag tag-pro">PRO</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Visuals:</strong> KPIs, slicers, storytelling <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Dashboard:</strong> Retail OR Eastbourne Cost-of-Living tracker <span class="tag tag-portfolio">PORTFOLIO</span></div></div>
+          </div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#f59e0b,#eab308)">▶</div><div class="video-info"><h4>Power BI Beginners (30 mins)</h4><p><b>Guy in a Cube</b> (547K) • <span class="level level-beginner">Beginner</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=OmW9YvxSl1E" target="_blank">Watch →</a></div></div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#065f46,#16a34a)">▶</div><div class="video-info"><h4>DAX Basics — Measures vs Columns</h4><p><b>SQLBI</b> • <span class="level level-inter">80/20 DAX</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=klQrqTv2XLI" target="_blank">Watch →</a></div></div>
+        </div>
+      </div>
+
+      <div class="anime-banner solo"><img src="images/solo_real.jpg" alt="Solo Leveling real"><div><h4>⚔️ SOLO LEVELING: ARISE</h4><p>System: Cleared PBI Dungeon. Reward: Python unlocked. Rank C→B.</p><span class="tagline">Next: Python — rank up</span></div></div>
+
+      <div class="topic-card" id="card-python">
+        <div class="topic-head" data-target="python"><h3>🐍 4. Python — Booster <span style="font-size:0.68rem;background:#1e40af;color:white;padding:4px 8px;border-radius:20px">+£5-10k</span></h3><div class="meta"><span id="python-progress">0% done</span><span class="chev">⌃</span></div></div>
+        <div class="topic-body" id="python-body">
+          <div class="topic-intro">Not required for every junior role, but biggest salary bump. Pandas = Excel on steroids.</div>
+          <div class="checklist" data-topic="python">
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Setup:</strong> venv, Jupyter, first cell <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Pandas:</strong> DataFrame, groupby, merge, pivot <span class="tag tag-pro">PRO</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Visualise:</strong> Matplotlib/Seaborn <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Project:</strong> Automate weekly CSV → Excel + chart → GitHub <span class="tag tag-portfolio">PORTFOLIO</span></div></div>
+          </div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#1e40af,#06b6d4)">▶</div><div class="video-info"><h4>Data Analysis with Python (4-5 hrs)</h4><p><b>freeCodeCamp</b> • <span class="level level-beginner">Beginner</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=r-uOLxNrNk8" target="_blank">Watch →</a></div></div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#0f172a,#eab308)">▶</div><div class="video-info"><h4>Python for Data Analytics (12 hrs)</h4><p><b>Luke Barousse</b> • <span class="level level-inter">Project</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=4pO8W2aVy4E" target="_blank">Watch →</a></div></div>
+        </div>
+      </div>
+
+      <div class="topic-card" id="card-stats">
+        <div class="topic-head" data-target="stats"><h3>📈 5. Stats & Storytelling <span style="font-size:0.68rem;background:#be185d;color:white;padding:4px 8px;border-radius:20px">Interview Gold</span></h3><div class="meta"><span id="stats-progress">0% done</span><span class="chev">⌃</span></div></div>
+        <div class="topic-body" id="stats-body">
+          <div class="topic-intro">"What does this average hide?" — UK interviewers test this. Story > pretty chart.</div>
+          <div class="checklist" data-topic="stats">
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Descriptive:</strong> Mean vs median, outliers <span class="tag tag-core">CORE</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Storytelling:</strong> 1 dashboard = 1 insight <span class="tag tag-pro">PRO</span></div></div>
+            <div class="check-item" onclick="toggleCheck(this)"><input type="checkbox"><div><strong>Explain:</strong> 2-min story to non-technical manager <span class="tag tag-portfolio">PORTFOLIO</span></div></div>
+          </div>
+          <div class="video-card"><div class="video-thumb" style="background:linear-gradient(135deg,#be185d,#f43f5e)">▶</div><div class="video-info"><h4>StatQuest: Statistics Fundamentals</h4><p><b>Josh Starmer</b> • <span class="level level-beginner">Gentlest</span></p></div><div class="video-link"><a href="https://www.youtube.com/watch?v=qBigTkBLU6c" target="_blank">Watch →</a></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE POSTER 3 - Solo Leveling -->
+<div class="container">
+  <div class="quote-poster">
+    <div class="img"><img src="images/solo_real.jpg" alt="Solo Leveling motivation"><div style="position:absolute;top:12px;left:12px;background:rgba(14,116,144,0.9);color:white;padding:4px 8px;border-radius:20px;font-size:0.68rem;font-weight:900">SOLO LEVELING</div></div>
+    <div class="text">
+      <div class="eyebrow">SYSTEM MESSAGE</div>
+      <h3>“The weak will be trampled. The strong will rise.”</h3>
+      <p>In 2026 junior market, <b>portfolio = power.</b> Certificates are E-rank. A deployed dashboard with a Loom walkthrough is S-rank. <b>Grind the dungeon daily — 1 commit, 1 query.</b></p>
+      <p style="margin-top:10px;color:#67e8f9;font-weight:800;font-size:0.76rem">→ Your daily quest: 1 DataLemur question before bed.</p>
+    </div>
+  </div>
+</div>
+
+<!-- CHEATS -->
+<section style="background:var(--bg);padding-top:10px">
+  <div class="container">
+    <div class="kicker">TOOLKIT</div>
+    <div class="section-title"><h2>Cheat sheets — <span>pin to wall</span></h2></div>
+    <div class="cheat-grid">
+      <div class="cheat-card"><div class="icon">📗</div><h4>Excel</h4><p>Shortcuts</p><a href="https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f" target="_blank">Get PDF →</a></div>
+      <div class="cheat-card"><div class="icon">🐬</div><h4>SQL</h4><p>Cheat sheet</p><a href="https://learnsql.com/blog/sql-basics-cheat-sheet/" target="_blank">Get PDF →</a></div>
+      <div class="cheat-card"><div class="icon">📊</div><h4>DAX</h4><p>Guide</p><a href="https://dax.guide/" target="_blank">Get Guide →</a></div>
+      <div class="cheat-card"><div class="icon">🐍</div><h4>Pandas</h4><p>Cheat</p><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf" target="_blank">Get PDF →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="kicker">PORTFOLIO · BOSSES</div>
+    <div class="section-title"><h2>3 bosses to defeat — <span>not just watch</span></h2><p>Like Kerala's 9 bosses — each is a deployed project. Hiring managers spend 6 sec on CV, 2 min on portfolio.</p></div>
+    <div class="project-grid">
+      <div class="project-card"><div class="project-top">📗<span class="label">Excel • Boss 1</span></div><div class="project-body"><h4>Lidl-Style Retail Dashboard</h4><p><b>Data:</b> <a href="https://www.kaggle.com/datasets/bukolafatunde/superstore-sales" target="_blank">Superstore Sales</a> • Excel + Power Query</p><ul><li>Clean 5k rows, handle returns</li><li>Pivot MoM, Top 10, slicers</li><li>YoY KPIs</li></ul><p style="background:#f0fdf4;padding:8px;border-radius:8px;font-size:0.78rem;margin-top:8px"><b>Story:</b> "Tracked waste at Lidl → flagged overstock."</p></div></div>
+      <div class="project-card"><div class="project-top" style="background:linear-gradient(135deg,#0e7490,#06b6d4)">📊<span class="label">SQL+PBI • Boss 2</span></div><div class="project-body"><h4>Eastbourne Cost-of-Living Tracker</h4><p><b>Data:</b> <a href="https://www.ons.gov.uk/datasets" target="_blank">ONS</a> + Nomis • SQL + PBI map</p><ul><li>JOIN 3 tables, RANK wards</li><li>Map + DAX YoY</li><li>Recommendation page</li></ul><p style="background:#eff6ff;padding:8px;border-radius:8px;font-size:0.78rem;margin-top:8px"><b>Why:</b> Hyper-local for councils & Brighton.</p></div></div>
+      <div class="project-card"><div class="project-top" style="background:linear-gradient(135deg,#1e40af,#7c3aed)">🐍<span class="label">Python • Boss 3</span></div><div class="project-body"><h4>NHS Waiting List Automation</h4><p><b>Data:</b> <a href="https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/" target="_blank">NHS RTT</a> • pandas</p><ul><li>Clean Trust data, groupby</li><li>Automate CSV→Excel</li><li>Highlight East Sussex Trust</li></ul><p style="background:#f5f3ff;padding:8px;border-radius:8px;font-size:0.78rem;margin-top:8px"><b>Story:</b> "Saved 2h manual report."</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- JOBS -->
+<section id="jobs" style="background:#fffaf0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="container">
+    <div class="kicker">GET HIRED</div>
+    <div class="section-title"><h2>Get hired from Eastbourne</h2><p>15 perfect roles/month > 100 spam. Track in Excel.</p></div>
+    <div style="background:white;border:1px solid var(--border);border-radius:16px;padding:16px;margin-top:12px">
+      <h3 style="font-size:0.95rem;font-weight:900">🔍 Where to search</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px">
+        <a href="https://www.reed.co.uk/jobs/junior-data-analyst-jobs?location=eastbourne" target="_blank" style="background:var(--bg);border:1px solid var(--border);padding:6px 12px;border-radius:20px;font-size:0.80rem;font-weight:700"> Reed </a>
+        <a href="https://uk.indeed.com/q-junior-data-analyst-l-eastbourne,-east-sussex-jobs.html" target="_blank" style="background:var(--bg);border:1px solid var(--border);padding:6px 12px;border-radius:20px;font-size:0.80rem;font-weight:700"> Indeed </a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Eastbourne" target="_blank" style="background:var(--bg);border:1px solid var(--border);padding:6px 12px;border-radius:20px;font-size:0.80rem;font-weight:700"> LinkedIn </a>
+        <a href="https://www.civilservicejobs.service.gov.uk/" target="_blank" style="background:var(--bg);border:1px solid var(--border);padding:6px 12px;border-radius:20px;font-size:0.80rem;font-weight:700"> Civil Service </a>
+        <a href="https://www.jobs.nhs.uk/" target="_blank" style="background:var(--bg);border:1px solid var(--border);padding:6px 12px;border-radius:20px;font-size:0.80rem;font-weight:700"> NHS Jobs </a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:14px">
+        <div style="background:var(--bg);border:1px solid var(--border);padding:12px;border-radius:12px"><h4 style="font-size:0.86rem;font-weight:900">1. CV Translation</h4><p style="font-size:0.80rem;color:var(--muted);margin-top:4px">"Handled 100+ queries/shift" → stakeholder management. Use STAR + numbers.</p></div>
+        <div style="background:var(--bg);border:1px solid var(--border);padding:12px;border-radius:12px"><h4 style="font-size:0.86rem;font-weight:900">2. LinkedIn</h4><p style="font-size:0.80rem;color:var(--muted);margin-top:4px">Headline: "Aspiring Junior Data Analyst | Excel SQL Power BI | Ex-Lidl Eastbourne" — 1 chart/week.</p></div>
+        <div style="background:var(--bg);border:1px solid var(--border);padding:12px;border-radius:12px"><h4 style="font-size:0.86rem;font-weight:900">3. Interview</h4><p style="font-size:0.80rem;color:var(--muted);margin-top:4px">2-min story: Lidl → data → built X → want analyst. SQL: 30min DataLemur daily.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL MOTIVATION - GOKU -->
+<div class="container" style="padding:18px 18px 0">
+  <div class="quote-poster">
+    <div class="img"><img src="images/dbz_real.jpg" alt="Goku motivation"><div style="position:absolute;top:12px;left:12px;background:#ff4d12;color:white;padding:4px 8px;border-radius:20px;font-size:0.68rem;font-weight:900">DBZ</div></div>
+    <div class="text">
+      <div class="eyebrow" style="color:#ff8b6b">FINAL BOSS MINDSET</div>
+      <h3>“I will not let you destroy my dream.”</h3>
+      <p>From Lidl till to analyst desk in Brighton. <b>You've done harder shifts than this.</b> One more checkbox. Plus Ultra.</p>
+    </div>
+  </div>
+</div>
+
+<!-- MOTIVATION WALL -->
+<section id="motivation" style="padding-top:12px">
+  <div class="container">
+    <div class="kicker">POWER-UP WALL</div>
+    <div class="section-title"><h2>Your anime crew — <span>save this page as wallpaper</span></h2></div>
+    <div class="meme-wall">
+      <div class="meme-card"><img src="images/dbz_real.jpg" alt="DBZ"><div class="cap"><h4>💥 GOKU: Break Limits</h4><p>Tired at Week 6? 1 more query = +1 Power Level</p></div></div>
+      <div class="meme-card"><img src="images/naruto_real.jpg" alt="Naruto"><div class="cap"><h4>🍥 NARUTO: Believe It!</h4><p>Failed JOIN? Shadow clone 3 ways</p></div></div>
+      <div class="meme-card"><img src="images/mha_real.jpg" alt="MHA"><div class="cap"><h4>🦸 PLUS ULTRA!</h4><p>Turn messy sheets to insights — your quirk</p></div></div>
+      <div class="meme-card"><img src="images/solo_real.jpg" alt="Solo"><div class="cap"><h4>⚔️ SOLO LEVELING: ARISE</h4><p>Daily grind E → S. Commit daily.</p></div></div>
+    </div>
+    <div style="background:white;border:1px solid var(--border);border-radius:16px;padding:16px;margin-top:14px;text-align:center">
+      <h3 style="font-size:0.98rem;font-weight:900;color:var(--ink)">🎌 Mantra for shift days</h3>
+      <p style="color:var(--muted);font-size:0.88rem;margin-top:6px">On break, 1 DataLemur question (5 min) not TikTok. Exhausted? One 10-min Leila video still counts. Board the 12:05 to Brighton interview in 28 weeks.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h3>From Eastbourne till to analyst desk — plus ultra. 🚀</h3>
+  <p style="max-width:700px;margin:8px auto;color:#94a3b8;font-size:0.84rem">Built on Kerala Roadmap structure, remade for UK Data Analyst + Eastbourne. Real anime posters, verified YouTube links, UK job data 2026.</p>
+  <div style="display:inline-block;background:rgba(255,255,255,0.08);padding:8px 14px;border-radius:20px;margin-top:10px;border:1px solid rgba(255,255,255,0.12)"><span id="footerProgress" style="color:#facc15;font-weight:900">0% Complete</span> — Every tick saves ✨</div>
+  <p style="margin-top:10px;font-size:0.72rem;color:#64748b">Arigatou! Eastbourne → Brighton → Remote UK → wherever you want.</p>
+</footer>
+
+<div class="quickbar"><a href="#checklist">📚 Learn</a><a href="#projects">💼 Portfolio</a><a href="#jobs">🎯 Hired</a><a class="primary" href="#checklist" onclick="document.getElementById('card-excel').scrollIntoView({behavior:'smooth'});return false;">Start →</a></div>
+<div id="toast">🎉 <span id="toastText">Nice!</span></div>
+
+<script>
+  document.querySelectorAll('.topic-head').forEach(head=>{
+    head.addEventListener('click', (e)=>{
+      e.preventDefault();
+      head.closest('.topic-card').classList.toggle('open');
+    });
+  });
+  function toggleCheck(el){
+    const cb = el.querySelector('input[type="checkbox"]');
+    cb.checked = !cb.checked;
+    cb.dispatchEvent(new Event('change',{bubbles:true}));
+    updateProgress();
+    showToast(cb.checked?'✅ Saved! +1':'↩️ Unchecked');
+  }
+  document.querySelectorAll('.check-item input').forEach(cb=>{
+    cb.addEventListener('click', (e)=>{ e.stopPropagation(); updateProgress(); showToast(cb.checked?'✅ Saved! +1':'↩️ Unchecked');});
+  });
+  function updateProgress(){
+    const lists=document.querySelectorAll('.checklist');
+    let total=0,done=0;
+    lists.forEach(cl=>{
+      const boxes=cl.querySelectorAll('input[type="checkbox"]');
+      boxes.forEach(b=>{
+        total++; if(b.checked){done++; b.closest('.check-item').classList.add('done');} else b.closest('.check-item').classList.remove('done');
+      });
+      const topic=cl.dataset.topic;
+      const pct=boxes.length?Math.round(cl.querySelectorAll('input:checked').length/boxes.length*100):0;
+      const el=document.getElementById(topic+'-progress');
+      if(el) el.textContent=pct+'% done';
+    });
+    const overall=total?Math.round(done/total*100):0;
+    document.getElementById('overallProgress').textContent=overall+'%';
+    document.getElementById('heroPct').textContent=overall+'%';
+    document.getElementById('heroPct2').textContent=overall+'%';
+    document.getElementById('footerProgress').textContent=overall+'% Complete';
+    document.getElementById('progressBar').style.width=overall+'%';
+    document.getElementById('heroFill').style.width=overall+'%';
+    document.getElementById('heroCount').textContent=done+' / '+total+' checkpoints ('+(overall<25?'🌱 E-Rank':overall<50?'⚔️ D-Rank':overall<75?'🔥 B-Rank':'👑 S-Rank')+' Hunter)';
+    if([25,50,75,100].includes(overall)&&overall>0) showToast('🎌 '+overall+'% — '+(overall===100?'S-Rank Analyst!':'Plus Ultra!'));
+    const state={}; document.querySelectorAll('.checklist input').forEach((cb,i)=>state[i]=cb.checked);
+    localStorage.setItem('lidlAnalystProgress_v3',JSON.stringify(state));
+  }
+  function loadProgress(){
+    const saved=JSON.parse(localStorage.getItem('lidlAnalystProgress_v3')||localStorage.getItem('lidlAnalystProgress_v2')||localStorage.getItem('lidlAnalystProgress')||'{}');
+    document.querySelectorAll('.checklist input').forEach((cb,i)=>{ if(saved[i]) cb.checked=true; });
+    updateProgress();
+  }
+  function resetProgress(){ if(confirm('Reset all?')){ document.querySelectorAll('.checklist input').forEach(cb=>cb.checked=false); localStorage.removeItem('lidlAnalystProgress_v3'); updateProgress(); showToast('Reset done');}}
+  function expandAll(){ document.querySelectorAll('.topic-card').forEach(c=>c.classList.add('open'))}
+  function collapseAll(){ document.querySelectorAll('.topic-card').forEach(c=>c.classList.remove('open')); document.getElementById('card-excel').classList.add('open'); document.getElementById('card-sql').classList.add('open');}
+  let toastTimer; function showToast(msg){ const t=document.getElementById('toast'); document.getElementById('toastText').textContent=msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),2200);}
+  document.addEventListener('DOMContentLoaded', ()=>{ loadProgress(); collapseAll(); });
+</script>
+</body>
+</html>

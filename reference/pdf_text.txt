@@ -1,0 +1,1338 @@
+
+===PAGE 1===
+KERALA & SOUTH INDIA EDITION · OCT 2026
+From intern to
+Full Stack Developer
+A 32−week shonen-style training plan built around your real constraints: 6 hours × 4
+days + 1 project day, zero backend, strong HTML/CSS. Research-backed for the 2026
+Indian job market — with every YouTube link veriﬁed.
+ 32 weeks
+ ~30 h / week
+ MERN + TypeScript
+ Python + Power BI
+148 checkpoints
+2%
+3 / 148 checkpoints (
+ E-Rank Hunter)
+Tick boxes as you ﬁnish topics — progress saves in your browser. Use the Excel tracker for
+hours, revisions and job applications.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 1 of 45
+
+
+===PAGE 2===
+TRAINING ARC
+Real anime energy — because a PDF checklist never made anyone grind at 5:30 AM.
+DRAGON BALL Z ARC
+Work hard in silence.
+Goku didn't unlock Super Saiyan by watching 22 hours of tutorials. 6 hours today. 6 hours
+tomorrow. That's the entire secret.
+NARUTO ARC
+Zero talent? Perfect.
+Rock Lee had no ninjutsu and still outworked every genius in Konoha. You have zero backend.
+Same energy, 32 weeks.
+DBZ
+NARUTO
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 2 of 45
+
+
+===PAGE 3===
+M A R K E T I N T E L · 2 0 2 6
+What the Indian market is actually paying for
+I pulled current hiring reports, live Infopark listings and salary aggregators so your
+550 study hours go where the jobs are — not where the tutorials are.
++30%
+YoY demand growth
+Full-stack roles in India (Naukri data, cited by multiple 2026 hiring reports)
+source ↗
+~3×
+React vs Angular openings
+≈58,000 React vs ≈19,000 Angular roles on Naukri (2026 estimate)
+source ↗
+SOLO LEVELING ARC
+E-rank → S-rank.
+Day 1: "What is an API?" Day 120: shipping one to production. Level up once a week and
+watch it compound.
+SOLO LEVELING
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 3 of 45
+
+
+===PAGE 4===
+ So what does this mean for you?
+Your fastest path is MERN + TypeScript, not Java. You already have
+HTML/CSS/JS — extending that into React and Node is the shortest distance
+between you and an oﬀer.
+~80%
+of new projects use TypeScript
+TypeScript is expected, not optional, at product companies
+source ↗
+₹3.1–4.8 LPA
+Kochi fresher full-stack range
+Salary aggregators (UST, IBS, Infosys, Wipro band). Start low, switch up.
+source ↗
+₹5–9 LPA
+MERN fresher (corporate)
+₹6–12 LPA at startups for strong portfolios (2026 guides)
+source ↗
+Live
+Fresher Python + React roles
+Infopark Kochi companies hiring 2023–2025 grads for Python/React full-stack
+source ↗
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 4 of 45
+
+
+===PAGE 5===
+Backend is where freshers win oﬀers. "Knows React" is common; "shipped an
+authenticated API with error handling" is rare in a fresher pile.
+Kerala is service-heavy (Infopark/Technopark JDs often say Java + Angular), but
+Python + React full-stack fresher roles are live too. Keep Java for year 2.
+Power BI is a diﬀerentiator, not a core skill. It makes you interesting for data-
+adjacent roles — it won't get you a full-stack job on its own.
+Apply beyond Kerala. 70% Kerala + 30%
+Bengaluru/Chennai/Hyderabad/remote roughly 5× your market for the same
+eﬀort.
+Tool relevance in the India market right now
+TOOL / SKILL
+WHY IT MATTERS HERE
+PRIORITY
+WHEN
+YOU
+LEARN
+IT
+HTML / CSS
+Every JD. Your foundation. Don't
+skip responsive + accessibility.
+MUST
+Week
+1–2
+JavaScript (ES6+)
+The #1 interview ﬁlter in India.
+Closures, async, array methods.
+MUST
+Week
+3–7
+React
+~70% of frontend JDs list React as
+primary framework.
+MUST
+Week
+8–11
+TypeScript
+Expected in most new product-
+company codebases; +25–40%
+pay premium.
+MUST
+Week
+8–11
+Git & GitHub
+Non-negotiable. Your green
+squares are your proof of work.
+MUST
+Week
+1
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 5 of 45
+
+
+===PAGE 6===
+Node.js + Express
+The 'backend' half of MERN; most
+common fresher full-stack stack.
+MUST
+Week
+12–16
+MongoDB /
+Mongoose
+Default database for MERN
+projects and startups.
+MUST
+Week
+12–16
+SQL
+(MySQL/Postgres)
+Half of enterprise JDs still ask for
+SQL. Learn joins + indexes.
+MUST
+Week
+17–18
+REST APIs + Postman
+You will be asked to 'explain your
+API' in every backend round.
+MUST
+Week
+12–16
+Tailwind CSS
+Fast UI, common in startup
+codebases, great for portfolio
+speed.
+SHOULD
+Week
+8–11
+Docker
+20–40% salary premium skillset;
+small teams love devs who can
+ship.
+SHOULD
+Week
+19–22
+Cloud deployment
+(Vercel/Render/AWS
+basics)
+A live URL beats a screenshot.
+Recruiters check.
+SHOULD
+Week
+19–22
+Python +
+Django/Flask
+Kerala JDs frequently ask Python
+full-stack. A local edge for you.
+SHOULD
+Week
+17–18
+Testing (Jest basics)
+Nice diﬀerentiator for product
+companies; not all fresher JDs
+require it.
+SHOULD
+After
+core
+Power BI
+Diﬀerentiator for data-adjacent
+and service-company roles.
+BONUS
+Week
+23–24
+Next.js
+Growing fast in 2026 JDs; learn
+BONUS
+After
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 6 of 45
+
+
+===PAGE 7===
+T H E T R A I N I N G A R C
+Your 32-week roadmap
+Nine seasons. Each one ends with a boss you must actually defeat — a deployed
+project, not a ﬁnished playlist. Tick each topic as you go.
+T H E N I N D Ō R U L E
+“I never go back on my word. That's my ninja way.”
+You will not feel motivated every day — Naruto didn't either. What carried him was a
+rule, not a mood. Yours: never skip two days in a row. Miss Monday? Fine. Tuesday is
+non-negotiable.
+after React, not before.
+core
+Java + Spring Boot
+Very common in Kerala
+enterprise/Infopark JDs — but
+learn after you're employable.
+LATER
+Year 2
+Kubernetes
+Not a fresher requirement. Ignore
+for now.
+LATER
+Year
+2+
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 7 of 45
+
+
+===PAGE 8===
+01
+ ACADEMY ARC · WEEK 1–2
+Setup, Git & HTML/CSS Pro
+ 24h
+19%
+Lock your tools, master Git, and sharpen HTML/CSS until your UI looks hireable.
+You already know the basics — this arc turns them into proof.
+ Boss to defeat: A responsive 3−page portfolio site, deployed live, with 10+
+GitHub commits and a real pull request.
+WATCH / READ (VERIFIED LINKS)
+Complete Git and GitHub Tutorial ↗· Kunal Kushwaha · 1h15m · English
+HTML & CSS Full Course – Beginner to Pro ↗· SuperSimpleDev · 6h30m · English
+Frontend Roadmap (read, don't binge) ↗· roadmap.sh · 30m · reference
+Install VS Code + Prettier, ESLint, Live Server, GitLens, Error Lens
+Install Node.js LTS · verify `node -v` and `npm -v`
+Set Git user.name / user.email + add SSH key to GitHub
+Create GitHub proﬁle README + repo `learning-log`
+Master the 15 daily Git commands (add, commit, branch, merge, push, pull,
+stash)
+Open your ﬁrst pull request (ﬁx a typo in any open-source README)
+Semantic HTML: header / nav / main / section / article / footer + forms
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 8 of 45
+
+
+===PAGE 9===
+CSS box model, speciﬁcity, cascade, rem/em/clamp()
+Flexbox: justify-content, align-items, gap, wrap
+CSS Grid: auto-ﬁt + minmax, grid-template-areas
+Mobile-ﬁrst media queries + ﬂuid typography
+CSS variables, transitions, hover & focus states
+Accessibility: alt text, contrast, keyboard nav, focus rings
+Chrome DevTools: inspect, device toolbar, console, network
+Build + deploy a 3−page portfolio to Netlify or Vercel
+Write a README with screenshots and the live link
+ Rule: every day ends with a commit. A green GitHub square is your new high score.
+02
+ CHAKRA CONTROL ARC · WEEK 3–7
+JavaScript Deep Dive
+ 70h
+0%
+JavaScript is 80% of every full-stack interview. This is the arc where you stop
+copying code and start understanding it.
+ Boss to defeat: 3 vanilla JS apps deployed: Todo (localStorage), Weather
+(live API), Quiz (timer + score).
+WATCH / READ (VERIFIED LINKS)
+▼
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 9 of 45
+
+
+===PAGE 10===
+JavaScript Tutorial Full Course – Beginner to Pro (2024) ↗· SuperSimpleDev
+· 22h · English
+Namaste JavaScript (Season 1 + 2) ↗· Akshay Saini · Playlist · English
+The Modern JavaScript Tutorial ↗· javascript.info · Reference · read daily
+let / const / var, scope, temporal dead zone, hoisting
+Functions, arrow functions, callbacks, pure functions
+Arrays: map, ﬁlter, reduce, ﬁnd, some, every, sort
+Objects, destructuring, spread/rest, optional chaining
+DOM: querySelector, createElement, classList, events
+Event delegation + forms + preventDefault + validation
+ES modules (import / export)
+Promises: then / catch / ﬁnally
+async / await + try / catch + error handling
+fetch + REST + JSON + loading & error states
+localStorage / sessionStorage
+Closures, `this`, call / apply / bind
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 10 of 45
+
+
+===PAGE 11===
+Event loop, call stack, microtasks vs macrotasks
+Debounce & throttle (write both from scratch)
+Build Todo app with persistence
+Build Weather app with a free API (Open-Meteo needs no key)
+Build Quiz app with timer + score + high score
+Deploy all 3 + write READMEs with screenshots
+ Watch at 1.5×, then close the video and rebuild the feature from memory. If you can't, you
+didn't learn it yet.
+03
+ POWER-UP ARC · WEEK 8–11
+React + TypeScript + Tailwind
+ 80h
+0%
+Stop thinking in pages. Start thinking in components, state and props. TypeScript
+is now expected in Indian product-company JDs, not optional.
+ Boss to defeat: React + TypeScript 'Expense Tracker' with routing, charts,
+ﬁlters and persistence — deployed.
+WATCH / READ (VERIFIED LINKS)
+Chai aur React ↗· Hitesh Choudhary (chai aur code) · ~20h · Hindi/Hinglish
+TypeScript playlist ↗· Hitesh Choudhary · ~5h · Hindi/Hinglish
+Learn React (oﬃcial docs) ↗· react.dev · Reference · English
+▼
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 11 of 45
+
+
+===PAGE 12===
+Tailwind CSS docs ↗· tailwindcss.com · Reference
+Create a React app with Vite (`npm create vite@latest`)
+JSX rules + conditional rendering + fragments
+Components, props, children, composition
+useState + controlled inputs + forms
+Lists & keys — and why index keys break things
+useEﬀect: dependency array, cleanup, avoid loops
+Lifting state up + derived state (no duplicate state)
+React Router: routes, params, nested routes, 404
+Context API + custom hooks
+Fetch data + loading skeletons + error UI
+TypeScript: types, interfaces, unions, narrowing
+Generics basics + typing props, state, events
+Tailwind: spacing scale, responsive preﬁxes, dark mode
+Reusable component folder structure
+Complete 2 Frontend Mentor challenges
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 12 of 45
+
+
+===PAGE 13===
+Complete 2 Frontend Mentor challenges
+Deploy the SPA to Vercel/Netlify
+ Do not start Redux yet. Context + hooks is enough for fresher interviews. Depth beats
+checkbox collecting.
+04
+ BACKEND DUNGEON ARC · WEEK 12–16
+Node.js + Express + MongoDB
+ 90h
+0%
+Your ﬁrst real API. Auth, validation, error handling, deployment — the exact things
+interviewers probe when they hear 'I know MERN'.
+ Boss to defeat: A production-style REST API (Job Board) with JWT auth, roles,
+pagination, docs and a Postman collection — deployed.
+WATCH / READ (VERIFIED LINKS)
+Complete Backend Developer Course (chai aur backend) ↗· Hitesh Choudhary
+· ~30h · Hindi/Hinglish
+Node.js Crash Course Tutorial ↗· The Net Ninja · 4h30m · English
+MongoDB free courses ↗· MongoDB University · Self-paced · English
+Node runtime, npm scripts, package.json, .env + dotenv
+HTTP verbs, status codes, headers, JSON body
+Express: routing, route params, query strings
+▼
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 13 of 45
+
+
+===PAGE 14===
+Middleware — write your own logger & auth guard
+Folder structure: routes / controllers / models / utils
+MongoDB Atlas cluster + connection string + IP allow-list
+Mongoose schema, validation, indexes
+CRUD endpoints (GET all, GET one, POST, PATCH, DELETE)
+Pagination, ﬁltering, sorting
+bcrypt password hashing
+JWT access tokens + login/register ﬂow
+Role-based access (user / admin / recruiter)
+Central error handler + async wrapper
+Request validation (zod or express-validator)
+File upload with Multer (Cloudinary optional)
+CORS, helmet, rate limiting
+Postman collection + test every endpoint
+README API docs with request/response examples
+Deploy API to Render or Railway + set env vars
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 14 of 45
+
+
+===PAGE 15===
+H A L F WAY C H E C K P O I N T · A R O U N D DAY 1 1 0
+“Go beyond. PLUS ULTRA!”
+If the authenticated API is deployed, you are no longer “an intern who knows HTML”.
+You are a full-stack developer with a smaller portfolio. This is the exact point where
+most people quit — the second half is where the oﬀers live.
+ If your API isn't deployed with a live URL in the README, most recruiters will never see it.
+Deploy in week 12, not week 16.
+05
+ SIDE QUEST ARC · WEEK 17–18
+SQL + Python (Kerala JD insurance)
+ 45h
+0%
+A large share of Kerala JDs ask for SQL or Python. You don't need to become a
+data scientist — you need to be dangerous enough to survive a technical round.
+ Boss to defeat: A 5−table SQL schema + 20 queries for your capstone, plus a
+small Python CLI and a 2−endpoint Flask/Django API.
+WATCH / READ (VERIFIED LINKS)
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 15 of 45
+
+
+===PAGE 16===
+MySQL Tutorial for Beginners [Full Course] ↗· Programming with Mosh
+· 3h10m · English
+Python Tutorial – Python for Beginners ↗· Programming with Mosh · 6h · English
+Django oﬃcial tutorial (or Flask quickstart) ↗· Django docs · 3h · English
+SELECT, WHERE, ORDER BY, LIMIT
+INNER JOIN, LEFT JOIN, self joins
+GROUP BY, HAVING, aggregate functions
+Subqueries + CTEs (WITH)
+INSERT / UPDATE / DELETE + transactions
+Indexes: when they help and when they hurt
+Normalization + design a 5−table schema
+20 interview-style SQL queries on your own schema
+LeetCode SQL 50 or HackerRank SQL badge
+Python syntax: lists, dicts, loops, functions
+Virtualenv + pip + requirements.txt
+OOP basics + exceptions + ﬁle I/O
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 16 of 45
+
+
+===PAGE 17===
+requests library + JSON parsing
+Build a Python CLI (report / scraper)
+Build a tiny Flask or Django API (2 endpoints)
+Connect Python to SQLite/Postgres and run a query
+ Python tip: don't do a 40−hour data-science course. 15 focused hours + one working
+script beats 40 hours of videos.
+06
+ FINAL BOSS ARC · WEEK 19–22
+Capstone + Docker + CI/CD
+ 70h
+0%
+One full-stack product you can demo for 5 minutes without notes. This is the
+project that carries your resume, your interviews and your conﬁdence.
+ Boss to defeat: 'SkillBridge' — a full-stack app (auth, roles, CRUD,
+dashboard) deployed live with Docker + GitHub Actions.
+WATCH / READ (VERIFIED LINKS)
+Docker Tutorial for Beginners [FULL COURSE in 3 Hours] ↗· TechWorld with Nana
+· 3h · English
+GitHub Actions documentation ↗· GitHub Docs · Reference
+Deployment guides ↗· Vercel / Render / Railway · Reference
+Write a 1−page PRD: users, user stories, 6–8 features
+▼
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 17 of 45
+
+
+===PAGE 18===
+Design the database schema + ER diagram
+Auth + roles (e.g. student / recruiter / admin)
+CRUD resources + search, ﬁlter, sort
+Dashboard with charts (Recharts/Chart.js)
+File upload or image handling
+Pagination or inﬁnite scroll
+Error boundaries + loading skeletons
+Responsive + accessible UI (keyboard, contrast)
+Dockerﬁle for backend + docker-compose (app + db)
+GitHub Actions: lint + test on every push
+Deploy frontend, backend, and MongoDB Atlas
+Store secrets in env vars (never in the repo)
+Seed demo data + a demo login account
+README: screenshots, architecture diagram, setup steps
+Record a 3−minute demo video (Loom or YouTube)
+Alternate capstone: 'Kerala IT Job Market Analyser' (Python scraper + pandas
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 18 of 45
+
+
+===PAGE 19===
++ Power BI + React dashboard)
+ Choose the alternate capstone if you want a data + full-stack story. It is memorable in
+interviews and it doubles as market research for your own job hunt.
+07
+ DSA DOJO (DAILY) · WEEK 3–32 · 45 MIN/DAY
+DSA & Problem Solving
+ 40h
+0%
+Kerala service companies and product companies both screen with aptitude +
+coding rounds. Consistency beats marathon weekends.
+ Boss to defeat: 150 curated problems solved + 2 timed mock coding
+rounds.
+WATCH / READ (VERIFIED LINKS)
+Striver's A2Z DSA Sheet & Course ↗· takeUforward · 450 items · free
+Striver A2Z playlist ↗· takeUforward · YouTube playlist
+NeetCode Roadmap (optional) ↗· NeetCode · Free · English
+Arrays & running sum
+Strings & frequency counting
+Hashing (maps/sets) patterns
+Two pointers
+Sliding window
+▼
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 19 of 45
+
+
+===PAGE 20===
+Preﬁx sum
+Stack (valid parentheses, next greater element)
+Queue & deque basics
+Linked list (reverse, middle, cycle)
+Binary search (and binary search on answer)
+Sorting: bubble/selection/insertion + merge/quick idea
+Recursion & backtracking basics
+Trees: traversals, height, diameter
+BST basics
+Heaps / priority queue basics
+Graphs: BFS, DFS, connected components
+Greedy basics
+Dynamic programming intro (climbing stairs, knapsack)
+Bit manipulation basics
+150 total problems + 2 timed mocks
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 20 of 45
+
+
+===PAGE 21===
+ Track problems in the Excel sheet. If a problem takes >35 min, read the editorial, then re-
+solve it 3 days later from scratch.
+08
+ BONUS BOSS ARC · WEEK 23–24 (ONLY AFTER
+CAPSTONE)
+Power BI + Analytics
+ 30h
+0%
+This is your diﬀerentiator, not your core. Kerala service companies and data-
+adjacent roles love a dev who can also build a dashboard.
+ Boss to defeat: A 2−page Power BI dashboard published online + a 5−line
+business insight write-up on your portfolio.
+WATCH / READ (VERIFIED LINKS)
+Power BI Project for Beginners (Sales Insights) ↗· codebasics · 3h · English
+Power BI Data Analyst (PL-300) certiﬁcation path ↗· Microsoft Learn
+· Optional · free path
+DAX overview ↗· Microsoft Learn · Reference
+Install Power BI Desktop (Windows)
+Connect MySQL / CSV / Excel data
+Power Query: clean, split, merge, pivot
+Data model + relationships (star schema)
+DAX basics: SUMX, CALCULATE, time intelligence
+▼
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 21 of 45
+
+
+===PAGE 22===
+6 visuals + slicers + drill-through
+Publish to Power BI Service + shareable link
+Build a dashboard on your own dataset
+Add a screenshot + insight to your portfolio
+Optional: attempt Microsoft PL-300
+ Do not start this before Season 6. Power BI is a multiplier on a full-stack proﬁle — it cannot
+replace one.
+09
+ JOB HUNT ENDGAME · WEEK 25–32
+Portfolio, Resume & Offers
+ 100h
+0%
+Job hunting is a numbers game with a quality ﬁlter. 300 targeted applications +
+30 referrals + 12 mock interviews is the formula.
+ Boss to defeat: A signed oﬀer. Your ﬁrst CTC is not your ﬁnal form — your
+learning curve is.
+WATCH / READ (VERIFIED LINKS)
+System Design Primer ↗· GitHub · donnemartin · Reference
+Frontend interview questions ↗· GeeksforGeeks · Reference
+Career + interview videos (Malayalam) ↗· Brototype Malayalam · Channel · Malayalam
+One-page ATS resume: projects written like experience
+▼
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 22 of 45
+
+
+===PAGE 23===
+Add numbers: users, endpoints, load time, test coverage
+LinkedIn headline + About + featured projects
+Portfolio site with 4 case studies (problem → build → result)
+GitHub cleanup: pinned repos, READMEs, live links, green squares
+30−second intro + 2−minute project story (record yourself)
+STAR answers for 10 HR questions
+12 mock interviews (peer / Pramp / Exponent)
+Revise JS, React, Node question banks
+150 DSA problems done + 2 timed mocks
+Apply 25/week: Kerala + Bengaluru + Chennai + Hyderabad + remote
+5 referrals/week via LinkedIn alumni & ex-colleagues
+Track every application in the Job Tracker sheet
+Follow up after 5–7 days (one polite message)
+Negotiate with a range, not a single number
+Post 2 build-in-public updates per week
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 23 of 45
+
+
+===PAGE 24===
+DA I LY O P E R AT I N G SYS T E M
+Your 6-hour study day
+Built around an internship. Split it, protect it, and never negotiate with the clock.
+Total: 24 study hours + 6 project hours = 30 hours/week.
+Weekday template (Mon–Thu)
+05:30 –
+07:00
+Deep work #1
+Video/reading at 1.25×, take notes by hand, no phone
+07:00 –
+08:00
+Commute / audio
+Replay a concept in your head or listen to a podcast — no new material
+19:00 –
+20:30
+Deep work #2
+Code along with the tutorial, then break it deliberately
+20:30 –
+21:30
+Build from scratch
+Close the tutorial and rebuild the feature alone
+21:30 –
+22:15
+DSA + review
+1–2 problems, then 10 minutes of ﬂashcards
+22:15 –
+22:30
+Log it
+Tick the Excel tracker, commit to GitHub, one-line journal
+The week
+ A referral is worth 20 cold applications. Your current internship colleagues are referral
+gold — ask them before you leave.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 24 of 45
+
+
+===PAGE 25===
+Mon–Thu
+6 hours
+Theory → code-along → build-alone → DSA → log
+Friday
+Project day
+6+ hours of pure building. No new videos. Ship something.
+Saturday
+Recovery + 1h
+Rest, family, gym. Optional: 1 hour of job-portal browsing.
+Sunday
+Recovery
+Zero study guilt. Burnout is the real ﬁnal boss.
+ The 5 laws of this training arc
+70/30 rule: 70% building, 30% watching. Every video ends with the tab closed.
+One boss per season: no new phase until the deliverable is deployed.
+Daily commit: a green square is proof of life.
+45 min DSA daily from week 3 — not 5−hour Sunday marathons.
+One rest day. Burnout is the real ﬁnal boss.
+Milestone save-points
+Day 7
+Portfolio live on the internet + 7 commits
+Day 30
+3 JavaScript apps deployed + 20 DSA problems
+Day 60
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 25 of 45
+
+
+===PAGE 26===
+y
+React project live + 50 DSA problems
+Day 90
+REST API deployed with auth + 80 DSA problems
+Day 120
+Capstone live with Docker + CI, demo video recorded
+Day 150
+Power BI dashboard + ATS resume + LinkedIn done
+Day 180
+100+ applications, 10+ referrals, ﬁrst interviews
+Day 210–240
+Oﬀer signed. Training arc complete.
+B O S S R U S H
+The project ladder
+Five projects, increasing in diﬃculty. Each one exists to answer a speciﬁc interview
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 26 of 45
+
+
+===PAGE 27===
+question. By the end, your GitHub is the portfolio.
+SOLO LEVELING ARC
+ARISE. Five projects = ﬁve levels.
+Clear one, unlock the next. No skipping bosses — every project answers a diﬀerent
+interview question.
+LV.1 · Week 4–5
+Kerala Travel Planner
+HTML · CSS · JS · API · localStorage
+ Shows DOM + API + state, without any framework.
+ Netlify
+Search destinations
+✓
+Filter by district
+✓
+Save favourites
+✓
+Fully responsive
+✓
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 27 of 45
+
+
+===PAGE 28===
+LV.2 · Week 10–11
+Expense Tracker (React + TS)
+React · TypeScript · Tailwind · Recharts
+ Shows components, hooks, typing, charts.
+ Vercel
+Add/edit/delete expenses
+✓
+Category charts
+✓
+Monthly ﬁlters
+✓
+Local persistence
+✓
+LV.3 · Week 15–16
+Job Board API
+Node · Express · MongoDB · JWT
+ Shows backend thinking: validation, errors, security.
+Auth + roles
+✓
+CRUD jobs
+✓
+Search + pagination
+✓
+Rate limiting
+✓
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 28 of 45
+
+
+===PAGE 29===
+ Render / Railway
+LV.4 · Week 19–22
+SkillBridge (Capstone)
+MERN · TypeScript · Docker · CI/CD
+ This is the project that gets you hired. 5−minute demo.
+ Live URL + demo video
+Student & recruiter roles
+✓
+Job posts + applications
+✓
+Dashboard analytics
+✓
+Dockerised + CI
+✓
+LV.5 · Week 23–24
+Kerala IT Job Market Analyser
+Python · pandas · Power BI · React
+ Data + full-stack story. Unique in a pile of identical MERN resumes.
+Scrape job boards
+✓
+Skill frequency analysis
+✓
+Salary bands
+✓
+Power BI dashboard
+✓
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 29 of 45
+
+
+===PAGE 30===
+E N D GA M E
+The Kerala job-hunt playbook
+Where the openings actually live, who is hiring, what to send, and how many times
+to send it.
+Infopark, Kochi
+Phase 1 & 2 · ~400+ companies. Check the oﬃcial job board every Monday — fresher
+Python/React roles appear regularly.
+Technopark, Trivandrum
+India's ﬁrst IT park. Product + service mix: IBS, Speridian, NeST, CareStack, TCS,
+Infosys.
+Cyberpark, Kozhikode + startups
+Smaller pool, faster decisions. Kerala Startup Mission ecosystem hires via networks
+and LinkedIn.
+Where to look (bookmark these)
+↗ Infopark job board
+ Dashboard + write-up
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 30 of 45
+
+
+===PAGE 31===
+The primary source for Kochi openings — freshers included. Check every Monday.
+↗ Technopark Trivandrum
+Park companies + careers pages; follow each company's LinkedIn too.
+↗ Naukri
+Largest volume. Set alerts: 'MERN fresher Kochi', 'React developer Trivandrum'.
+↗ LinkedIn Jobs
+Best for referrals + recruiter DMs. Filter 'Entry level' + 'Kerala'.
+↗ foundit (Monster India)
+Good for Technopark/Infopark fresher listings.
+↗ Indeed India
+Volume + salary signals. Watch for fake consultancies.
+↗ Instahyre
+Curated product-company roles; good for Bengaluru remote.
+↗ Cutshort
+Startup roles across India, often remote-friendly.
+↗ Wellfound
+Startup jobs; equity + remote options.
+↗ Hirist
+Tech-only job board, decent fresher ﬁlters.
+↗ Internshala
+Convert an internship into a full-time oﬀer — you're already an intern.
+↗ Kerala Startup Mission
+Kerala startup ecosystem; many early-stage teams hire via networks.
+Starter target list — Kerala & nearby
+Verify live openings before applying; teams change fast. Use this to build your tracker.
+COMPANY
+TYPE
+WHERE
+UST
+MNC /
+service
+Trivandrum,
+Kochi
+High fresher volume;
+strong training
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 31 of 45
+
+
+===PAGE 32===
+programmes.
+Infosys / TCS /
+Wipro /
+Cognizant
+MNC /
+service
+Kochi,
+Trivandrum
+Aptitude-driven hiring;
+steady ﬁrst job, slower
+growth.
+IBS Software
+Product
+Trivandrum,
+Kochi
+Travel-tech product
+company; good
+engineering exposure.
+Speridian
+Technologies
+Product /
+service
+Technopark
+Hires Java + React/Next.js
+full-stack proﬁles.
+Experion
+Technologies
+Service /
+product
+Kochi,
+Trivandrum
+Product engineering; Java,
+.NET, JS stacks.
+Thinkpalm
+Product /
+embedded
+Kochi,
+Trivandrum
+Networking/embedded +
+some web roles.
+Simelabs (Astek)
+Product /
+service
+Infopark
+Java/Spring + Angular full-
+stack teams.
+NeST Digital
+Product /
+service
+Kochi,
+Trivandrum
+Broad stack; regular
+fresher intake.
+Tata Elxsi
+Design /
+engineering
+Trivandrum,
+Kochi
+Embedded + digital; good
+brand on resume.
+EY GDS
+GCC
+Kochi,
+Trivandrum
+Enterprise tech; pays
+better than classic service
+ﬁrms.
+Litmus7
+Retail tech
+Kochi
+Retail/e-commerce tech;
+modern JS stack.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 32 of 45
+
+
+===PAGE 33===
+ Application maths (be honest with yourself)
+25 quality applications/week → ~300 over 12 weeks. A realistic 8–12% interview rate for
+freshers → 25–35 interviews → 3–5 ﬁnal rounds → 1–2 oﬀers.
+The people who "applied to 20 jobs and got nothing" usually applied to 20 jobs. Volume +
+CareStack
+SaaS
+product
+Trivandrum
+Dental SaaS; product-
+minded engineering.
+SurveySparrow
+SaaS
+product
+Kochi
+Feedback SaaS; React-
+heavy frontend.
+Zoho /
+Freshworks
+Product
+(Tamil
+Nadu)
+Chennai
+South India product
+giants; strong for a 1–2
+year jump.
+ATTACK ON TITAN ARC
+You don't know the outcome. Apply anyway.
+Levi had no guarantee either. 25 applications a week — rejection is data, not a verdict on
+you.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 33 of 45
+
+
+===PAGE 34===
+tailoring + referrals is the formula.
+ Referral message that works
+Hi [Name], I'm a frontend intern moving into full-stack (MERN + 
+TypeScript). I built [project + live link], a job board with JWT auth and 
+40+ REST endpoints.
+I saw [Company] is hiring for [role]. Would you be open to referring me — 
+or pointing me to the right person? Happy to send my resume.
+Thanks either way!
+Resume upgrades (before you apply anywhere)
+Lead with projects, not duties
+"Built a MERN job board with JWT auth serving 40+ REST endpoints" beats "Worked on
+frontend tasks".
+Put the stack in the top third
+Recruiters and ATS scan for React, Node, MongoDB, TypeScript, Git. Make them
+impossible to miss.
+Add numbers
+Users, endpoints, screens, response time, test coverage, number of components.
+One page, one column
+No photos, no skill bars, no 'references available'. ATS-friendly PDF.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 34 of 45
+
+
+===PAGE 35===
+Link everything
+Live demo + GitHub + LinkedIn in the header. If it isn't clickable, it doesn't exist.
+Turn your internship into backend evidence
+Ask for one API task or bug-ﬁx sprint, then write the measurable result.
+B O S S D I A LO G U E
+Interview question bank
+The questions Indian fresher panels actually ask. Answer each out loud — in English,
+then in Malayalam if that's your comfort language.
+JavaScript — 10 questions
++
+React — 10 questions
++
+Node / DB / API — 10 questions
++
+HR / Behavioural — 10 questions
++
+P OW E R - U P S
+Shortcuts, commands & PDF cheat sheets
+Print the PDFs. Stick them above your desk. Muscle memory is a real superpower in
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 35 of 45
+
+
+===PAGE 36===
+interviews and at work.
+RESOURCE
+TYPE
+WHY YOU'LL USE IT
+VS Code keyboard shortcuts (oﬃcial
+PDF) ↗
+PDF
+Print it. Stick it on your wall.
+GitHub Git cheat sheet (oﬃcial PDF)
+↗
+PDF
+Every command you need for the
+ﬁrst year.
+Docker CLI cheat sheet (oﬃcial PDF)
+↗
+PDF
+For Season 6 deployment week.
+Chrome DevTools shortcuts ↗
+Web
+Learn Ctrl+Shift+C and
+Ctrl+Shift+P ﬁrst.
+MDN JavaScript reference ↗
+Web
+The only JS docs you should trust.
+React oﬃcial docs ↗
+Web
+Read 'Thinking in React' twice.
+Node.js learn ↗
+Web
+Event loop + modules sections.
+SQL quick reference ↗
+Web
+Bookmark for Season 5.
+Power BI keyboard shortcuts ↗
+Web
+Speeds up dashboard building.
+Markdown cheat sheet ↗
+Web
+For READMEs that actually look
+good.
+DevDocs (oﬄine docs) ↗
+Web
+All docs in one search bar, works
+oﬄine.
+regex101 ↗
+Web
+Test regex with explanations.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 36 of 45
+
+
+===PAGE 37===
+ VS Code — 15 shortcuts
+Ctrl + P
+Quick open ﬁle
+Ctrl + Shift + P
+Command palette (the cheat code for everything)
+Ctrl + `
+Toggle terminal
+Ctrl + B
+Toggle sidebar
+Ctrl + D
+Select next occurrence (multi-cursor)
+Ctrl + Shift + L
+Select all occurrences
+Alt + ↑ / ↓
+Move line up / down
+Shift + Alt + ↓
+Duplicate line
+Ctrl + Shift + K
+Delete line
+F2
+Rename symbol everywhere
+Ctrl + /
+Toggle comment
+Ctrl + Shift + F
+Search across ﬁles
+Ctrl + G
+Go to line
+Ctrl + K, Ctrl + 0
+Fold all
+Ctrl + Shift + V
+Markdown preview
+Can I Use ↗
+Web
+Before using any new CSS feature
+at work.
+Full-stack roadmap ↗
+Web
+Your map when you feel lost.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 37 of 45
+
+
+===PAGE 38===
+ Git — daily commands
+git init
+Start a repo
+git status
+What changed?
+git add .
+Stage everything
+git commit -m "feat: add login"
+Commit with a meaningful message
+git branch -M main
+Rename branch to main
+git remote add origin <url>
+Connect to GitHub
+git push -u origin main
+First push
+git checkout -b feature/auth
+New branch
+git merge feature/auth
+Merge into current branch
+git pull #-rebase
+Sync cleanly
+git stash / git stash pop
+Park work temporarily
+git log #-oneline #-graph
+See history visually
+git reset #-hard HEAD~1
+Undo last commit (careful)
+git clone <url>
+Copy a repo locally
+ JS array methods to memorise
+map()
+Transform every item → new array
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 38 of 45
+
+
+===PAGE 39===
+filter()
+Keep items that pass a test
+reduce()
+Boil an array down to one value
+find()
+First matching item
+some() / every()
+Any match? / All match?
+sort()
+Sort (mutates — copy ﬁrst)
+flatMap()
+Map + ﬂatten one level
+Object.entries()
+Object → [key, value] pairs
+Object.fromEntries()
+Pairs → object
+Array.from()
+Convert iterable to array
+at(-1)
+Last element without .length - 1
+structuredClone()
+Real deep copy (modern browsers)
+P E E R R E V I E W · R E D - T E A M PAS S
+I had a second agent try to destroy this plan
+Before shipping, I ran the plan through a hostile review whose only job was to ﬁnd
+why it fails. These were the seven hits — and the ﬁxes baked into the roadmap
+above.
+You are trying to learn MERN + Python + Power BI + DSA in 6 months. That is how
+people burn out at month 3.
+Sequence, don't parallelise. Python and Power BI are locked until the capstone
+ships. DSA is only 45 min/day.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 39 of 45
+
+
+===PAGE 40===
+Kerala's market is service-heavy: many Infopark JDs ask Java/Spring + Angular, not
+MERN.
+Keep MERN as your primary (fastest given your JS base), add Python/Django
+basics for Kerala JDs, and learn Java in year 2 if you target enterprise.
+Tutorial hell is the #1 killer. Watching 22 hours of JS while typing nothing feels
+productive.
+70/30 rule: 70% of study time is building. Every video must end with the tab
+closed and code written from memory.
+If you learn React before backend, you risk becoming a 'card designer' who
+freezes when asked about auth or databases.
+Frontend ﬁrst is ﬁne, but your API must be live by week 12. Backend is where
+fresher oﬀers are won.
+Applying only in Kerala shrinks the pool to a few hundred roles and depresses your
+ﬁrst salary.
+Apply 70% Kerala (Infopark/Technopark/Cyberpark) + 30%
+Bengaluru/Chennai/Hyderabad/remote. Same eﬀort, 5× the market.
+DSA can eat your entire life and delay shipping.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 40 of 45
+
+
+===PAGE 41===
+W H Y YO U ' L L F I N I S H
+Training-arc energy
+You are not behind. You are at the start of the arc where the protagonist is still weak
+— and that's exactly where every good story begins.
+Day 1: “What is an API?” · Day 120: “Have you considered indexing that ﬁeld?”
+SOLO LEVELING · E-RANK TO S-RANK
+150 curated problems, not 500. Patterns over volume. Stop DSA prep the week
+you have 3 interviews.
+Your current internship is being wasted if you only do frontend tickets.
+Ask your lead for one backend task, one bug-ﬁx sprint, and one code review.
+Then put the measurable outcome on your resume.
+“This is not even my ﬁnal form.”
+Week 12: backend dungeon. Week 19: ﬁnal boss. Week 32: you're someone else.
+The oﬀer is the arc reward.
+Not luck. 550 logged hours, 4 deployed projects, 1 demo you can give half-asleep.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 41 of 45
+
+
+===PAGE 42===
+“Work hard in silence. Let success be your noise.” · You at 05:30, before the rest
+of the house wakes up.
+DRAGON BALL Z · GOKU
+“I'm not a genius. I'm someone who works harder than a genius.” · Rock Lee had
+no ninjutsu. You have no backend. Same arc.
+NARUTO · ROCK LEE
+“GO BEYOND… PLUS ULTRA!” · Also you, when the test ﬁnally passes on the 9th
+attempt.
+MY HERO ACADEMIA · ALL MIGHT
+“I don't know the outcome, but I'm still gonna try.” · You, submitting application
+#247 at 11:58 PM.
+ATTACK ON TITAN · LEVI
+Watching 22 hours of tutorials with nothing to show 
+ · Rebuilding one feature
+from memory 
+TUTORIAL HELL · FINAL BOSS
+“Arise.” — Day 1 you summoned one console.log(). Today you summoned a
+shadow army of REST endpoints.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 42 of 45
+
+
+===PAGE 43===
+SOLO LEVELING
+Nobody: … You at 5:30 AM: LET'S GO, training arc starts now.
+ACADEMY ARC
+Your ﬁrst oﬀer is not your ﬁnal form.
+ENDGAME
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 43 of 45
+
+
+===PAGE 44===
+D U E D I L I G E N C E
+Sources & further reading
+Salary ranges are directional, not guarantees — always sanity-check against live
+listings and oﬀers. Veriﬁed as of October 2026.
+↗ Full-Stack Developer Hiring in India 2026 — role demand & NASSCOM context
+↗ React vs Angular 2026 — India job counts & salaries
+↗ Most in-demand full-stack skills 2026 — TypeScript/React/Node adoption
+↗ Full-stack developer salary in Kochi 2026
+↗ Web developer jobs for freshers in India 2026 — salary bands
+↗ Infopark live company job board
+↗ Infopark fresher opening — Python + React full-stack
+↗ Technopark Trivandrum — park & company info
+↗ Full-stack developer salary in India 2026 (stack comparison)
+↗ React developer salary & skills premium in India 2026
+A note on honesty
+All YouTube videos, playlists and PDFs above were checked to exist when this
+page was built. Playlists get updated — the channel name is your fallback.
+Salary ﬁgures come from job boards, salary aggregators and 2026 hiring
+reports, which vary wildly. Use them to negotiate a range, not to ﬁx an
+expectation.
+This is a plan, not a guarantee. What actually moves the needle: shipped
+projects, referrals, and interviews.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 44 of 45
+
+
+===PAGE 45===
+Operation Full Stack · Kerala Edition
+Built for a future full-stack developer in Kerala · October 2026
+148 checkpoints · 9 seasons · 5 projects
+Save this page (Ctrl+S) — it works oﬄine.
+https://sololeveling-one.vercel.app/#projects
+10/18/26, 8:51 PM
+Page 45 of 45

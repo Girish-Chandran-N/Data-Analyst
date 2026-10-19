@@ -1,0 +1,71 @@
+{
+  "offline_download": "Exact embedded PDF downloaded successfully",
+  "expanded_topics": "Eight topic panels fit 320, 390, 768, 1024 and 1440px without horizontal overflow",
+  "navigation": "Desktop main navigation and mobile menu jump to Shortcuts; mobile bottom link also present",
+  "pdf": "Eight readable pages with clickable external references; project page uses original workflow guidance",
+  "external_pdf_checks": {
+    "excel": {
+      "url": "https://www.customguide.com/cheat-sheet/excel-cheat-sheet.pdf",
+      "status": 200,
+      "pdf": true,
+      "bytes": 1711779,
+      "content_type": "application/pdf",
+      "pages": 7,
+      "sample": " \nColumns \nMicrosoft\u00ae \nExcel Cheat Sheet \nBasic Skills \nThe Excel Program Screen \nKeyboard Shortcuts \nGetting Started \nCreate a Workbook: Click the File \ntab and select New or pres"
+    },
+    "sql": {
+      "url": "https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf",
+      "status": 200,
+      "pdf": true,
+      "bytes": 230259,
+      "content_type": "application/pdf",
+      "pages": 3,
+      "sample": "SELECT c1, c2 \nFROM t1\nINNER JOIN t2 ON condition;\nInner join t1 and t2\nSELECT c1, c2 \nFROM t1\nLEFT JOIN t2 ON condition;\nLeft join t1 and t1\nSELECT c1, c2 \nFROM t1\nFULL OUTER JOIN"
+    },
+    "windows": {
+      "url": "https://learnsql.com/blog/sql-window-functions-cheat-sheet/Window_Functions_Cheat_Sheet.pdf",
+      "status": 200,
+      "pdf": true,
+      "bytes": 132596,
+      "content_type": "application/pdf",
+      "pages": 2,
+      "sample": "SQL Window Functions Cheat Sheet\nWINDOW FUNCTIONS\nWindow functions compute their result based on a\nsliding window frame, a set of rows that are\nsomehow related to the current row.\n"
+    },
+    "powerbi": {
+      "url": "https://www.dataquest.io/wp-content/uploads/2025/01/Power-BI-Cheat-Sheet.pdf",
+      "status": 200,
+      "pdf": true,
+      "bytes": 6608955,
+      "content_type": "application/pdf",
+      "pages": 16,
+      "sample": "Power BI Cheat Sheet\nThis cheat sheet provides a quick reference for \nessential Power BI features and functionalities, \nhelping you analyze data, create interactive reports, \nand d"
+    },
+    "python": {
+      "url": "https://github.com/ehmatthes/pcc_3e/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf",
+      "status": 200,
+      "pdf": true,
+      "bytes": 289182,
+      "content_type": "application/octet-stream",
+      "pages": 2,
+      "sample": "Beginner's Python\nCheat Sheet\nVariables and Strings\nVariables are used to assign labels to values. A string is a \nseries of characters, surrounded by single or double quotes. \nPyth"
+    },
+    "pandas": {
+      "url": "https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf",
+      "status": 200,
+      "pdf": true,
+      "bytes": 398312,
+      "content_type": "application/pdf",
+      "pages": 3,
+      "sample": "Creating DataFrames\nReshaping Data \u2013 Change layout, sorting, reindexing, renaming\npd.melt(df)\n  Gather columns into rows.\ndf.pivot(columns='var', values='val')\n  Spread rows into c"
+    },
+    "git": {
+      "url": "https://education.github.com/git-cheat-sheet-education.pdf",
+      "status": 200,
+      "pdf": true,
+      "bytes": 100194,
+      "content_type": "application/pdf",
+      "pages": 2,
+      "sample": "GIT CHEAT SHEET\nSTAGE & SNAPSHOT\nWorking with snapshots and the Git staging area\ngit status\nshow modi\ufb01ed \ufb01les in working directory, staged for your next commit\ngit add [file]\nadd a"
+    }
+  }
+}
